@@ -2488,7 +2488,455 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Celeron 2000E"
+        },
+        {
+          "name": "Intel Celeron 2002E"
+        },
+        {
+          "name": "Intel Celeron 2950M"
+        },
+        {
+          "name": "Intel Celeron 2970M"
+        },
+        {
+          "name": "Intel Celeron G1820"
+        },
+        {
+          "name": "Intel Celeron G1820T"
+        },
+        {
+          "name": "Intel Celeron G1820TE"
+        },
+        {
+          "name": "Intel Celeron G1830"
+        },
+        {
+          "name": "Intel Celeron G1840"
+        },
+        {
+          "name": "Intel Celeron G1840T"
+        },
+        {
+          "name": "Intel Celeron G1850"
+        },
+        {
+          "name": "Intel Core i3-4000M"
+        },
+        {
+          "name": "Intel Core i3-4100E"
+        },
+        {
+          "name": "Intel Core i3-4100M"
+        },
+        {
+          "name": "Intel Core i3-4102E"
+        },
+        {
+          "name": "Intel Core i3-4110E"
+        },
+        {
+          "name": "Intel Core i3-4110M"
+        },
+        {
+          "name": "Intel Core i3-4112E"
+        },
+        {
+          "name": "Intel Core i3-4130"
+        },
+        {
+          "name": "Intel Core i3-4130T"
+        },
+        {
+          "name": "Intel Core i3-4150"
+        },
+        {
+          "name": "Intel Core i3-4150T"
+        },
+        {
+          "name": "Intel Core i3-4160"
+        },
+        {
+          "name": "Intel Core i3-4160T"
+        },
+        {
+          "name": "Intel Core i3-4170"
+        },
+        {
+          "name": "Intel Core i3-4170T"
+        },
+        {
+          "name": "Intel Core i3-4330"
+        },
+        {
+          "name": "Intel Core i3-4330T"
+        },
+        {
+          "name": "Intel Core i3-4330TE"
+        },
+        {
+          "name": "Intel Core i3-4340"
+        },
+        {
+          "name": "Intel Core i3-4340TE"
+        },
+        {
+          "name": "Intel Core i3-4350"
+        },
+        {
+          "name": "Intel Core i3-4350T"
+        },
+        {
+          "name": "Intel Core i3-4360"
+        },
+        {
+          "name": "Intel Core i3-4360T"
+        },
+        {
+          "name": "Intel Core i3-4370"
+        },
+        {
+          "name": "Intel Core i3-4370T"
+        },
+        {
+          "name": "Intel Core i5-4200H"
+        },
+        {
+          "name": "Intel Core i5-4200M"
+        },
+        {
+          "name": "Intel Core i5-4210H"
+        },
+        {
+          "name": "Intel Core i5-4210M"
+        },
+        {
+          "name": "Intel Core i5-4300M"
+        },
+        {
+          "name": "Intel Core i5-4330M"
+        },
+        {
+          "name": "Intel Core i5-4340M"
+        },
+        {
+          "name": "Intel Core i5-4400E"
+        },
+        {
+          "name": "Intel Core i5-4402E"
+        },
+        {
+          "name": "Intel Core i5-4402EC"
+        },
+        {
+          "name": "Intel Core i5-4410E"
+        },
+        {
+          "name": "Intel Core i5-4422E"
+        },
+        {
+          "name": "Intel Core i5-4430"
+        },
+        {
+          "name": "Intel Core i5-4430S"
+        },
+        {
+          "name": "Intel Core i5-4440"
+        },
+        {
+          "name": "Intel Core i5-4440S"
+        },
+        {
+          "name": "Intel Core i5-4460"
+        },
+        {
+          "name": "Intel Core i5-4460S"
+        },
+        {
+          "name": "Intel Core i5-4460T"
+        },
+        {
+          "name": "Intel Core i5-4570"
+        },
+        {
+          "name": "Intel Core i5-4570S"
+        },
+        {
+          "name": "Intel Core i5-4570T"
+        },
+        {
+          "name": "Intel Core i5-4570TE"
+        },
+        {
+          "name": "Intel Core i5-4590"
+        },
+        {
+          "name": "Intel Core i5-4590S"
+        },
+        {
+          "name": "Intel Core i5-4590T"
+        },
+        {
+          "name": "Intel Core i5-4670"
+        },
+        {
+          "name": "Intel Core i5-4670K"
+        },
+        {
+          "name": "Intel Core i5-4670S"
+        },
+        {
+          "name": "Intel Core i5-4670T"
+        },
+        {
+          "name": "Intel Core i5-4690"
+        },
+        {
+          "name": "Intel Core i5-4690K"
+        },
+        {
+          "name": "Intel Core i5-4690S"
+        },
+        {
+          "name": "Intel Core i5-4690T"
+        },
+        {
+          "name": "Intel Core i7-4600M"
+        },
+        {
+          "name": "Intel Core i7-4700EC"
+        },
+        {
+          "name": "Intel Core i7-4700EQ"
+        },
+        {
+          "name": "Intel Core i7-4700HQ"
+        },
+        {
+          "name": "Intel Core i7-4700MQ"
+        },
+        {
+          "name": "Intel Core i7-4702EC"
+        },
+        {
+          "name": "Intel Core i7-4702HQ"
+        },
+        {
+          "name": "Intel Core i7-4702MQ"
+        },
+        {
+          "name": "Intel Core i7-4710HQ"
+        },
+        {
+          "name": "Intel Core i7-4710MQ"
+        },
+        {
+          "name": "Intel Core i7-4712HQ"
+        },
+        {
+          "name": "Intel Core i7-4712MQ"
+        },
+        {
+          "name": "Intel Core i7-4720HQ"
+        },
+        {
+          "name": "Intel Core i7-4722HQ"
+        },
+        {
+          "name": "Intel Core i7-4765T"
+        },
+        {
+          "name": "Intel Core i7-4770"
+        },
+        {
+          "name": "Intel Core i7-4770K"
+        },
+        {
+          "name": "Intel Core i7-4770S"
+        },
+        {
+          "name": "Intel Core i7-4770T"
+        },
+        {
+          "name": "Intel Core i7-4770TE"
+        },
+        {
+          "name": "Intel Core i7-4771"
+        },
+        {
+          "name": "Intel Core i7-4785T"
+        },
+        {
+          "name": "Intel Core i7-4790"
+        },
+        {
+          "name": "Intel Core i7-4790K"
+        },
+        {
+          "name": "Intel Core i7-4790S"
+        },
+        {
+          "name": "Intel Core i7-4790T"
+        },
+        {
+          "name": "Intel Core i7-4800MQ"
+        },
+        {
+          "name": "Intel Core i7-4810MQ"
+        },
+        {
+          "name": "Intel Core i7-4900MQ"
+        },
+        {
+          "name": "Intel Core i7-4910MQ"
+        },
+        {
+          "name": "Intel Core i7-4930MX"
+        },
+        {
+          "name": "Intel Pentium 3550M"
+        },
+        {
+          "name": "Intel Pentium 3560M"
+        },
+        {
+          "name": "Intel Pentium G3220"
+        },
+        {
+          "name": "Intel Pentium G3220T"
+        },
+        {
+          "name": "Intel Pentium G3240"
+        },
+        {
+          "name": "Intel Pentium G3240T"
+        },
+        {
+          "name": "Intel Pentium G3250"
+        },
+        {
+          "name": "Intel Pentium G3250T"
+        },
+        {
+          "name": "Intel Pentium G3258"
+        },
+        {
+          "name": "Intel Pentium G3260"
+        },
+        {
+          "name": "Intel Pentium G3260T"
+        },
+        {
+          "name": "Intel Pentium G3320TE"
+        },
+        {
+          "name": "Intel Pentium G3420"
+        },
+        {
+          "name": "Intel Pentium G3420T"
+        },
+        {
+          "name": "Intel Pentium G3430"
+        },
+        {
+          "name": "Intel Pentium G3440"
+        },
+        {
+          "name": "Intel Pentium G3440T"
+        },
+        {
+          "name": "Intel Pentium G3450"
+        },
+        {
+          "name": "Intel Pentium G3450T"
+        },
+        {
+          "name": "Intel Pentium G3460"
+        },
+        {
+          "name": "Intel Pentium G3460T"
+        },
+        {
+          "name": "Intel Pentium G3470"
+        },
+        {
+          "name": "Intel Xeon E3-1220 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1220L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1225 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1226 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1230 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1230L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1231 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1240 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1240L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1241 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1245 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1246 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1265L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1268L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1270 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1271 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1275 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1275L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1276 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1280 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1281 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1285 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1285L v3"
+        },
+        {
+          "name": "Intel Xeon E3-1286 v3"
+        },
+        {
+          "name": "Intel Xeon E3-1286L v3"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -2499,9 +2947,1052 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| HSW            | C0       | 06-3c-03/32 | 00000027 | 00000028 | Core Gen4"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76295/intel-celeron-processor-2000e-2m-cache-2-20-ghz/ordering.html",
+          "quote": "Celeron 2000E: SR17S, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76296/intel-celeron-processor-2002e-2m-cache-1-50-ghz/ordering.html",
+          "quote": "Celeron 2002E: SR17P, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77403/intel-celeron-processor-2950m-2m-cache-2-00-ghz/ordering.html",
+          "quote": "Celeron 2950M: SR1HF, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81014/intel-celeron-processor-2970m-2m-cache-2-20-ghz/ordering.html",
+          "quote": "Celeron 2970M: SR1LF, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78955/intel-celeron-processor-g1820-2m-cache-2-70-ghz/ordering.html",
+          "quote": "Celeron G1820: SR1CN, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78956/intel-celeron-processor-g1820t-2m-cache-2-40-ghz/ordering.html",
+          "quote": "Celeron G1820T: SR1CP, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78957/intel-celeron-processor-g1820te-2m-cache-2-20-ghz/ordering.html",
+          "quote": "Celeron G1820TE: SR182, SR1T6, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78954/intel-celeron-processor-g1830-2m-cache-2-80-ghz/ordering.html",
+          "quote": "Celeron G1830: SR1NC, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80800/intel-celeron-processor-g1840-2m-cache-2-80-ghz/ordering.html",
+          "quote": "Celeron G1840: SR1RR, SR1VK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80801/intel-celeron-processor-g1840t-2m-cache-2-50-ghz/ordering.html",
+          "quote": "Celeron G1840T: SR1KA, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80798/intel-celeron-processor-g1850-2m-cache-2-90-ghz/ordering.html",
+          "quote": "Celeron G1850: SR1KH, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75104/intel-core-i34000m-processor-3m-cache-2-40-ghz/ordering.html",
+          "quote": "Core i3-4000M: SR1HC, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76293/intel-core-i34100e-processor-3m-cache-2-40-ghz/ordering.html",
+          "quote": "Core i3-4100E: SR17N, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76346/intel-core-i34100m-processor-3m-cache-2-50-ghz/ordering.html",
+          "quote": "Core i3-4100M: SR1HB, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76294/intel-core-i34102e-processor-3m-cache-1-60-ghz/ordering.html",
+          "quote": "Core i3-4102E: SR17R, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79197/intel-core-i34110e-processor-3m-cache-2-60-ghz/ordering.html",
+          "quote": "Core i3-4110E: SR1T2, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77483/intel-core-i34110m-processor-3m-cache-2-60-ghz/ordering.html",
+          "quote": "Core i3-4110M: SR1L7, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79198/intel-core-i34112e-processor-3m-cache-1-80-ghz/ordering.html",
+          "quote": "Core i3-4112E: SR1T0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77480/intel-core-i34130-processor-3m-cache-3-40-ghz/ordering.html",
+          "quote": "Core i3-4130: SR1NP, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77481/intel-core-i34130t-processor-3m-cache-2-90-ghz/ordering.html",
+          "quote": "Core i3-4130T: SR1NN, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77486/intel-core-i34150-processor-3m-cache-3-50-ghz/ordering.html",
+          "quote": "Core i3-4150: SR1PJ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77487/intel-core-i34150t-processor-3m-cache-3-00-ghz/ordering.html",
+          "quote": "Core i3-4150T: SR1PG, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77488/intel-core-i34160-processor-3m-cache-3-60-ghz/ordering.html",
+          "quote": "Core i3-4160: SR1PK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77489/intel-core-i34160t-processor-3m-cache-3-10-ghz/ordering.html",
+          "quote": "Core i3-4160T: SR1PH, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77490/intel-core-i34170-processor-3m-cache-3-70-ghz/ordering.html",
+          "quote": "Core i3-4170: SR1PL, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81209/intel-core-i34170t-processor-3m-cache-3-20-ghz/ordering.html",
+          "quote": "Core i3-4170T: SR1TC, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77769/intel-core-i34330-processor-4m-cache-3-50-ghz/ordering.html",
+          "quote": "Core i3-4330: SR1NM, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77770/intel-core-i34330t-processor-4m-cache-3-00-ghz/ordering.html",
+          "quote": "Core i3-4330T: SR1NK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77778/intel-core-i34330te-processor-4m-cache-2-40-ghz/ordering.html",
+          "quote": "Core i3-4330TE: SR180, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77771/intel-core-i34340-processor-4m-cache-3-60-ghz/ordering.html",
+          "quote": "Core i3-4340: SR1NL, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80918/intel-core-i34340te-processor-4m-cache-2-60-ghz/ordering.html",
+          "quote": "Core i3-4340TE: SR1T5, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77491/intel-core-i34350-processor-4m-cache-3-60-ghz/ordering.html",
+          "quote": "Core i3-4350: SR1PF, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77492/intel-core-i34350t-processor-4m-cache-3-10-ghz/ordering.html",
+          "quote": "Core i3-4350T: SR1PA, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77493/intel-core-i34360-processor-4m-cache-3-70-ghz/ordering.html",
+          "quote": "Core i3-4360: SR1PC, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77494/intel-core-i34360t-processor-4m-cache-3-20-ghz/ordering.html",
+          "quote": "Core i3-4360T: SR1PB, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77495/intel-core-i34370-processor-4m-cache-3-80-ghz/ordering.html",
+          "quote": "Core i3-4370: SR1PD, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81207/intel-core-i34370t-processor-4m-cache-3-30-ghz/ordering.html",
+          "quote": "Core i3-4370T: SR1TB, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75027/intel-core-i54200h-processor-3m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i5-4200H: SR15G, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76348/intel-core-i54200m-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+          "quote": "Core i5-4200M: SR1HA, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78929/intel-core-i54210h-processor-3m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i5-4210H: SR1Q0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81012/intel-core-i54210m-processor-3m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i5-4210M: SR1L4, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76347/intel-core-i54300m-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4300M: SR1H9, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76750/intel-core-i54330m-processor-3m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i5-4330M: SR1H8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80344/intel-core-i54340m-processor-3m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-4340M: SR1L0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76292/intel-core-i54400e-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4400E: SR17M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76307/intel-core-i54402e-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-4402E: SR17Q, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75554/intel-core-i54402ec-processor-4m-cache-up-to-2-50-ghz/ordering.html",
+          "quote": "Core i5-4402EC: SR1W1, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79199/intel-core-i54410e-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-4410E: SR1T4, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79201/intel-core-i54422e-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-4422E: SR1T1, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75036/intel-core-i54430-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i5-4430: SR14G, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75037/intel-core-i54430s-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i5-4430S: SR14M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75038/intel-core-i54440-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4440: SR14F, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75040/intel-core-i54440s-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4440S: SR14L, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80817/intel-core-i54460-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i5-4460: SR1QK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80818/intel-core-i54460s-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i5-4460S: SR1QQ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78927/intel-core-i54460t-processor-6m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-4460T: SR1S7, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75043/intel-core-i54570-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-4570: SR14E, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75044/intel-core-i54570s-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-4570S: SR14J, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75045/intel-core-i54570t-processor-4m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-4570T: SR14R, SR1CA, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75468/intel-core-i54570te-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4570TE: SR17Z, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80815/intel-core-i54590-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i5-4590: SR1QJ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80816/intel-core-i54590s-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i5-4590S: SR1QN, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78928/intel-core-i54590t-processor-6m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i5-4590T: SR1S6, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75047/intel-core-i54670-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i5-4670: SR14D, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75048/intel-core-i54670k-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i5-4670K: SR14A, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75049/intel-core-i54670s-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i5-4670S: SR14K, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75050/intel-core-i54670t-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4670T: SR14P, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80810/intel-core-i54690-processor-6m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i5-4690: SR1QH, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80811/intel-core-i54690k-processor-6m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i5-4690K: SR21A, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80812/intel-core-i54690s-processor-6m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i5-4690S: SR1QP, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80813/intel-core-i54690t-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i5-4690T: SR1QT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76349/intel-core-i74600m-processor-4m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i7-4600M: SR1H7, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75555/intel-core-i74700ec-processor-8m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i7-4700EC: SR1VZ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75469/intel-core-i74700eq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-4700EQ: SR17L, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75116/intel-core-i74700hq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-4700HQ: SR15E, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75117/intel-core-i74700mq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-4700MQ: SR15H, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75556/intel-core-i74702ec-processor-8m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Core i7-4702EC: SR1W0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75118/intel-core-i74702hq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4702HQ: SR15F, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75119/intel-core-i74702mq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4702MQ: SR15J, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78930/intel-core-i74710hq-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i7-4710HQ: SR1PX, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78931/intel-core-i74710mq-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i7-4710MQ: SR1PQ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78932/intel-core-i74712hq-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4712HQ: SR1PZ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78933/intel-core-i74712mq-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4712MQ: SR1PS, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78934/intel-core-i74720hq-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i7-4720HQ: SR1Q8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78935/intel-core-i74722hq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-4722HQ: SR1PY, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75121/intel-core-i74765t-processor-8m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i7-4765T: SR14Q, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75122/intel-core-i74770-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4770: SR149, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75123/intel-core-i74770k-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4770K: SR147, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75124/intel-core-i74770s-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4770S: SR14H, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75125/intel-core-i74770t-processor-8m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i7-4770T: SR14N, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75610/intel-core-i74770te-processor-8m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4770TE: SR183, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77656/intel-core-i74771-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4771: SR1BW, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80814/intel-core-i74785t-processor-8m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4785T: SR1QU, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80806/intel-core-i74790-processor-8m-cache-up-to-4-00-ghz/ordering.html",
+          "quote": "Core i7-4790: SR1QF, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80807/intel-core-i74790k-processor-8m-cache-up-to-4-40-ghz/ordering.html",
+          "quote": "Core i7-4790K: SR219, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80808/intel-core-i74790s-processor-8m-cache-up-to-4-00-ghz/ordering.html",
+          "quote": "Core i7-4790S: SR1QM, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80809/intel-core-i74790t-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4790T: SR1QS, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75128/intel-core-i74800mq-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i7-4800MQ: SR15L, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78937/intel-core-i74810mq-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i7-4810MQ: SR1PV, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75131/intel-core-i74900mq-processor-8m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i7-4900MQ: SR15K, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78939/intel-core-i74910mq-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4910MQ: SR1PT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75133/intel-core-i74930mx-processor-extreme-edition-8m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4930MX: SR15M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77404/intel-pentium-processor-3550m-2m-cache-2-30-ghz/ordering.html",
+          "quote": "Pentium 3550M: SR1HD, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81013/intel-pentium-processor-3560m-2m-cache-2-40-ghz/ordering.html",
+          "quote": "Pentium 3560M: SR1LC, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77773/intel-pentium-processor-g3220-3m-cache-3-00-ghz/ordering.html",
+          "quote": "Pentium G3220: SR1CG, SR1RK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77774/intel-pentium-processor-g3220t-3m-cache-2-60-ghz/ordering.html",
+          "quote": "Pentium G3220T: SR1CL, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80796/intel-pentium-processor-g3240-3m-cache-3-10-ghz/ordering.html",
+          "quote": "Pentium G3240: SR1RL, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80797/intel-pentium-processor-g3240t-3m-cache-2-70-ghz/ordering.html",
+          "quote": "Pentium G3240T: SR1KU, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83538/intel-pentium-processor-g3250-3m-cache-3-20-ghz/ordering.html",
+          "quote": "Pentium G3250: SR1K7, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83539/intel-pentium-processor-g3250t-3m-cache-2-80-ghz/ordering.html",
+          "quote": "Pentium G3250T: SR1KV, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82723/intel-pentium-processor-g3258-3m-cache-3-20-ghz/ordering.html",
+          "quote": "Pentium G3258: SR1V0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87356/intel-pentium-processor-g3260-3m-cache-3-30-ghz/ordering.html",
+          "quote": "Pentium G3260: SR1K8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87357/intel-pentium-processor-g3260t-3m-cache-2-90-ghz/ordering.html",
+          "quote": "Pentium G3260T: SR1KW, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78007/intel-pentium-processor-g3320te-3m-cache-2-30-ghz/ordering.html",
+          "quote": "Pentium G3320TE: SR181, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77775/intel-pentium-processor-g3420-3m-cache-3-20-ghz/ordering.html",
+          "quote": "Pentium G3420: SR1NB, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77776/intel-pentium-processor-g3420t-3m-cache-2-70-ghz/ordering.html",
+          "quote": "Pentium G3420T: SR1CK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77777/intel-pentium-processor-g3430-3m-cache-3-30-ghz/ordering.html",
+          "quote": "Pentium G3430: SR1CE, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80794/intel-pentium-processor-g3440-3m-cache-3-30-ghz/ordering.html",
+          "quote": "Pentium G3440: SR1P9, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80795/intel-pentium-processor-g3440t-3m-cache-2-80-ghz/ordering.html",
+          "quote": "Pentium G3440T: SR1KS, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80792/intel-pentium-processor-g3450-3m-cache-3-40-ghz/ordering.html",
+          "quote": "Pentium G3450: SR1K2, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80793/intel-pentium-processor-g3450t-3m-cache-2-90-ghz/ordering.html",
+          "quote": "Pentium G3450T: SR1KT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83428/intel-pentium-processor-g3460-3m-cache-3-50-ghz/ordering.html",
+          "quote": "Pentium G3460: SR1K3, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83429/intel-pentium-processor-g3460t-3m-cache-3-00-ghz/ordering.html",
+          "quote": "Pentium G3460T: SR1TD, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87358/intel-pentium-processor-g3470-3m-cache-3-60-ghz/ordering.html",
+          "quote": "Pentium G3470: SR1K4, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75052/intel-xeon-processor-e31220-v3-8m-cache-3-10-ghz/ordering.html",
+          "quote": "Xeon E3-1220 v3: SR154, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75051/intel-xeon-processor-e31220l-v3-4m-cache-1-10-ghz/ordering.html",
+          "quote": "Xeon E3-1220L v3: SR159, SR1BT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75461/intel-xeon-processor-e31225-v3-8m-cache-3-20-ghz/ordering.html",
+          "quote": "Xeon E3-1225 v3: SR14U, SR1KX, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80917/intel-xeon-processor-e31226-v3-8m-cache-3-30-ghz/ordering.html",
+          "quote": "Xeon E3-1226 v3: SR1R0, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75054/intel-xeon-processor-e31230-v3-8m-cache-3-30-ghz/ordering.html",
+          "quote": "Xeon E3-1230 v3: SR153, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75053/intel-xeon-processor-e31230l-v3-8m-cache-1-80-ghz/ordering.html",
+          "quote": "Xeon E3-1230L v3: SR158, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80910/intel-xeon-processor-e31231-v3-8m-cache-3-40-ghz/ordering.html",
+          "quote": "Xeon E3-1231 v3: SR1R5, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75055/intel-xeon-processor-e31240-v3-8m-cache-3-40-ghz/ordering.html",
+          "quote": "Xeon E3-1240 v3: SR152, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80912/intel-xeon-processor-e31240l-v3-8m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon E3-1240L v3: SR1T8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80909/intel-xeon-processor-e31241-v3-8m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon E3-1241 v3: SR1R4, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75462/intel-xeon-processor-e31245-v3-8m-cache-3-40-ghz/ordering.html",
+          "quote": "Xeon E3-1245 v3: SR14T, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80916/intel-xeon-processor-e31246-v3-8m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon E3-1246 v3: SR1QZ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75463/intel-xeon-processor-e31265l-v3-8m-cache-2-50-ghz/ordering.html",
+          "quote": "Xeon E3-1265L v3: SR15A, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75467/intel-xeon-processor-e31268l-v3-8m-cache-2-30-ghz/ordering.html",
+          "quote": "Xeon E3-1268L v3: SR17Y, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75056/intel-xeon-processor-e31270-v3-8m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon E3-1270 v3: SR151, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80908/intel-xeon-processor-e31271-v3-8m-cache-3-60-ghz/ordering.html",
+          "quote": "Xeon E3-1271 v3: SR1R3, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75464/intel-xeon-processor-e31275-v3-8m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon E3-1275 v3: SR14S, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76300/intel-xeon-processor-e31275l-v3-8m-cache-2-70-ghz/ordering.html",
+          "quote": "Xeon E3-1275L v3: SR1T7, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80915/intel-xeon-processor-e31276-v3-8m-cache-3-60-ghz/ordering.html",
+          "quote": "Xeon E3-1276 v3: SR1QW, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75057/intel-xeon-processor-e31280-v3-8m-cache-3-60-ghz/ordering.html",
+          "quote": "Xeon E3-1280 v3: SR150, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80907/intel-xeon-processor-e31281-v3-8m-cache-3-70-ghz/ordering.html",
+          "quote": "Xeon E3-1281 v3: SR1R2, SR21F, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75465/intel-xeon-processor-e31285-v3-8m-cache-3-60-ghz/ordering.html",
+          "quote": "Xeon E3-1285 v3: SR14W, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75466/intel-xeon-processor-e31285l-v3-8m-cache-3-10-ghz/ordering.html",
+          "quote": "Xeon E3-1285L v3: SR14X, SR15B, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80913/intel-xeon-processor-e31286-v3-8m-cache-3-70-ghz/ordering.html",
+          "quote": "Xeon E3-1286 v3: SR1QX, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80914/intel-xeon-processor-e31286l-v3-8m-cache-3-20-ghz/ordering.html",
+          "quote": "Xeon E3-1286L v3: SR1QY, stepping C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW), the steppings and the product line for this CPUID; the article has no row for it. Haswell's three dies share C0, so the stepping alone places nothing; the kernel's intel-family.h names them — 0x3C HASWELL, 0x45 HASWELL_L (\"regular mobile parts\"), 0x46 HASWELL_G (\"parts with extra graphics on\") — and the notes label them HSW, HSW-U and HSW-H. Its models are the rest ARK files under Haswell or Devil's Canyon — desktop, M/MQ/MX, HQ without Iris Pro, E/EQ/EC, Xeon E3 v3 — whose ordering tab gives C0."
     },
     {
       "cpuids": [
@@ -3575,7 +5066,128 @@
         "D0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Celeron 2955U"
+        },
+        {
+          "name": "Intel Celeron 2957U"
+        },
+        {
+          "name": "Intel Celeron 2980U"
+        },
+        {
+          "name": "Intel Core i3-4005U"
+        },
+        {
+          "name": "Intel Core i3-4010U"
+        },
+        {
+          "name": "Intel Core i3-4010Y"
+        },
+        {
+          "name": "Intel Core i3-4012Y"
+        },
+        {
+          "name": "Intel Core i3-4020Y"
+        },
+        {
+          "name": "Intel Core i3-4025U"
+        },
+        {
+          "name": "Intel Core i3-4030U"
+        },
+        {
+          "name": "Intel Core i3-4030Y"
+        },
+        {
+          "name": "Intel Core i3-4100U"
+        },
+        {
+          "name": "Intel Core i3-4120U"
+        },
+        {
+          "name": "Intel Core i3-4158U"
+        },
+        {
+          "name": "Intel Core i5-4200U"
+        },
+        {
+          "name": "Intel Core i5-4200Y"
+        },
+        {
+          "name": "Intel Core i5-4202Y"
+        },
+        {
+          "name": "Intel Core i5-4210U"
+        },
+        {
+          "name": "Intel Core i5-4210Y"
+        },
+        {
+          "name": "Intel Core i5-4220Y"
+        },
+        {
+          "name": "Intel Core i5-4250U"
+        },
+        {
+          "name": "Intel Core i5-4258U"
+        },
+        {
+          "name": "Intel Core i5-4260U"
+        },
+        {
+          "name": "Intel Core i5-4278U"
+        },
+        {
+          "name": "Intel Core i5-4288U"
+        },
+        {
+          "name": "Intel Core i5-4300U"
+        },
+        {
+          "name": "Intel Core i5-4300Y"
+        },
+        {
+          "name": "Intel Core i5-4308U"
+        },
+        {
+          "name": "Intel Core i5-4310U"
+        },
+        {
+          "name": "Intel Core i5-4350U"
+        },
+        {
+          "name": "Intel Core i7-4500U"
+        },
+        {
+          "name": "Intel Core i7-4510U"
+        },
+        {
+          "name": "Intel Core i7-4550U"
+        },
+        {
+          "name": "Intel Core i7-4558U"
+        },
+        {
+          "name": "Intel Core i7-4578U"
+        },
+        {
+          "name": "Intel Core i7-4600U"
+        },
+        {
+          "name": "Intel Core i7-4610Y"
+        },
+        {
+          "name": "Intel Core i7-4650U"
+        },
+        {
+          "name": "Intel Pentium 3558U"
+        },
+        {
+          "name": "Intel Pentium 3561Y"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3586,9 +5198,289 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| HSW-U          | C0/D0    | 06-45-01/72 | 00000025 | 00000026 | Core Gen4"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75608/intel-celeron-processor-2955u-2m-cache-1-40-ghz/ordering.html",
+          "quote": "Celeron 2955U: SR16Y, SR1DU, stepping C0/D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78942/intel-celeron-processor-2957u-2m-cache-1-40-ghz/ordering.html",
+          "quote": "Celeron 2957U: SR1DV, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76620/intel-celeron-processor-2980u-2m-cache-1-60-ghz/ordering.html",
+          "quote": "Celeron 2980U: SR1DM, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75105/intel-core-i34005u-processor-3m-cache-1-70-ghz/ordering.html",
+          "quote": "Core i3-4005U: SR1EK, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75107/intel-core-i34010u-processor-3m-cache-1-70-ghz/ordering.html",
+          "quote": "Core i3-4010U: SR16Q, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75988/intel-core-i34010y-processor-3m-cache-1-30-ghz/ordering.html",
+          "quote": "Core i3-4010Y: SR18F, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76608/intel-core-i34012y-processor-3m-cache-1-50-ghz/ordering.html",
+          "quote": "Core i3-4012Y: SR1C7, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76609/intel-core-i34020y-processor-3m-cache-1-50-ghz/ordering.html",
+          "quote": "Core i3-4020Y: SR1DC, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81019/intel-core-i34025u-processor-3m-cache-1-90-ghz/ordering.html",
+          "quote": "Core i3-4025U: SR1EQ, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81018/intel-core-i34030u-processor-3m-cache-1-90-ghz/ordering.html",
+          "quote": "Core i3-4030U: SR1EN, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81021/intel-core-i34030y-processor-3m-cache-1-60-ghz/ordering.html",
+          "quote": "Core i3-4030Y: SR1DD, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75110/intel-core-i34100u-processor-3m-cache-1-80-ghz/ordering.html",
+          "quote": "Core i3-4100U: SR16P, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81017/intel-core-i34120u-processor-3m-cache-2-00-ghz/ordering.html",
+          "quote": "Core i3-4120U: SR1EP, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75989/intel-core-i34158u-processor-3m-cache-2-00-ghz/ordering.html",
+          "quote": "Core i3-4158U: SR18B, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75459/intel-core-i54200u-processor-3m-cache-up-to-2-60-ghz/ordering.html",
+          "quote": "Core i5-4200U: SR170, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75802/intel-core-i54200y-processor-3m-cache-up-to-1-90-ghz/ordering.html",
+          "quote": "Core i5-4200Y: SR18T, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76610/intel-core-i54202y-processor-3m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Core i5-4202Y: SR190, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81016/intel-core-i54210u-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-4210U: SR1EF, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76611/intel-core-i54210y-processor-3m-cache-up-to-1-90-ghz/ordering.html",
+          "quote": "Core i5-4210Y: SR191, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81020/intel-core-i54220y-processor-3m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Core i5-4220Y: SR1DB, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75028/intel-core-i54250u-processor-3m-cache-up-to-2-60-ghz/ordering.html",
+          "quote": "Core i5-4250U: SR16M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75990/intel-core-i54258u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-4258U: SR18A, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75030/intel-core-i54260u-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-4260U: SR16T, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83508/intel-core-i54278u-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+          "quote": "Core i5-4278U: SR1ZV, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75991/intel-core-i54288u-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+          "quote": "Core i5-4288U: SR189, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76308/intel-core-i54300u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-4300U: SR1ED, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76612/intel-core-i54300y-processor-3m-cache-up-to-2-30-ghz/ordering.html",
+          "quote": "Core i5-4300Y: SR192, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83507/intel-core-i54308u-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-4308U: SR1ZU, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80343/intel-core-i54310u-processor-3m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i5-4310U: SR1EE, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75033/intel-core-i54350u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-4350U: SR16L, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75460/intel-core-i74500u-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i7-4500U: SR16Z, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81015/intel-core-i74510u-processor-4m-cache-up-to-3-10-ghz/ordering.html",
+          "quote": "Core i7-4510U: SR1EB, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75112/intel-core-i74550u-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i7-4550U: SR16J, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75992/intel-core-i74558u-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4558U: SR188, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83506/intel-core-i74578u-processor-4m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i7-4578U: SR1ZT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76616/intel-core-i74600u-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4600U: SR1EA, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76618/intel-core-i74610y-processor-4m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i7-4610Y: SR18D, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75114/intel-core-i74650u-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4650U: SR16H, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78945/intel-pentium-processor-3558u-2m-cache-1-70-ghz/ordering.html",
+          "quote": "Pentium 3558U: SR1E8, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78946/intel-pentium-processor-3561y-2m-cache-1-20-ghz/ordering.html",
+          "quote": "Pentium 3561Y: SR1DG, stepping D0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW-U), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW-U), the steppings and the product line for this CPUID; the article has no row for it. Haswell's three dies share C0, so the stepping alone places nothing; the kernel's intel-family.h names them — 0x3C HASWELL, 0x45 HASWELL_L (\"regular mobile parts\"), 0x46 HASWELL_G (\"parts with extra graphics on\") — and the notes label them HSW, HSW-U and HSW-H. Its models are the U and Y parts whose ARK ordering tab gives C0 or D0."
     },
     {
       "cpuids": [
@@ -3605,7 +5497,53 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core i5-4570R"
+        },
+        {
+          "name": "Intel Core i5-4670R"
+        },
+        {
+          "name": "Intel Core i7-4750HQ"
+        },
+        {
+          "name": "Intel Core i7-4760HQ"
+        },
+        {
+          "name": "Intel Core i7-4770HQ"
+        },
+        {
+          "name": "Intel Core i7-4770R"
+        },
+        {
+          "name": "Intel Core i7-4850EQ"
+        },
+        {
+          "name": "Intel Core i7-4850HQ"
+        },
+        {
+          "name": "Intel Core i7-4860EQ"
+        },
+        {
+          "name": "Intel Core i7-4860HQ"
+        },
+        {
+          "name": "Intel Core i7-4870HQ"
+        },
+        {
+          "name": "Intel Core i7-4950HQ"
+        },
+        {
+          "name": "Intel Core i7-4960HQ"
+        },
+        {
+          "name": "Intel Core i7-4980HQ"
+        },
+        {
+          "name": "Intel Xeon E3-1284L v3"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3616,9 +5554,114 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| HSW-H          | C0       | 06-46-01/32 | 0000001b | 0000001c | Core Gen4"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76640/intel-core-i54570r-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i5-4570R: SR18P, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76641/intel-core-i54670r-processor-4m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i5-4670R: SR18M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76087/intel-core-i74750hq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4750HQ: SR18J, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76090/intel-core-i74760hq-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i7-4760HQ: SR1BM, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83505/intel-core-i74770hq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-4770HQ: SR1ZW, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76642/intel-core-i74770r-processor-6m-cache-up-to-3-90-ghz/ordering.html",
+          "quote": "Core i7-4770R: SR18K, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76299/intel-core-i74850eq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4850EQ: SR17X, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76086/intel-core-i74850hq-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i7-4850HQ: SR18H, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76298/intel-core-i74860eq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-4860EQ: SR195, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76089/intel-core-i74860hq-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i7-4860HQ: SR1BP, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83504/intel-core-i74870hq-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i7-4870HQ: SR1ZX, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76085/intel-core-i74950hq-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i7-4950HQ: SR18G, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76088/intel-core-i74960hq-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i7-4960HQ: SR1BS, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/83503/intel-core-i74980hq-processor-6m-cache-up-to-4-00-ghz/ordering.html",
+          "quote": "Core i7-4980HQ: SR1ZY, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79475/intel-xeon-processor-e31284l-v3-6m-cache-1-80-ghz/ordering.html",
+          "quote": "Xeon E3-1284L v3: SR1U0, stepping C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW-H), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: HSW-H), the steppings and the product line for this CPUID; the article has no row for it. Haswell's three dies share C0, so the stepping alone places nothing; the kernel's intel-family.h names them — 0x3C HASWELL, 0x45 HASWELL_L (\"regular mobile parts\"), 0x46 HASWELL_G (\"parts with extra graphics on\") — and the notes label them HSW, HSW-U and HSW-H. Its models are those ARK files under Crystal Well — every one with Iris Pro Graphics 5200, the eDRAM part (i7-47x0HQ/48x0HQ/49x0HQ, 4770R, i5-4570R/4670R, 4850EQ/4860EQ, Xeon E3-1284L v3) — whose ordering tab gives C0."
     },
     {
       "cpuids": [
