@@ -3274,7 +3274,7 @@
             "SR2DP"
           ],
           "sSpecSource": {
-            "SR2DP": "wikipedia"
+            "SR2DP": "ark"
           }
         },
         {
@@ -3283,7 +3283,7 @@
             "SR2DQ"
           ],
           "sSpecSource": {
-            "SR2DQ": "wikipedia"
+            "SR2DQ": "ark"
           }
         },
         {
@@ -3292,7 +3292,7 @@
             "SR2JA"
           ],
           "sSpecSource": {
-            "SR2JA": "wikipedia"
+            "SR2JA": "ark"
           }
         },
         {
@@ -3301,7 +3301,7 @@
             "SR2GG"
           ],
           "sSpecSource": {
-            "SR2GG": "wikipedia"
+            "SR2GG": "ark"
           }
         },
         {
@@ -3310,7 +3310,7 @@
             "SR2DM"
           ],
           "sSpecSource": {
-            "SR2DM": "wikipedia"
+            "SR2DM": "ark"
           }
         }
       ]
@@ -11975,7 +11975,197 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom Z3735E",
+          "sSpec": [
+            "SR1U9"
+          ],
+          "sSpecSource": {
+            "SR1U9": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3735F",
+          "sSpec": [
+            "SR1UB"
+          ],
+          "sSpecSource": {
+            "SR1UB": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3735G",
+          "sSpec": [
+            "SR1UD"
+          ],
+          "sSpecSource": {
+            "SR1UD": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3736F",
+          "sSpec": [
+            "SR20D"
+          ],
+          "sSpecSource": {
+            "SR20D": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3736G",
+          "sSpec": [
+            "SR20E"
+          ],
+          "sSpecSource": {
+            "SR20E": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3745",
+          "sSpec": [
+            "SR1SP"
+          ],
+          "sSpecSource": {
+            "SR1SP": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3775",
+          "sSpec": [
+            "SR1SM"
+          ],
+          "sSpecSource": {
+            "SR1SM": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3775D",
+          "sSpec": [
+            "SR1SR"
+          ],
+          "sSpecSource": {
+            "SR1SR": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3795",
+          "sSpec": [
+            "SR1SK"
+          ],
+          "sSpecSource": {
+            "SR1SK": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J1800",
+          "sSpec": [
+            "SR1UU"
+          ],
+          "sSpecSource": {
+            "SR1UU": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J1900",
+          "sSpec": [
+            "SR1UT"
+          ],
+          "sSpecSource": {
+            "SR1UT": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2807",
+          "sSpec": [
+            "SR1W5"
+          ],
+          "sSpecSource": {
+            "SR1W5": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2808",
+          "sSpec": [
+            "SR1YH"
+          ],
+          "sSpecSource": {
+            "SR1YH": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2830",
+          "sSpec": [
+            "SR1W4"
+          ],
+          "sSpecSource": {
+            "SR1W4": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2840",
+          "sSpec": [
+            "SR1YJ"
+          ],
+          "sSpecSource": {
+            "SR1YJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2930",
+          "sSpec": [
+            "SR1W3"
+          ],
+          "sSpecSource": {
+            "SR1W3": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2940",
+          "sSpec": [
+            "SR1YV"
+          ],
+          "sSpecSource": {
+            "SR1YV": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium A1020",
+          "sSpec": [
+            "SR2M8"
+          ],
+          "sSpecSource": {
+            "SR2M8": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium J2900",
+          "sSpec": [
+            "SR1US"
+          ],
+          "sSpecSource": {
+            "SR1US": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium N3530",
+          "sSpec": [
+            "SR1W2"
+          ],
+          "sSpecSource": {
+            "SR1W2": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium N3540",
+          "sSpec": [
+            "SR1YW"
+          ],
+          "sSpecSource": {
+            "SR1YW": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -11993,7 +12183,86 @@
         "D0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom E3805",
+          "sSpec": [
+            "SR20Y",
+            "SR2UL",
+            "SR3V4"
+          ],
+          "sSpecSource": {
+            "SR20Y": "ark",
+            "SR2UL": "wikipedia",
+            "SR3V4": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom E3815",
+          "sSpec": [
+            "SR1XA",
+            "SR2UK",
+            "SR3V2"
+          ],
+          "sSpecSource": {
+            "SR1XA": "ark",
+            "SR2UK": "wikipedia",
+            "SR3V2": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom E3825",
+          "sSpec": [
+            "SR1X9",
+            "SR2UJ",
+            "SR3V0"
+          ],
+          "sSpecSource": {
+            "SR1X9": "ark",
+            "SR2UJ": "wikipedia",
+            "SR3V0": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom E3826",
+          "sSpec": [
+            "SR1X8",
+            "SR2UG",
+            "SR3UW"
+          ],
+          "sSpecSource": {
+            "SR1X8": "ark",
+            "SR2UG": "wikipedia",
+            "SR3UW": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom E3827",
+          "sSpec": [
+            "SR1X7",
+            "SR2UH",
+            "SR3UY"
+          ],
+          "sSpecSource": {
+            "SR1X7": "ark",
+            "SR2UH": "wikipedia",
+            "SR3UY": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom E3845",
+          "sSpec": [
+            "SR1X6",
+            "SR2UF",
+            "SR3UU"
+          ],
+          "sSpecSource": {
+            "SR1X6": "ark",
+            "SR2UF": "wikipedia",
+            "SR3UU": "wikipedia"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -12016,12 +12285,10 @@
         {
           "name": "Intel Celeron 1020M",
           "sSpec": [
-            "SR0ZY",
-            "SR13U"
+            "SR0ZY"
           ],
           "sSpecSource": {
-            "SR0ZY": "ark",
-            "SR13U": "wikipedia"
+            "SR0ZY": "ark"
           }
         },
         {
@@ -12804,7 +13071,244 @@
         "F0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Celeron 3205U",
+          "sSpec": [
+            "SR215"
+          ],
+          "sSpecSource": {
+            "SR215": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 3215U",
+          "sSpec": [
+            "SR243"
+          ],
+          "sSpecSource": {
+            "SR243": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 3755U",
+          "sSpec": [
+            "SR211"
+          ],
+          "sSpecSource": {
+            "SR211": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 3765U",
+          "sSpec": [
+            "SR242"
+          ],
+          "sSpecSource": {
+            "SR242": "ark"
+          }
+        },
+        {
+          "name": "Intel Core M-5Y10c",
+          "sSpec": [
+            "SR23C"
+          ],
+          "sSpecSource": {
+            "SR23C": "ark"
+          }
+        },
+        {
+          "name": "Intel Core M-5Y31",
+          "sSpec": [
+            "SR23G"
+          ],
+          "sSpecSource": {
+            "SR23G": "ark"
+          }
+        },
+        {
+          "name": "Intel Core M-5Y51",
+          "sSpec": [
+            "SR23L"
+          ],
+          "sSpecSource": {
+            "SR23L": "ark"
+          }
+        },
+        {
+          "name": "Intel Core M-5Y71",
+          "sSpec": [
+            "SR23Q"
+          ],
+          "sSpecSource": {
+            "SR23Q": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-5005U",
+          "sSpec": [
+            "SR244",
+            "SR27G"
+          ],
+          "sSpecSource": {
+            "SR244": "ark",
+            "SR27G": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-5010U",
+          "sSpec": [
+            "SR23Z"
+          ],
+          "sSpecSource": {
+            "SR23Z": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-5015U",
+          "sSpec": [
+            "SR245"
+          ],
+          "sSpecSource": {
+            "SR245": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-5020U",
+          "sSpec": [
+            "SR240"
+          ],
+          "sSpecSource": {
+            "SR240": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-5157U",
+          "sSpec": [
+            "SR26M"
+          ],
+          "sSpecSource": {
+            "SR26M": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5200U",
+          "sSpec": [
+            "SR23Y"
+          ],
+          "sSpecSource": {
+            "SR23Y": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5250U",
+          "sSpec": [
+            "SR26C"
+          ],
+          "sSpecSource": {
+            "SR26C": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5257U",
+          "sSpec": [
+            "SR26K"
+          ],
+          "sSpecSource": {
+            "SR26K": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5287U",
+          "sSpec": [
+            "SR26H"
+          ],
+          "sSpecSource": {
+            "SR26H": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5300U",
+          "sSpec": [
+            "SR23X"
+          ],
+          "sSpecSource": {
+            "SR23X": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5350U",
+          "sSpec": [
+            "SR268"
+          ],
+          "sSpecSource": {
+            "SR268": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5500U",
+          "sSpec": [
+            "SR23W"
+          ],
+          "sSpecSource": {
+            "SR23W": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5550U",
+          "sSpec": [
+            "SR26A"
+          ],
+          "sSpecSource": {
+            "SR26A": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5557U",
+          "sSpec": [
+            "SR26E"
+          ],
+          "sSpecSource": {
+            "SR26E": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5600U",
+          "sSpec": [
+            "SR23V"
+          ],
+          "sSpecSource": {
+            "SR23V": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5650U",
+          "sSpec": [
+            "SR267"
+          ],
+          "sSpecSource": {
+            "SR267": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 3805U",
+          "sSpec": [
+            "SR210"
+          ],
+          "sSpecSource": {
+            "SR210": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 3825U",
+          "sSpec": [
+            "SR24B"
+          ],
+          "sSpecSource": {
+            "SR24B": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -13530,7 +14034,161 @@
         "G0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core i5-5350H",
+          "sSpec": [
+            "SR2BK"
+          ],
+          "sSpecSource": {
+            "SR2BK": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5575R",
+          "sSpec": [
+            "SR2AK"
+          ],
+          "sSpecSource": {
+            "SR2AK": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5675C",
+          "sSpec": [
+            "SR2FX"
+          ],
+          "sSpecSource": {
+            "SR2FX": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-5675R",
+          "sSpec": [
+            "SR2AJ"
+          ],
+          "sSpecSource": {
+            "SR2AJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5700EQ",
+          "sSpec": [
+            "SR2E6"
+          ],
+          "sSpecSource": {
+            "SR2E6": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5700HQ",
+          "sSpec": [
+            "SR2BP"
+          ],
+          "sSpecSource": {
+            "SR2BP": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5750HQ",
+          "sSpec": [
+            "SR2BL"
+          ],
+          "sSpecSource": {
+            "SR2BL": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5775C",
+          "sSpec": [
+            "SR2AG"
+          ],
+          "sSpecSource": {
+            "SR2AG": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5775R",
+          "sSpec": [
+            "SR2AL"
+          ],
+          "sSpecSource": {
+            "SR2AL": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5850EQ",
+          "sSpec": [
+            "SR2E8"
+          ],
+          "sSpecSource": {
+            "SR2E8": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5850HQ",
+          "sSpec": [
+            "SR2BH"
+          ],
+          "sSpecSource": {
+            "SR2BH": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-5950HQ",
+          "sSpec": [
+            "SR2BJ"
+          ],
+          "sSpecSource": {
+            "SR2BJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon E3-1258L v4",
+          "sSpec": [
+            "SR2E9"
+          ],
+          "sSpecSource": {
+            "SR2E9": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon E3-1265L v4",
+          "sSpec": [
+            "SR2B3"
+          ],
+          "sSpecSource": {
+            "SR2B3": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon E3-1278L v4",
+          "sSpec": [
+            "SR2E7"
+          ],
+          "sSpecSource": {
+            "SR2E7": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon E3-1285 v4",
+          "sSpec": [
+            "SR2CX"
+          ],
+          "sSpecSource": {
+            "SR2CX": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon E3-1285L v4",
+          "sSpec": [
+            "SR2B1"
+          ],
+          "sSpecSource": {
+            "SR2B1": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -13548,7 +14206,81 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom x5-Z8300",
+          "sSpec": [
+            "SR29Z"
+          ],
+          "sSpecSource": {
+            "SR29Z": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom x5-Z8500",
+          "sSpec": [
+            "SR27N",
+            "SR2GN"
+          ],
+          "sSpecSource": {
+            "SR27N": "ark",
+            "SR2GN": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom x7-Z8700",
+          "sSpec": [
+            "SR27M",
+            "SR29W"
+          ],
+          "sSpecSource": {
+            "SR27M": "ark",
+            "SR29W": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron N3000",
+          "sSpec": [
+            "SR29J"
+          ],
+          "sSpecSource": {
+            "SR29J": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N3050",
+          "sSpec": [
+            "SR29H",
+            "SR2A9"
+          ],
+          "sSpecSource": {
+            "SR29H": "ark",
+            "SR2A9": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N3150",
+          "sSpec": [
+            "SR29F",
+            "SR2A8"
+          ],
+          "sSpecSource": {
+            "SR29F": "ark",
+            "SR2A8": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium N3700",
+          "sSpec": [
+            "SR29E",
+            "SR2A7"
+          ],
+          "sSpecSource": {
+            "SR29E": "ark",
+            "SR2A7": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -13585,7 +14317,191 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom C2308",
+          "sSpec": [
+            "SR1UN",
+            "SR3H3"
+          ],
+          "sSpecSource": {
+            "SR1UN": "ark",
+            "SR3H3": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2316",
+          "sSpec": [
+            "SR3JU"
+          ],
+          "sSpecSource": {
+            "SR3JU": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2338",
+          "sSpec": [
+            "SR1S8",
+            "SR3H2"
+          ],
+          "sSpecSource": {
+            "SR1S8": "ark",
+            "SR3H2": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2350",
+          "sSpec": [
+            "SR1CV",
+            "SR3GU"
+          ],
+          "sSpecSource": {
+            "SR1CV": "ark",
+            "SR3GU": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2358",
+          "sSpec": [
+            "SR1D2",
+            "SR3H1"
+          ],
+          "sSpecSource": {
+            "SR1D2": "ark",
+            "SR3H1": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2508",
+          "sSpec": [
+            "SR1VV",
+            "SR3H4"
+          ],
+          "sSpecSource": {
+            "SR1VV": "ark",
+            "SR3H4": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2516",
+          "sSpec": [
+            "SR3JV"
+          ],
+          "sSpecSource": {
+            "SR3JV": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2518",
+          "sSpec": [
+            "SR1D1",
+            "SR3H0"
+          ],
+          "sSpecSource": {
+            "SR1D1": "ark",
+            "SR3H0": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2530",
+          "sSpec": [
+            "SR1CU",
+            "SR3GT"
+          ],
+          "sSpecSource": {
+            "SR1CU": "ark",
+            "SR3GT": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2538",
+          "sSpec": [
+            "SR1S9",
+            "SR3GZ"
+          ],
+          "sSpecSource": {
+            "SR1S9": "ark",
+            "SR3GZ": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2550",
+          "sSpec": [
+            "SR1CT",
+            "SR3GS"
+          ],
+          "sSpecSource": {
+            "SR1CT": "ark",
+            "SR3GS": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2558",
+          "sSpec": [
+            "SR1CZ",
+            "SR3GX"
+          ],
+          "sSpecSource": {
+            "SR1CZ": "ark",
+            "SR3GX": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2718",
+          "sSpec": [
+            "SR1CY",
+            "SR3GY"
+          ],
+          "sSpecSource": {
+            "SR1CY": "ark",
+            "SR3GY": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2730",
+          "sSpec": [
+            "SR1CR",
+            "SR3GQ"
+          ],
+          "sSpecSource": {
+            "SR1CR": "ark",
+            "SR3GQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2738",
+          "sSpec": [
+            "SR1SA",
+            "SR3GW"
+          ],
+          "sSpecSource": {
+            "SR1SA": "ark",
+            "SR3GW": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2750",
+          "sSpec": [
+            "SR1CS",
+            "SR3GR"
+          ],
+          "sSpecSource": {
+            "SR1CS": "ark",
+            "SR3GR": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom C2758",
+          "sSpec": [
+            "SR1CW",
+            "SR3GV"
+          ],
+          "sSpecSource": {
+            "SR1CW": "ark",
+            "SR3GV": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {

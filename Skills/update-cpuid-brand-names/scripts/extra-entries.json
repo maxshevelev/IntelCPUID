@@ -1314,7 +1314,71 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom Z3735E"
+        },
+        {
+          "name": "Intel Atom Z3735F"
+        },
+        {
+          "name": "Intel Atom Z3735G"
+        },
+        {
+          "name": "Intel Atom Z3736F"
+        },
+        {
+          "name": "Intel Atom Z3736G"
+        },
+        {
+          "name": "Intel Atom Z3745"
+        },
+        {
+          "name": "Intel Atom Z3775"
+        },
+        {
+          "name": "Intel Atom Z3775D"
+        },
+        {
+          "name": "Intel Atom Z3795"
+        },
+        {
+          "name": "Intel Celeron J1800"
+        },
+        {
+          "name": "Intel Celeron J1900"
+        },
+        {
+          "name": "Intel Celeron N2807"
+        },
+        {
+          "name": "Intel Celeron N2808"
+        },
+        {
+          "name": "Intel Celeron N2830"
+        },
+        {
+          "name": "Intel Celeron N2840"
+        },
+        {
+          "name": "Intel Celeron N2930"
+        },
+        {
+          "name": "Intel Celeron N2940"
+        },
+        {
+          "name": "Intel Pentium A1020"
+        },
+        {
+          "name": "Intel Pentium J2900"
+        },
+        {
+          "name": "Intel Pentium N3530"
+        },
+        {
+          "name": "Intel Pentium N3540"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -1335,9 +1399,156 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| VLV            | C0       | 06-37-08/0c |          | 00000838 | Celeron N2xxx, Pentium N35xx"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80273/intel-atom-processor-z3735e-2m-cache-up-to-1-83-ghz/ordering.html",
+          "quote": "Atom Z3735E: SR1U9, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80274/intel-atom-processor-z3735f-2m-cache-up-to-1-83-ghz/ordering.html",
+          "quote": "Atom Z3735F: SR1UB, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80275/intel-atom-processor-z3735g-2m-cache-up-to-1-83-ghz/ordering.html",
+          "quote": "Atom Z3735G: SR1UD, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82115/intel-atom-processor-z3736f-2m-cache-up-to-2-16-ghz/ordering.html",
+          "quote": "Atom Z3736F: SR20D, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82116/intel-atom-processor-z3736g-2m-cache-up-to-2-16-ghz/ordering.html",
+          "quote": "Atom Z3736G: SR20E, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80270/intel-atom-processor-z3745-2m-cache-up-to-1-86-ghz/ordering.html",
+          "quote": "Atom Z3745: SR1SP, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80268/intel-atom-processor-z3775-2m-cache-up-to-2-39-ghz/ordering.html",
+          "quote": "Atom Z3775: SR1SM, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80269/intel-atom-processor-z3775d-2m-cache-up-to-2-41-ghz/ordering.html",
+          "quote": "Atom Z3775D: SR1SR, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80267/intel-atom-processor-z3795-2m-cache-up-to-2-39-ghz/ordering.html",
+          "quote": "Atom Z3795: SR1SK, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78866/intel-celeron-processor-j1800-1m-cache-up-to-2-58-ghz/ordering.html",
+          "quote": "Celeron J1800: SR1UU, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78867/intel-celeron-processor-j1900-2m-cache-up-to-2-42-ghz/ordering.html",
+          "quote": "Celeron J1900: SR1UT, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81072/intel-celeron-processor-n2807-1m-cache-up-to-2-16-ghz/ordering.html",
+          "quote": "Celeron N2807: SR1W5, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82102/intel-celeron-processor-n2808-1m-cache-up-to-2-25-ghz/ordering.html",
+          "quote": "Celeron N2808: SR1YH, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81071/intel-celeron-processor-n2830-1m-cache-up-to-2-41-ghz/ordering.html",
+          "quote": "Celeron N2830: SR1W4, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82103/intel-celeron-processor-n2840-1m-cache-up-to-2-58-ghz/ordering.html",
+          "quote": "Celeron N2840: SR1YJ, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81073/intel-celeron-processor-n2930-2m-cache-up-to-2-16-ghz/ordering.html",
+          "quote": "Celeron N2930: SR1W3, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82104/intel-celeron-processor-n2940-2m-cache-up-to-2-25-ghz/ordering.html",
+          "quote": "Celeron N2940: SR1YV, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/93022/intel-pentium-processor-a1020-2m-cache-up-to-2-66-ghz/ordering.html",
+          "quote": "Pentium A1020: SR2M8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78868/intel-pentium-processor-j2900-2m-cache-up-to-2-67-ghz/ordering.html",
+          "quote": "Pentium J2900: SR1US, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81074/intel-pentium-processor-n3530-2m-cache-up-to-2-58-ghz/ordering.html",
+          "quote": "Pentium N3530: SR1W2, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82105/intel-pentium-processor-n3540-2m-cache-up-to-2-66-ghz/ordering.html",
+          "quote": "Pentium N3540: SR1YW, stepping C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Bay Trail whose ordering tab gives C0. ARK gives the early parts B2 or B3, steppings the notes name for no CPUID, and they are not listed."
     },
     {
       "cpuids": [
@@ -1354,7 +1565,26 @@
         "D0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom E3805"
+        },
+        {
+          "name": "Intel Atom E3815"
+        },
+        {
+          "name": "Intel Atom E3825"
+        },
+        {
+          "name": "Intel Atom E3826"
+        },
+        {
+          "name": "Intel Atom E3827"
+        },
+        {
+          "name": "Intel Atom E3845"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -1365,9 +1595,51 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| VLV            | D0       | 06-37-09/0F | 0000090c | 0000090d | Atom E38xx"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84311/intel-atom-processor-e3805-1m-cache-1-33-ghz/ordering.html",
+          "quote": "Atom E3805: SR20Y, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78476/intel-atom-processor-e3815-512k-cache-1-46-ghz/ordering.html",
+          "quote": "Atom E3815: SR1XA, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78474/intel-atom-processor-e3825-1m-cache-1-33-ghz/ordering.html",
+          "quote": "Atom E3825: SR1X9, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78477/intel-atom-processor-e3826-1m-cache-1-46-ghz/ordering.html",
+          "quote": "Atom E3826: SR1X8, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78478/intel-atom-processor-e3827-1m-cache-1-75-ghz/ordering.html",
+          "quote": "Atom E3827: SR1X7, stepping D0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78475/intel-atom-processor-e3845-2m-cache-1-91-ghz/ordering.html",
+          "quote": "Atom E3845: SR1X6, stepping D0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Bay Trail whose ordering tab gives D0 (the Atom E38xx). ARK also gives their later codes D1, and the D1-only reissues of Celeron J1800/J1900/N2807/N2930; the notes name no D1, so those codes are not placed."
     },
     {
       "cpuids": [
@@ -2247,7 +2519,86 @@
         "F0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Celeron 3205U"
+        },
+        {
+          "name": "Intel Celeron 3215U"
+        },
+        {
+          "name": "Intel Celeron 3755U"
+        },
+        {
+          "name": "Intel Celeron 3765U"
+        },
+        {
+          "name": "Intel Core M-5Y10c"
+        },
+        {
+          "name": "Intel Core M-5Y31"
+        },
+        {
+          "name": "Intel Core M-5Y51"
+        },
+        {
+          "name": "Intel Core M-5Y71"
+        },
+        {
+          "name": "Intel Core i3-5005U"
+        },
+        {
+          "name": "Intel Core i3-5010U"
+        },
+        {
+          "name": "Intel Core i3-5015U"
+        },
+        {
+          "name": "Intel Core i3-5020U"
+        },
+        {
+          "name": "Intel Core i3-5157U"
+        },
+        {
+          "name": "Intel Core i5-5200U"
+        },
+        {
+          "name": "Intel Core i5-5250U"
+        },
+        {
+          "name": "Intel Core i5-5257U"
+        },
+        {
+          "name": "Intel Core i5-5287U"
+        },
+        {
+          "name": "Intel Core i5-5300U"
+        },
+        {
+          "name": "Intel Core i5-5350U"
+        },
+        {
+          "name": "Intel Core i7-5500U"
+        },
+        {
+          "name": "Intel Core i7-5550U"
+        },
+        {
+          "name": "Intel Core i7-5557U"
+        },
+        {
+          "name": "Intel Core i7-5600U"
+        },
+        {
+          "name": "Intel Core i7-5650U"
+        },
+        {
+          "name": "Intel Pentium 3805U"
+        },
+        {
+          "name": "Intel Pentium 3825U"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -2258,9 +2609,191 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| BDW-U/Y        | E0/F0    | 06-3d-04/c0 | 0000002e | 0000002f | Core Gen5"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84809/intel-celeron-processor-3205u-2m-cache-1-50-ghz/ordering.html",
+          "quote": "Celeron 3205U: SR215, stepping E0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84810/intel-celeron-processor-3215u-2m-cache-1-70-ghz/ordering.html",
+          "quote": "Celeron 3215U: SR243, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84811/intel-celeron-processor-3755u-2m-cache-1-70-ghz/ordering.html",
+          "quote": "Celeron 3755U: SR211, stepping E0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84812/intel-celeron-processor-3765u-2m-cache-1-90-ghz/ordering.html",
+          "quote": "Celeron 3765U: SR242, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85234/intel-core-m5y10c-processor-4m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Core M-5Y10c: SR23C, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84666/intel-core-m5y31-processor-4m-cache-up-to-2-40-ghz/ordering.html",
+          "quote": "Core M-5Y31: SR23G, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84669/intel-core-m5y51-processor-4m-cache-up-to-2-60-ghz/ordering.html",
+          "quote": "Core M-5Y51: SR23L, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84672/intel-core-m5y71-processor-4m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core M-5Y71: SR23Q, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84695/intel-core-i35005u-processor-3m-cache-2-00-ghz/ordering.html",
+          "quote": "Core i3-5005U: SR244, SR27G, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84697/intel-core-i35010u-processor-3m-cache-2-10-ghz/ordering.html",
+          "quote": "Core i3-5010U: SR23Z, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84698/intel-core-i35015u-processor-3m-cache-2-10-ghz/ordering.html",
+          "quote": "Core i3-5015U: SR245, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84699/intel-core-i35020u-processor-3m-cache-2-20-ghz/ordering.html",
+          "quote": "Core i3-5020U: SR240, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84982/intel-core-i35157u-processor-3m-cache-2-50-ghz/ordering.html",
+          "quote": "Core i3-5157U: SR26M, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85212/intel-core-i55200u-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-5200U: SR23Y, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84984/intel-core-i55250u-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+          "quote": "Core i5-5250U: SR26C, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84985/intel-core-i55257u-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+          "quote": "Core i5-5257U: SR26K, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84988/intel-core-i55287u-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-5287U: SR26H, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85213/intel-core-i55300u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-5300U: SR23X, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84990/intel-core-i55350u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+          "quote": "Core i5-5350U: SR268, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85214/intel-core-i75500u-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i7-5500U: SR23W, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84992/intel-core-i75550u-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+          "quote": "Core i7-5550U: SR26A, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84993/intel-core-i75557u-processor-4m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-5557U: SR26E, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85215/intel-core-i75600u-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-5600U: SR23V, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84995/intel-core-i75650u-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+          "quote": "Core i7-5650U: SR267, stepping F0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/84813/intel-pentium-processor-3805u-2m-cache-1-90-ghz/ordering.html",
+          "quote": "Pentium 3805U: SR210, stepping E0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/86348/intel-pentium-processor-3825u-2m-cache-1-90-ghz/ordering.html",
+          "quote": "Pentium 3825U: SR24B, stepping F0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BDW-U/Y), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BDW-U/Y), the steppings and the product line for this CPUID; the article has no row for it. Its models are the U and Y parts (Core M, Core i3/i5/i7 U, Pentium and Celeron U) whose ARK ordering tab gives E0 or F0: ARK writes one code name, Broadwell, for both dies, so the notes' label (BDW-U/Y) decides with the stepping — E0 is BDW-H/E3's too."
     },
     {
       "cpuids": [
@@ -3103,7 +3636,59 @@
         "G0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core i5-5350H"
+        },
+        {
+          "name": "Intel Core i5-5575R"
+        },
+        {
+          "name": "Intel Core i5-5675C"
+        },
+        {
+          "name": "Intel Core i5-5675R"
+        },
+        {
+          "name": "Intel Core i7-5700EQ"
+        },
+        {
+          "name": "Intel Core i7-5700HQ"
+        },
+        {
+          "name": "Intel Core i7-5750HQ"
+        },
+        {
+          "name": "Intel Core i7-5775C"
+        },
+        {
+          "name": "Intel Core i7-5775R"
+        },
+        {
+          "name": "Intel Core i7-5850EQ"
+        },
+        {
+          "name": "Intel Core i7-5850HQ"
+        },
+        {
+          "name": "Intel Core i7-5950HQ"
+        },
+        {
+          "name": "Intel Xeon E3-1258L v4"
+        },
+        {
+          "name": "Intel Xeon E3-1265L v4"
+        },
+        {
+          "name": "Intel Xeon E3-1278L v4"
+        },
+        {
+          "name": "Intel Xeon E3-1285 v4"
+        },
+        {
+          "name": "Intel Xeon E3-1285L v4"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3114,9 +3699,128 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| BDW-H/E3       | E0/G0    | 06-47-01/22 | 00000021 | 00000022 | Core Gen5"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87713/intel-core-i55350h-processor-4m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i5-5350H: SR2BK, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87714/intel-core-i55575r-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+          "quote": "Core i5-5575R: SR2AK, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88095/intel-core-i55675c-processor-4m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-5675C: SR2FX, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87715/intel-core-i55675r-processor-4m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i5-5675R: SR2AJ, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88093/intel-core-i75700eq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-5700EQ: SR2E6, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87716/intel-core-i75700hq-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+          "quote": "Core i7-5700HQ: SR2BP, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87717/intel-core-i75750hq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-5750HQ: SR2BL, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88040/intel-core-i75775c-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+          "quote": "Core i7-5775C: SR2AG, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87718/intel-core-i75775r-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i7-5775R: SR2AL, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88094/intel-core-i75850eq-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+          "quote": "Core i7-5850EQ: SR2E8, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87719/intel-core-i75850hq-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+          "quote": "Core i7-5850HQ: SR2BH, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87720/intel-core-i75950hq-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+          "quote": "Core i7-5950HQ: SR2BJ, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88096/intel-xeon-processor-e31258l-v4-6m-cache-1-80-ghz/ordering.html",
+          "quote": "Xeon E3-1258L v4: SR2E9, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88041/intel-xeon-processor-e31265l-v4-6m-cache-2-30-ghz/ordering.html",
+          "quote": "Xeon E3-1265L v4: SR2B3, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88097/intel-xeon-processor-e31278l-v4-6m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon E3-1278L v4: SR2E7, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88046/intel-xeon-processor-e31285-v4-6m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon E3-1285 v4: SR2CX, stepping G0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88043/intel-xeon-processor-e31285l-v4-6m-cache-3-40-ghz/ordering.html",
+          "quote": "Xeon E3-1285L v4: SR2B1, stepping G0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BDW-H/E3), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BDW-H/E3), the steppings and the product line for this CPUID; the article has no row for it. Its models are the H, HQ, EQ, C and R parts and the Xeon E3 v4 whose ARK ordering tab gives E0 or G0: ARK writes one code name, Broadwell, for both dies, so the notes' label (BDW-H/E3) decides with the stepping — E0 is BDW-U/Y's too."
     },
     {
       "cpuids": [
@@ -3133,7 +3837,29 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom x5-Z8300"
+        },
+        {
+          "name": "Intel Atom x5-Z8500"
+        },
+        {
+          "name": "Intel Atom x7-Z8700"
+        },
+        {
+          "name": "Intel Celeron N3000"
+        },
+        {
+          "name": "Intel Celeron N3050"
+        },
+        {
+          "name": "Intel Celeron N3150"
+        },
+        {
+          "name": "Intel Pentium N3700"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3144,9 +3870,58 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| CHV            | C0       | 06-4c-03/01 |          | 00000368 | Atom X series"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87383/intel-atom-x5z8300-processor-2m-cache-up-to-1-84-ghz/ordering.html",
+          "quote": "Atom x5-Z8300: SR29Z, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85474/intel-atom-x5z8500-processor-2m-cache-up-to-2-24-ghz/ordering.html",
+          "quote": "Atom x5-Z8500: SR27N, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/85475/intel-atom-x7z8700-processor-2m-cache-up-to-2-40-ghz/ordering.html",
+          "quote": "Atom x7-Z8700: SR27M, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87259/intel-celeron-processor-n3000-2m-cache-up-to-2-08-ghz/ordering.html",
+          "quote": "Celeron N3000: SR29J, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87257/intel-celeron-processor-n3050-2m-cache-up-to-2-16-ghz/ordering.html",
+          "quote": "Celeron N3050: SR29H, SR2A9, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87258/intel-celeron-processor-n3150-2m-cache-up-to-2-08-ghz/ordering.html",
+          "quote": "Celeron N3150: SR29F, SR2A8, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/87261/intel-pentium-processor-n3700-2m-cache-up-to-2-40-ghz/ordering.html",
+          "quote": "Pentium N3700: SR29E, SR2A7, stepping C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: CHV), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: CHV), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Cherry Trail or Braswell — the kernel names model 0x4C for both — whose ordering tab gives C0."
     },
     {
       "cpuids": [
@@ -3176,7 +3951,7 @@
           "quote": "| CHV            | D0       | 06-4c-04/01 |          | 00000411 | Atom X series"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: CHV), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: CHV), the steppings and the product line for this CPUID; the article has no row for it. ARK gives the later Cherry Trail and Braswell parts (x5-Z8350, N3060, J3160 …) D1, not the notes' D0, so none is listed: no Intel document here ties D1 to this CPUID."
     },
     {
       "cpuids": [
@@ -3194,7 +3969,59 @@
         "C0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom C2308"
+        },
+        {
+          "name": "Intel Atom C2316"
+        },
+        {
+          "name": "Intel Atom C2338"
+        },
+        {
+          "name": "Intel Atom C2350"
+        },
+        {
+          "name": "Intel Atom C2358"
+        },
+        {
+          "name": "Intel Atom C2508"
+        },
+        {
+          "name": "Intel Atom C2516"
+        },
+        {
+          "name": "Intel Atom C2518"
+        },
+        {
+          "name": "Intel Atom C2530"
+        },
+        {
+          "name": "Intel Atom C2538"
+        },
+        {
+          "name": "Intel Atom C2550"
+        },
+        {
+          "name": "Intel Atom C2558"
+        },
+        {
+          "name": "Intel Atom C2718"
+        },
+        {
+          "name": "Intel Atom C2730"
+        },
+        {
+          "name": "Intel Atom C2738"
+        },
+        {
+          "name": "Intel Atom C2750"
+        },
+        {
+          "name": "Intel Atom C2758"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3205,9 +4032,128 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| AVN            | B0/C0    | 06-4d-08/01 |          | 0000012D | Atom C2xxx"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81328/intel-atom-processor-c2308-1m-cache-1-25-ghz/ordering.html",
+          "quote": "Atom C2308: SR1UN, SR3H3, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/123003/intel-atom-processor-c2316-1m-cache-1-50-ghz/ordering.html",
+          "quote": "Atom C2316: SR3JU, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77976/intel-atom-processor-c2338-1m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2338: SR1S8, SR3H2, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77977/intel-atom-processor-c2350-1m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2350: SR1CV, SR3GU, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77978/intel-atom-processor-c2358-1m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2358: SR1D2, SR3H1, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/81270/intel-atom-processor-c2508-2m-cache-1-25-ghz/ordering.html",
+          "quote": "Atom C2508: SR1VV, SR3H4, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/123004/intel-atom-processor-c2516-2m-cache-1-40-ghz/ordering.html",
+          "quote": "Atom C2516: SR3JV, stepping C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77979/intel-atom-processor-c2518-2m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2518: SR1D1, SR3H0, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77980/intel-atom-processor-c2530-2m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2530: SR1CU, SR3GT, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77981/intel-atom-processor-c2538-2m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2538: SR1S9, SR3GZ, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77982/intel-atom-processor-c2550-2m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2550: SR1CT, SR3GS, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77983/intel-atom-processor-c2558-2m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2558: SR1CZ, SR3GX, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77984/intel-atom-processor-c2718-4m-cache-2-00-ghz/ordering.html",
+          "quote": "Atom C2718: SR1CY, SR3GY, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77985/intel-atom-processor-c2730-4m-cache-1-70-ghz/ordering.html",
+          "quote": "Atom C2730: SR1CR, SR3GQ, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77986/intel-atom-processor-c2738-4m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2738: SR1SA, SR3GW, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77987/intel-atom-processor-c2750-4m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2750: SR1CS, SR3GR, stepping B0/C0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/77988/intel-atom-processor-c2758-4m-cache-2-40-ghz/ordering.html",
+          "quote": "Atom C2758: SR1CW, SR3GV, stepping B0/C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: AVN), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: AVN), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Avoton or Rangeley — the kernel names model 0x4D for both — whose ordering tab gives B0 or C0."
     },
     {
       "cpuids": [

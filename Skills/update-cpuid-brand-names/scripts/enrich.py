@@ -34,7 +34,9 @@ The rules, in order:
    model listed under several CPUIDs gets nothing from such a row. And a page
    about one microarchitecture ("… (Broadwell-based)") gives codes only to an
    entry whose code names are of it: the article repeats Broadwell-DE Xeon D
-   parts under Ice Lake D, and their codes do not belong there.
+   parts under Ice Lake D, and their codes do not belong there. A code ARK
+   gives a stepping for is ARK's to place: when that stepping fits no entry,
+   a Wikipedia row without one does not put it in either.
 4. A found code (`found-sspec.json`) with a stepping follows rule 2; with a
    CPUID — or a stepping that fits no entry, and a CPUID — it goes under the
    one entry of that model with that CPUID; with
@@ -464,6 +466,13 @@ def enrich(entries, cache=None, log=print):
                 continue
             for code in codes:
                 if code in known(name) or code in ambiguous:
+                    continue
+                # ARK gave this code a stepping and it fit no entry: Wikipedia,
+                # which gives none, does not place it anyway (an Atom E3845's
+                # B3 and D1 codes under 30679, D0).
+                if (name, code) in ark_stepping:
+                    log(f"  wikipedia: {name} {code} is {ark_stepping[(name, code)]} on ARK, "
+                        "which fits no entry — left out")
                     continue
                 if owner(code):
                     log(f"  wikipedia: {name} {code} is already {sorted(owner(code))}'s — left out")

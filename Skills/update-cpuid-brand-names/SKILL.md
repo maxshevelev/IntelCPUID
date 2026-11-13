@@ -79,7 +79,9 @@ the rules in full):
 3. A Wikipedia code without a stepping goes in only where the article lists
    the model under one CPUID, and only from a page about that entry's
    microarchitecture (`… (Broadwell-based)` gives nothing to an Ice Lake entry:
-   the article repeats Broadwell-DE parts there).
+   the article repeats Broadwell-DE parts there). Nor where ARK gives the
+   code a stepping that fits no entry (an Atom E3845's B3 code is not
+   30679's, D0).
 4. A code Wikipedia writes for two models (SR3B8, both 8160F and 8160M) or
    that is already another model's is left out.
 5. A code from `found-sspec.json` (`Skills/find-sspec`) goes by its stepping
