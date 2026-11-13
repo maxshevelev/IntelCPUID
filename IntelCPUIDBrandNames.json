@@ -10824,7 +10824,8 @@
       "steppings": [
         "D2",
         "G1",
-        "Q0"
+        "Q0",
+        "J1"
       ],
       "segments": [],
       "processors": [
@@ -11329,6 +11330,283 @@
           ],
           "sSpecSource": {
             "SR055": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2105",
+          "sSpec": [
+            "SR0BA"
+          ],
+          "sSpecSource": {
+            "SR0BA": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2125",
+          "sSpec": [
+            "SR0AY"
+          ],
+          "sSpecSource": {
+            "SR0AY": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2310M",
+          "sSpec": [
+            "SR04R",
+            "SR04S"
+          ],
+          "sSpecSource": {
+            "SR04R": "ark",
+            "SR04S": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2312M",
+          "sSpec": [
+            "SR09S"
+          ],
+          "sSpecSource": {
+            "SR09S": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2328M",
+          "sSpec": [
+            "SR0TC"
+          ],
+          "sSpecSource": {
+            "SR0TC": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2330M",
+          "sSpec": [
+            "SR04J",
+            "SR04L"
+          ],
+          "sSpecSource": {
+            "SR04J": "ark",
+            "SR04L": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2350M",
+          "sSpec": [
+            "SR0DN"
+          ],
+          "sSpecSource": {
+            "SR0DN": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2365M",
+          "sSpec": [
+            "SR0U3"
+          ],
+          "sSpecSource": {
+            "SR0U3": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2367M",
+          "sSpec": [
+            "SR0CV"
+          ],
+          "sSpecSource": {
+            "SR0CV": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2370M",
+          "sSpec": [
+            "SR0DP"
+          ],
+          "sSpecSource": {
+            "SR0DP": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2375M",
+          "sSpec": [
+            "SR0U4"
+          ],
+          "sSpecSource": {
+            "SR0U4": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-2377M",
+          "sSpec": [
+            "SR0CW"
+          ],
+          "sSpecSource": {
+            "SR0CW": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2410M",
+          "sSpec": [
+            "SR04B",
+            "SR04G"
+          ],
+          "sSpecSource": {
+            "SR04B": "ark",
+            "SR04G": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2430M",
+          "sSpec": [
+            "SR04W"
+          ],
+          "sSpecSource": {
+            "SR04W": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2435M",
+          "sSpec": [
+            "SR06Y"
+          ],
+          "sSpecSource": {
+            "SR06Y": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2450M",
+          "sSpec": [
+            "SR04Z",
+            "SR06Z",
+            "SR0CH"
+          ],
+          "sSpecSource": {
+            "SR04Z": "ark",
+            "SR06Z": "ark",
+            "SR0CH": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2467M",
+          "sSpec": [
+            "SR0D6"
+          ],
+          "sSpecSource": {
+            "SR0D6": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2520M",
+          "sSpec": [
+            "SR048"
+          ],
+          "sSpecSource": {
+            "SR048": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2537M",
+          "sSpec": [
+            "SR03W"
+          ],
+          "sSpecSource": {
+            "SR03W": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2540M",
+          "sSpec": [
+            "SR044",
+            "SR046"
+          ],
+          "sSpecSource": {
+            "SR044": "ark",
+            "SR046": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-2557M",
+          "sSpec": [
+            "SR0CS"
+          ],
+          "sSpecSource": {
+            "SR0CS": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2617M",
+          "sSpec": [
+            "SR03T"
+          ],
+          "sSpecSource": {
+            "SR03T": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2620M",
+          "sSpec": [
+            "SR03F",
+            "SR041"
+          ],
+          "sSpecSource": {
+            "SR03F": "ark",
+            "SR041": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2629M",
+          "sSpec": [
+            "SR04D"
+          ],
+          "sSpecSource": {
+            "SR04D": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2637M",
+          "sSpec": [
+            "SR0D3"
+          ],
+          "sSpecSource": {
+            "SR0D3": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2640M",
+          "sSpec": [
+            "SR03R",
+            "SR043"
+          ],
+          "sSpecSource": {
+            "SR03R": "ark",
+            "SR043": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2649M",
+          "sSpec": [
+            "SR04N"
+          ],
+          "sSpecSource": {
+            "SR04N": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2657M",
+          "sSpec": [
+            "SR03S"
+          ],
+          "sSpecSource": {
+            "SR03S": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i7-2677M",
+          "sSpec": [
+            "SR0D2"
+          ],
+          "sSpecSource": {
+            "SR0D2": "ark"
           }
         }
       ],
@@ -12180,18 +12458,21 @@
         "Atom E38xx"
       ],
       "steppings": [
-        "D0"
+        "D0",
+        "D1"
       ],
       "segments": [],
       "processors": [
         {
           "name": "Intel Atom E3805",
           "sSpec": [
+            "SR3V3",
             "SR20Y",
             "SR2UL",
             "SR3V4"
           ],
           "sSpecSource": {
+            "SR3V3": "ark",
             "SR20Y": "ark",
             "SR2UL": "wikipedia",
             "SR3V4": "wikipedia"
@@ -12200,11 +12481,13 @@
         {
           "name": "Intel Atom E3815",
           "sSpec": [
+            "SR3V1",
             "SR1XA",
             "SR2UK",
             "SR3V2"
           ],
           "sSpecSource": {
+            "SR3V1": "ark",
             "SR1XA": "ark",
             "SR2UK": "wikipedia",
             "SR3V2": "wikipedia"
@@ -12213,11 +12496,13 @@
         {
           "name": "Intel Atom E3825",
           "sSpec": [
+            "SR3UZ",
             "SR1X9",
             "SR2UJ",
             "SR3V0"
           ],
           "sSpecSource": {
+            "SR3UZ": "ark",
             "SR1X9": "ark",
             "SR2UJ": "wikipedia",
             "SR3V0": "wikipedia"
@@ -12226,11 +12511,13 @@
         {
           "name": "Intel Atom E3826",
           "sSpec": [
+            "SR3UX",
             "SR1X8",
             "SR2UG",
             "SR3UW"
           ],
           "sSpecSource": {
+            "SR3UX": "ark",
             "SR1X8": "ark",
             "SR2UG": "wikipedia",
             "SR3UW": "wikipedia"
@@ -12239,11 +12526,13 @@
         {
           "name": "Intel Atom E3827",
           "sSpec": [
+            "SR3UV",
             "SR1X7",
             "SR2UH",
             "SR3UY"
           ],
           "sSpecSource": {
+            "SR3UV": "ark",
             "SR1X7": "ark",
             "SR2UH": "wikipedia",
             "SR3UY": "wikipedia"
@@ -12252,14 +12541,52 @@
         {
           "name": "Intel Atom E3845",
           "sSpec": [
+            "SR3UT",
             "SR1X6",
             "SR2UF",
             "SR3UU"
           ],
           "sSpecSource": {
+            "SR3UT": "ark",
             "SR1X6": "ark",
             "SR2UF": "wikipedia",
             "SR3UU": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron J1800",
+          "sSpec": [
+            "SR3V6"
+          ],
+          "sSpecSource": {
+            "SR3V6": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J1900",
+          "sSpec": [
+            "SR3V5"
+          ],
+          "sSpecSource": {
+            "SR3V5": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2807",
+          "sSpec": [
+            "SR3V8"
+          ],
+          "sSpecSource": {
+            "SR3V8": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2930",
+          "sSpec": [
+            "SR3V7"
+          ],
+          "sSpecSource": {
+            "SR3V7": "ark"
           }
         }
       ],
@@ -12278,17 +12605,21 @@
       ],
       "steppings": [
         "E1",
-        "L1"
+        "L1",
+        "N0",
+        "P0"
       ],
       "segments": [],
       "processors": [
         {
           "name": "Intel Celeron 1020M",
           "sSpec": [
-            "SR0ZY"
+            "SR0ZY",
+            "SR13U"
           ],
           "sSpecSource": {
-            "SR0ZY": "ark"
+            "SR0ZY": "ark",
+            "SR13U": "ark"
           }
         },
         {
@@ -13032,6 +13363,327 @@
           ],
           "sSpecSource": {
             "SR0PC": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1000M",
+          "sSpec": [
+            "SR102"
+          ],
+          "sSpecSource": {
+            "SR102": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1005M",
+          "sSpec": [
+            "SR103"
+          ],
+          "sSpecSource": {
+            "SR103": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1007U",
+          "sSpec": [
+            "SR109"
+          ],
+          "sSpecSource": {
+            "SR109": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1017U",
+          "sSpec": [
+            "SR10A"
+          ],
+          "sSpecSource": {
+            "SR10A": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1019Y",
+          "sSpec": [
+            "SR13W"
+          ],
+          "sSpecSource": {
+            "SR13W": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1020E",
+          "sSpec": [
+            "SR0VR",
+            "SR10D"
+          ],
+          "sSpecSource": {
+            "SR0VR": "ark",
+            "SR10D": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1037U",
+          "sSpec": [
+            "SR108"
+          ],
+          "sSpecSource": {
+            "SR108": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron 1047UE",
+          "sSpec": [
+            "SR10E"
+          ],
+          "sSpecSource": {
+            "SR10E": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron G1610",
+          "sSpec": [
+            "SR10K"
+          ],
+          "sSpecSource": {
+            "SR10K": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron G1610T",
+          "sSpec": [
+            "SR10M"
+          ],
+          "sSpecSource": {
+            "SR10M": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron G1620",
+          "sSpec": [
+            "SR10L"
+          ],
+          "sSpecSource": {
+            "SR10L": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron G1620T",
+          "sSpec": [
+            "SR169"
+          ],
+          "sSpecSource": {
+            "SR169": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron G1630",
+          "sSpec": [
+            "SR16A"
+          ],
+          "sSpecSource": {
+            "SR16A": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-3210",
+          "sSpec": [
+            "SR0YY"
+          ],
+          "sSpecSource": {
+            "SR0YY": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-3250",
+          "sSpec": [
+            "SR0YX"
+          ],
+          "sSpecSource": {
+            "SR0YX": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i3-3250T",
+          "sSpec": [
+            "SR0YW"
+          ],
+          "sSpecSource": {
+            "SR0YW": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-3470",
+          "sSpec": [
+            "SR0T8"
+          ],
+          "sSpecSource": {
+            "SR0T8": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-3470S",
+          "sSpec": [
+            "SR0TA"
+          ],
+          "sSpecSource": {
+            "SR0TA": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-3570",
+          "sSpec": [
+            "SR0T7"
+          ],
+          "sSpecSource": {
+            "SR0T7": "ark"
+          }
+        },
+        {
+          "name": "Intel Core i5-3570S",
+          "sSpec": [
+            "SR0T9"
+          ],
+          "sSpecSource": {
+            "SR0T9": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 2030M",
+          "sSpec": [
+            "SR0ZZ"
+          ],
+          "sSpecSource": {
+            "SR0ZZ": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 2117U",
+          "sSpec": [
+            "SR0VQ"
+          ],
+          "sSpecSource": {
+            "SR0VQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 2127U",
+          "sSpec": [
+            "SR105"
+          ],
+          "sSpecSource": {
+            "SR105": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium 2129Y",
+          "sSpec": [
+            "SR12M"
+          ],
+          "sSpecSource": {
+            "SR12M": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium A1018",
+          "sSpec": [
+            "QFAW",
+            "SR1C5",
+            "SR1V6"
+          ],
+          "sSpecSource": {
+            "QFAW": "ark",
+            "SR1C5": "ark",
+            "SR1V6": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2010",
+          "sSpec": [
+            "SR10J"
+          ],
+          "sSpecSource": {
+            "SR10J": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2020",
+          "sSpec": [
+            "SR10H"
+          ],
+          "sSpecSource": {
+            "SR10H": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2020T",
+          "sSpec": [
+            "SR10G"
+          ],
+          "sSpecSource": {
+            "SR10G": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2030",
+          "sSpec": [
+            "SR163"
+          ],
+          "sSpecSource": {
+            "SR163": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2030T",
+          "sSpec": [
+            "SR164"
+          ],
+          "sSpecSource": {
+            "SR164": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2100T",
+          "sSpec": [
+            "SR0UJ"
+          ],
+          "sSpecSource": {
+            "SR0UJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2120",
+          "sSpec": [
+            "SR0UF"
+          ],
+          "sSpecSource": {
+            "SR0UF": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2120T",
+          "sSpec": [
+            "SR0YV"
+          ],
+          "sSpecSource": {
+            "SR0YV": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2130",
+          "sSpec": [
+            "SR0YU"
+          ],
+          "sSpecSource": {
+            "SR0YU": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium G2140",
+          "sSpec": [
+            "SR0YT"
+          ],
+          "sSpecSource": {
+            "SR0YT": "ark"
           }
         }
       ],
@@ -16156,10 +16808,113 @@
         "Atom X series"
       ],
       "steppings": [
-        "D0"
+        "D0",
+        "D1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Atom x5-E8000",
+          "sSpec": [
+            "SR2LV"
+          ],
+          "sSpecSource": {
+            "SR2LV": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom x5-Z8350",
+          "sSpec": [
+            "SR2KT"
+          ],
+          "sSpecSource": {
+            "SR2KT": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom x5-Z8550",
+          "sSpec": [
+            "SR2KH"
+          ],
+          "sSpecSource": {
+            "SR2KH": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom x7-Z8750",
+          "sSpec": [
+            "SR2KG"
+          ],
+          "sSpecSource": {
+            "SR2KG": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J3060",
+          "sSpec": [
+            "SR2KR"
+          ],
+          "sSpecSource": {
+            "SR2KR": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J3160",
+          "sSpec": [
+            "SR2KS"
+          ],
+          "sSpecSource": {
+            "SR2KS": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N3010",
+          "sSpec": [
+            "SR2KM"
+          ],
+          "sSpecSource": {
+            "SR2KM": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N3060",
+          "sSpec": [
+            "SR2KN",
+            "SR2ZN"
+          ],
+          "sSpecSource": {
+            "SR2KN": "ark",
+            "SR2ZN": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N3160",
+          "sSpec": [
+            "SR2KP"
+          ],
+          "sSpecSource": {
+            "SR2KP": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium J3710",
+          "sSpec": [
+            "SR2KQ"
+          ],
+          "sSpecSource": {
+            "SR2KQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium N3710",
+          "sSpec": [
+            "SR2KL"
+          ],
+          "sSpecSource": {
+            "SR2KL": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
