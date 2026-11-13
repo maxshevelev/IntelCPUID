@@ -11608,6 +11608,353 @@
           "sSpecSource": {
             "SR0D2": "ark"
           }
+        },
+        {
+          "name": "Intel Celeron 787",
+          "sSpec": [
+            "SR0EC",
+            "SR0VJ"
+          ],
+          "sSpecSource": {
+            "SR0EC": "intel",
+            "SR0VJ": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron 807",
+          "sSpec": [
+            "SR0PW",
+            "SR0EE",
+            "SR0VL"
+          ],
+          "sSpecSource": {
+            "SR0PW": "intel",
+            "SR0EE": "wikipedia",
+            "SR0VL": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron 827E",
+          "sSpec": [
+            "SR0C6"
+          ],
+          "sSpecSource": {
+            "SR0C6": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron 847",
+          "sSpec": [
+            "SR08N"
+          ],
+          "sSpecSource": {
+            "SR08N": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron 847E",
+          "sSpec": [
+            "SR0BU"
+          ],
+          "sSpecSource": {
+            "SR0BU": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron 887",
+          "sSpec": [
+            "SR0VA",
+            "SR090",
+            "SR0F7",
+            "SR0FE"
+          ],
+          "sSpecSource": {
+            "SR0VA": "intel",
+            "SR090": "wikipedia",
+            "SR0F7": "wikipedia",
+            "SR0FE": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron B710",
+          "sSpec": [
+            "SR0DS",
+            "SR0EB"
+          ],
+          "sSpecSource": {
+            "SR0DS": "intel",
+            "SR0EB": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron B800",
+          "sSpec": [
+            "SR0EW"
+          ],
+          "sSpecSource": {
+            "SR0EW": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron B810",
+          "sSpec": [
+            "SR088"
+          ],
+          "sSpecSource": {
+            "SR088": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron B810E",
+          "sSpec": [
+            "SR0BT"
+          ],
+          "sSpecSource": {
+            "SR0BT": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron B830",
+          "sSpec": [
+            "SR0HR"
+          ],
+          "sSpecSource": {
+            "SR0HR": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron B840",
+          "sSpec": [
+            "SR0EN"
+          ],
+          "sSpecSource": {
+            "SR0EN": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G440",
+          "sSpec": [
+            "SR0BY"
+          ],
+          "sSpecSource": {
+            "SR0BY": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G460",
+          "sSpec": [
+            "SR0GR"
+          ],
+          "sSpecSource": {
+            "SR0GR": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G465",
+          "sSpec": [
+            "SR0S8"
+          ],
+          "sSpecSource": {
+            "SR0S8": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G530",
+          "sSpec": [
+            "SR05H"
+          ],
+          "sSpecSource": {
+            "SR05H": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G530T",
+          "sSpec": [
+            "SR05K"
+          ],
+          "sSpecSource": {
+            "SR05K": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G540",
+          "sSpec": [
+            "SR05J"
+          ],
+          "sSpecSource": {
+            "SR05J": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G540T",
+          "sSpec": [
+            "SR05L"
+          ],
+          "sSpecSource": {
+            "SR05L": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G550",
+          "sSpec": [
+            "SR061"
+          ],
+          "sSpecSource": {
+            "SR061": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G550T",
+          "sSpec": [
+            "SR05V"
+          ],
+          "sSpecSource": {
+            "SR05V": "intel"
+          }
+        },
+        {
+          "name": "Intel Celeron G555",
+          "sSpec": [
+            "SR0RZ"
+          ],
+          "sSpecSource": {
+            "SR0RZ": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G620",
+          "sSpec": [
+            "SR05R"
+          ],
+          "sSpecSource": {
+            "SR05R": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G620T",
+          "sSpec": [
+            "SR05T"
+          ],
+          "sSpecSource": {
+            "SR05T": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G622",
+          "sSpec": [
+            "SR05M"
+          ],
+          "sSpecSource": {
+            "SR05M": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G630",
+          "sSpec": [
+            "SR05S"
+          ],
+          "sSpecSource": {
+            "SR05S": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G630T",
+          "sSpec": [
+            "SR05U"
+          ],
+          "sSpecSource": {
+            "SR05U": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G632",
+          "sSpec": [
+            "SR05N"
+          ],
+          "sSpecSource": {
+            "SR05N": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G640",
+          "sSpec": [
+            "SR059"
+          ],
+          "sSpecSource": {
+            "SR059": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G640T",
+          "sSpec": [
+            "SR066"
+          ],
+          "sSpecSource": {
+            "SR066": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G645",
+          "sSpec": [
+            "SR0RS"
+          ],
+          "sSpecSource": {
+            "SR0RS": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G645T",
+          "sSpec": [
+            "SR0S0"
+          ],
+          "sSpecSource": {
+            "SR0S0": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G840",
+          "sSpec": [
+            "SR05P"
+          ],
+          "sSpecSource": {
+            "SR05P": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G850",
+          "sSpec": [
+            "SR05Q"
+          ],
+          "sSpecSource": {
+            "SR05Q": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G860",
+          "sSpec": [
+            "SR058"
+          ],
+          "sSpecSource": {
+            "SR058": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G860T",
+          "sSpec": [
+            "SR0MF"
+          ],
+          "sSpecSource": {
+            "SR0MF": "intel"
+          }
+        },
+        {
+          "name": "Intel Pentium G870",
+          "sSpec": [
+            "SR057"
+          ],
+          "sSpecSource": {
+            "SR057": "intel"
+          }
         }
       ],
       "source": "extra"

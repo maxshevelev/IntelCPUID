@@ -271,6 +271,117 @@
         },
         {
           "name": "Intel Core i7-2677M"
+        },
+        {
+          "name": "Intel Celeron 787"
+        },
+        {
+          "name": "Intel Celeron 807"
+        },
+        {
+          "name": "Intel Celeron 827E"
+        },
+        {
+          "name": "Intel Celeron 847"
+        },
+        {
+          "name": "Intel Celeron 847E"
+        },
+        {
+          "name": "Intel Celeron 887"
+        },
+        {
+          "name": "Intel Celeron B710"
+        },
+        {
+          "name": "Intel Celeron B800"
+        },
+        {
+          "name": "Intel Celeron B810"
+        },
+        {
+          "name": "Intel Celeron B810E"
+        },
+        {
+          "name": "Intel Celeron B830"
+        },
+        {
+          "name": "Intel Celeron B840"
+        },
+        {
+          "name": "Intel Celeron G440"
+        },
+        {
+          "name": "Intel Celeron G460"
+        },
+        {
+          "name": "Intel Celeron G465"
+        },
+        {
+          "name": "Intel Celeron G530"
+        },
+        {
+          "name": "Intel Celeron G530T"
+        },
+        {
+          "name": "Intel Celeron G540"
+        },
+        {
+          "name": "Intel Celeron G540T"
+        },
+        {
+          "name": "Intel Celeron G550"
+        },
+        {
+          "name": "Intel Celeron G550T"
+        },
+        {
+          "name": "Intel Celeron G555"
+        },
+        {
+          "name": "Intel Pentium G620"
+        },
+        {
+          "name": "Intel Pentium G620T"
+        },
+        {
+          "name": "Intel Pentium G622"
+        },
+        {
+          "name": "Intel Pentium G630"
+        },
+        {
+          "name": "Intel Pentium G630T"
+        },
+        {
+          "name": "Intel Pentium G632"
+        },
+        {
+          "name": "Intel Pentium G640"
+        },
+        {
+          "name": "Intel Pentium G640T"
+        },
+        {
+          "name": "Intel Pentium G645"
+        },
+        {
+          "name": "Intel Pentium G645T"
+        },
+        {
+          "name": "Intel Pentium G840"
+        },
+        {
+          "name": "Intel Pentium G850"
+        },
+        {
+          "name": "Intel Pentium G860"
+        },
+        {
+          "name": "Intel Pentium G860T"
+        },
+        {
+          "name": "Intel Pentium G870"
         }
       ],
       "evidence": [
@@ -885,9 +996,289 @@
           ],
           "url": "https://www.intel.com/content/www/us/en/products/sku/54617/intel-core-i72677m-processor-4m-cache-up-to-2-90-ghz/ordering.html",
           "quote": "Core i7-2677M: SR0D2, stepping J1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0EC 787 Q-0 000206a7h 1.3/ 1333/ 350 N/A 1.5 BGA 1023 4\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0PW 807 J-1 000206a7h 2.4/1333/650 N/A 3 BGA 1023 4\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0C6 827E Q-0 000206a7h 1.4 / 1333 / 350 N/A 2 BGA1023 4, 7, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR08N 847 Q-0 000206a7h 1.1 / 1333 / 350 N/A 2 BGA 1023 4, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0BU 847E Q-0 000206a7h 1.1/ 1333 / 350 N/A 2 BGA 1023 4, 7, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0VA 887 Q-0 000206a7h 1.5 / 1066 / 350 N/A 2 BGA 1023 4\"; brand: \"Celeron® Processor B830 and 887 October 2012\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0DS B710 J-1 000206a7h 1.6/ 1333 / 650 N/A 1.5 rPGA 4\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0EW B800 Q-0 000206a7h 1.5 / 1333 / 650 N/A 2 BGA 1023 4, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR088 B810 Q-0 000206a7h 1.6/ 1333 / 650 N/A 2 rPGA 4, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0BT B810E Q-0 000206a7h 1.6/ 1333 / 650 N/A 2 BGA 1023 4, 7, 8\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0HR B830 Q-0 000206a7h 1.8 / 1066 / 650 N/A 2 PGA 988 4\"; brand: \"Celeron® Processor B830 and 887 October 2012\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+          "quote": "324827-034, Table 1: \"SR0EN B840 Q-0 000206a7h 1.9 / 1333 / 650 N/A 2 rPGA 4\"; brand: the document covers \"2nd Generation Intel® Core™ Processor Family Mobile and Intel® Celeron® Processor Family Mobile\", and this is not a Core part"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0BY G440 Q-0 000206a7h 1.6 / 1066 / 650 N/A 1 4\"; brand: \"Intel® Celeron® Processor G540, G530, G530T, G440\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0GR G460 Q-0 000206a7h 1.8 / 1066 / 650 N/A 1.5 4\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1379493616",
+          "quote": "brand: List of Intel Celeron processors: Celeron G460, SR0GR"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0S8 G465 Q-0 000206a7h 1.9 / 1066 / 650 N/A 1.5 4\"; brand: \"Intel® Celeron® Processor G465, G550T and G550\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05H G530 Q-0 000206a7h 2.4 / 1066 / 850 N/A 2 4\"; brand: \"Intel® Celeron® Processor G540, G530, G530T, G440\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05K G530T Q-0 000206a7h 2.0 / 1066/ 650 N/A 2 4\"; brand: \"Intel® Celeron® Processor G540, G530, G530T, G440\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05J G540 Q-0 000206a7h 2.5 /1066 / 850 N/A 2 4\"; brand: \"Intel® Celeron® Processor G540, G530, G530T, G440\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05L G540T Q-0 000206a7h 2.1 / 1066 / 650 N/A 2 4\"; brand: \"Intel® Celeron® Processor G550, and G540T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR061 G550 Q-0 000206a7h 2.6 / 1066 / 850 N/A 2 4\"; brand: \"Intel® Celeron® Processor G550, and G540T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05V G550T Q-0 000206a7h 2.2 / 1066 / 650 N/A 2 4\"; brand: \"Intel® Celeron® Processor G465, G550T and G550\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0RZ G555 Q-0 000206a7h 2.7 / 1066 / 850 N/A 2 4\"; brand: \"Celeron® Processor G555 are specified for 1066 MT/s maximum DDR3 memory\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05R G620 Q-0 000206a7h 2.6 / 1066 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G850, G840, G620 and G620T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05T G620T Q-0 000206a7h 2.2 / 1066 / 650 N/A 3 4\"; brand: \"Intel® Pentium® Processor G850, G840, G620 and G620T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05M G622 Q-0 000206a7h 2.6 / 1066 / 850 N/A 3 4\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1359301244",
+          "quote": "brand: List of Intel Pentium processors: Pentium G622, SR05M"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05S G630 Q-0 000206a7h 2.7 /1066 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G860, G630 and G630T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05U G630T Q-0 000206a7h 2.3 / 1066 / 650 N/A 3 4\"; brand: \"Intel® Pentium® Processor G860, G630 and G630T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05N G632 Q-0 000206a7h 2.7 / 1066 / 850 N/A 3 4\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1359301244",
+          "quote": "brand: List of Intel Pentium processors: Pentium G632, SR05N"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR059 G640 Q-0 000206a7h 2.8 / 1066 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G870, G860T, G640T and G640\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR066 G640T Q-0 000206a7h 2.4 /1066 / 650 N/A 3 4\"; brand: \"Intel® Pentium® Processor G870, G860T, G640T and G640\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0RS G645 Q-0 000206a7h 2.9 / 1066 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G645, G645T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0S0 G645T Q-0 000206a7h 2.5 / 1066 / 650 N/A 3 4\"; brand: \"Intel® Pentium® Processor G645, G645T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05P G840 Q-0 000206a7h 2.8 / 1333 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G850, G840, G620 and G620T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR05Q G850 Q-0 000206a7h 2.9 / 1333 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G850, G840, G620 and G620T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR058 G860 Q-0 000206a7h 3.0 /1333 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G860, G630 and G630T\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR0MF G860T Q-0 000206a7h 2.6 / 1333 / 650 N/A 3 4\"; brand: \"Intel® Pentium® Processor G870, G860T, G640T and G640\""
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+          "quote": "324643-037, Table 1: \"SR057 G870 Q-0 000206a7h 3.1 / 1333 / 850 N/A 3 4\"; brand: \"Intel® Pentium® Processor G870, G860T, G640T and G640\""
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: SNB), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives D2, Q0 or J1; ARK no longer has pages for the Sandy Bridge Pentium and Celeron parts. Intel's specification updates for the mobile and desktop parts (324827, 324643; Intel no longer serves them, the URLs are web.archive.org copies of its own) give every row, D-2, J-1 and Q-0, the signature 000206a7h: so J1, the dual-core die, is this CPUID's too."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: SNB), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives D2, Q0 or J1; ARK no longer has pages for the Sandy Bridge Pentium and Celeron parts: they are listed, with their codes, from the identification tables of the same specification updates (324827, 324643), the brand from the document's own text or, for G460, G622 and G632, which it names by number only, from Wikipedia's lists. Intel's specification updates for the mobile and desktop parts (324827, 324643; Intel no longer serves them, the URLs are web.archive.org copies of its own) give every row, D-2, J-1 and Q-0, the signature 000206a7h: so J1, the dual-core die, is this CPUID's too."
     },
     {
       "cpuids": [

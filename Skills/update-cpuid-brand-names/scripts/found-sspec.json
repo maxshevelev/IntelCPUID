@@ -83,6 +83,306 @@
       "note": "PCN 119200-00 (Aug 2022, Korean recycle mark on shipping tray) lists one production code per SKU; it gives no stepping, and no public Intel document found ties the code to B0 (80664) or B1 (80665), so stepping/cpuid are null. Architecture from the ARK specifications page (Code Name 'Products formerly Snow Ridge'). Tried: WebSearch for a P5900 specification update/datasheet (none public; likely CDI-only), searches for the codes with a stepping (nothing), and the full captn3m0/intel-pcn index: every later Atom/EOL/stepping PCN (17 PDFs plus 119268, 119739, 919977, 925418) downloaded and grepped for P59xx/SRJA*/SRJB* - no other hit, so no B0->B1 conversion PCN with a second code was found. Photographs not tried: BGA package, where a marking cannot tie code to model under the brief's rules."
     },
     {
+      "model": "Intel Celeron 787",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0EC",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0EC 787 Q-0 000206a7h 1.3/ 1333/ 350 N/A 1.5 BGA 1023 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron 807",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0PW",
+          "stepping": "J1",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0PW 807 J-1 000206a7h 2.4/1333/650 N/A 3 BGA 1023 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron 827E",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0C6",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0C6 827E Q-0 000206a7h 1.4 / 1333 / 350 N/A 2 BGA1023 4, 7, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron 847",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR08N",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR08N 847 Q-0 000206a7h 1.1 / 1333 / 350 N/A 2 BGA 1023 4, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron 847E",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0BU",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0BU 847E Q-0 000206a7h 1.1/ 1333 / 350 N/A 2 BGA 1023 4, 7, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron 887",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0VA",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0VA 887 Q-0 000206a7h 1.5 / 1066 / 350 N/A 2 BGA 1023 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B710",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0DS",
+          "stepping": "J1",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0DS B710 J-1 000206a7h 1.6/ 1333 / 650 N/A 1.5 rPGA 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B800",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0EW",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0EW B800 Q-0 000206a7h 1.5 / 1333 / 650 N/A 2 BGA 1023 4, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B810",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR088",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR088 B810 Q-0 000206a7h 1.6/ 1333 / 650 N/A 2 rPGA 4, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B810E",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0BT",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0BT B810E Q-0 000206a7h 1.6/ 1333 / 650 N/A 2 BGA 1023 4, 7, 8",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B830",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0HR",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0HR B830 Q-0 000206a7h 1.8 / 1066 / 650 N/A 2 PGA 988 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron B840",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0EN",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180730081206id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-family-mobile-specification-update.pdf",
+              "quote": "SR0EN B840 Q-0 000206a7h 1.9 / 1333 / 650 N/A 2 rPGA 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324827-034 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
       "model": "Intel Celeron G3920T",
       "searched": "2026-11-07",
       "specs": [],
@@ -93,6 +393,256 @@
       "searched": "2026-11-07",
       "specs": [],
       "note": "Intel 6th Generation Processor Family Specification Update 332689-010EN (copy at helptechco.com/files/pdf_files/BX80662I36100_PDF_0.pdf) Identification table lists only retail S-0/R-0 Pentium/Celeron SKUs (G4520 SR2HM, G4500 SR2HJ, G4500T SR2HS, G4400 SR2HK, G4400T SR2HQ, G3900 SR2HV, G3900T SR2HT, G3920 SR2HX); this model is absent. Intel EDS addendum 334408-001 (cdrdv2-public.intel.com/334408) also lacks it. A search summary mentioned an anonymous user comment on cpu-world (G3940 = SR2HW, 3.00GHz) but cpu-world refuses WebFetch (403), so it is not a source; '\"SR2HW\" Intel' finds nothing; vstl.info/cpus/sr2hw is 404. Photos: one chip only - zhihu.com/p/133316161 (2 images of the same chip, pic1.zhimg.com/v2-5cfc0b7390e3d4abb660deb45636fb10_1440w.jpg sha256 5dd0495b76dd680f0c84e281ed9f500bb3d08cdd9a01ba0d6b71c07c6f7e0325 and pic3.zhimg.com/v2-d4ab8c63d0a3530116715e696d13eedc_1440w.jpg sha256 3c9a82688b116866b339649cb9d325ce54adb8daf63256ae861c943093b9cf0e) reads 'INTEL CELERON / G3940 / SR2HW 3.00GHZ / L533B429 (e4)', all characters legible. Candidate SR2HW, NOT recorded: no second chip with a different lot found in 64 images (queries 'SR2HW', 'SR2HW G3940', 'G3940 赛扬', 'G3940 CPU 1151'), and no Intel/database page confirms it. SR2HW sits in the gap of the retail SR2H* series of the same spec update, consistent but not proof."
+    },
+    {
+      "model": "Intel Celeron G440",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0BY",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0BY G440 Q-0 000206a7h 1.6 / 1066 / 650 N/A 1 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G460",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0GR",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0GR G460 Q-0 000206a7h 1.8 / 1066 / 650 N/A 1.5 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G465",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0S8",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0S8 G465 Q-0 000206a7h 1.9 / 1066 / 650 N/A 1.5 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G530",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05H",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05H G530 Q-0 000206a7h 2.4 / 1066 / 850 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G530T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05K",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05K G530T Q-0 000206a7h 2.0 / 1066/ 650 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G540",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05J",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05J G540 Q-0 000206a7h 2.5 /1066 / 850 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G540T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05L",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05L G540T Q-0 000206a7h 2.1 / 1066 / 650 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G550",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR061",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR061 G550 Q-0 000206a7h 2.6 / 1066 / 850 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G550T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05V",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05V G550T Q-0 000206a7h 2.2 / 1066 / 650 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Celeron G555",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0RZ",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0RZ G555 Q-0 000206a7h 2.7 / 1066 / 850 N/A 2 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
     },
     {
       "model": "Intel Celeron J6413",
@@ -2918,6 +3468,381 @@
       "searched": "2026-11-07",
       "specs": [],
       "note": "Intel 6th Generation Processor Family Specification Update 332689-010EN (copy at helptechco.com/files/pdf_files/BX80662I36100_PDF_0.pdf) Identification table lists only retail S-0/R-0 Pentium/Celeron SKUs (G4520 SR2HM, G4500 SR2HJ, G4500T SR2HS, G4400 SR2HK, G4400T SR2HQ, G3900 SR2HV, G3900T SR2HT, G3920 SR2HX); this model is absent. Intel EDS addendum 334408-001 (cdrdv2-public.intel.com/334408) also lacks it. No S-SPEC database page found. Photos: 48 images incl. queries '\"G4540\" SR2H', 'G4540 奔腾', '\"G4540\" CPU 1151 3.0GHz' - none shows a G4540 package (G4560, G4400T, G4520, unrelated Nissan/Vitec parts)."
+    },
+    {
+      "model": "Intel Pentium G620",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05R",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05R G620 Q-0 000206a7h 2.6 / 1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G620T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05T",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05T G620T Q-0 000206a7h 2.2 / 1066 / 650 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G622",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05M",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05M G622 Q-0 000206a7h 2.6 / 1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G630",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05S",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05S G630 Q-0 000206a7h 2.7 /1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G630T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05U",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05U G630T Q-0 000206a7h 2.3 / 1066 / 650 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G632",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05N",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05N G632 Q-0 000206a7h 2.7 / 1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G640",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR059",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR059 G640 Q-0 000206a7h 2.8 / 1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G640T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR066",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR066 G640T Q-0 000206a7h 2.4 /1066 / 650 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G645",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0RS",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0RS G645 Q-0 000206a7h 2.9 / 1066 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G645T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0S0",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0S0 G645T Q-0 000206a7h 2.5 / 1066 / 650 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G840",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05P",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05P G840 Q-0 000206a7h 2.8 / 1333 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G850",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR05Q",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR05Q G850 Q-0 000206a7h 2.9 / 1333 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G860",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR058",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR058 G860 Q-0 000206a7h 3.0 /1333 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G860T",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR0MF",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR0MF G860T Q-0 000206a7h 2.6 / 1333 / 650 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
+    },
+    {
+      "model": "Intel Pentium G870",
+      "searched": "2026-11-14",
+      "specs": [
+        {
+          "sSpec": "SR057",
+          "stepping": "Q0",
+          "cpuid": "206A7",
+          "architecture": "Sandy Bridge",
+          "evidence": [
+            {
+              "kind": "intel",
+              "url": "https://web.archive.org/web/20180617040401id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/2nd-gen-core-desktop-specification-update.pdf",
+              "quote": "SR057 G870 Q-0 000206a7h 3.1 / 1333 / 850 N/A 3 4",
+              "gives": [
+                "sSpec",
+                "stepping",
+                "cpuid"
+              ]
+            }
+          ]
+        }
+      ],
+      "note": "From Intel's specification update 324643-037 (a web.archive.org copy of Intel's own URL; Intel no longer serves it); ARK has no page for this model any more."
     },
     {
       "model": "Intel Xeon D-1513N",
