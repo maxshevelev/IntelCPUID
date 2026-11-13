@@ -1,5 +1,5 @@
 {
-  "about": "S-SPEC and stepping per model as Intel ARK's Ordering & Compliance tab lists them, read through WebFetch (ARK refuses scripts). Only models the article lists under more than one CPUID.",
+  "about": "S-SPEC and stepping per model as Intel ARK's Ordering & Compliance tab lists them, read through WebFetch (ARK refuses scripts). Every model ARK was asked about, found or not, each with the page it was read from: enrich.py places the codes by stepping, and gaps.py does not ask for a model again.",
   "retrieved": "2026-11-13",
   "models": [
     {
