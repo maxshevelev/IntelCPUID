@@ -14136,7 +14136,63 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 225H",
+          "sSpec": [
+            "Q5YM",
+            "SRQAM"
+          ],
+          "sSpecSource": {
+            "Q5YM": "ark",
+            "SRQAM": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 235H",
+          "sSpec": [
+            "Q5YR",
+            "SRQAP"
+          ],
+          "sSpecSource": {
+            "Q5YR": "ark",
+            "SRQAP": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 255H",
+          "sSpec": [
+            "Q5YN",
+            "SRQAN"
+          ],
+          "sSpecSource": {
+            "Q5YN": "ark",
+            "SRQAN": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265H",
+          "sSpec": [
+            "Q5YQ",
+            "SRQAQ"
+          ],
+          "sSpecSource": {
+            "Q5YQ": "ark",
+            "SRQAQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 285H",
+          "sSpec": [
+            "Q5YP",
+            "SRQAL"
+          ],
+          "sSpecSource": {
+            "Q5YP": "ark",
+            "SRQAL": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14154,7 +14210,320 @@
         "B0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 225",
+          "sSpec": [
+            "Q4ZM",
+            "SRQCZ"
+          ],
+          "sSpecSource": {
+            "Q4ZM": "ark",
+            "SRQCZ": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 225F",
+          "sSpec": [
+            "Q4ZN",
+            "SRQD2"
+          ],
+          "sSpecSource": {
+            "Q4ZN": "ark",
+            "SRQD2": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 225T",
+          "sSpec": [
+            "SRVFA"
+          ],
+          "sSpecSource": {
+            "SRVFA": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 235A",
+          "sSpec": [
+            "SRWPN"
+          ],
+          "sSpecSource": {
+            "SRWPN": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 235HX",
+          "sSpec": [
+            "Q5X7",
+            "SRVFL"
+          ],
+          "sSpecSource": {
+            "Q5X7": "ark",
+            "SRVFL": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 235T",
+          "sSpec": [
+            "SRQES"
+          ],
+          "sSpecSource": {
+            "SRQES": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 235TA",
+          "sSpec": [
+            "SRWPP"
+          ],
+          "sSpecSource": {
+            "SRWPP": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 245",
+          "sSpec": [
+            "SRVFE"
+          ],
+          "sSpecSource": {
+            "SRVFE": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 245HX",
+          "sSpec": [
+            "Q5X4",
+            "SRVFM"
+          ],
+          "sSpecSource": {
+            "Q5X4": "ark",
+            "SRVFM": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 245K",
+          "sSpec": [
+            "Q33Q",
+            "SRQCT"
+          ],
+          "sSpecSource": {
+            "Q33Q": "ark",
+            "SRQCT": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 245KF",
+          "sSpec": [
+            "Q332",
+            "SRQCY"
+          ],
+          "sSpecSource": {
+            "Q332": "ark",
+            "SRQCY": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 245T",
+          "sSpec": [
+            "SRVFF"
+          ],
+          "sSpecSource": {
+            "SRVFF": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 250K Plus",
+          "sSpec": [
+            "Q9LK",
+            "SA4UZ"
+          ],
+          "sSpecSource": {
+            "Q9LK": "ark",
+            "SA4UZ": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 250KF Plus",
+          "sSpec": [
+            "Q9LM",
+            "SA4V3"
+          ],
+          "sSpecSource": {
+            "Q9LM": "ark",
+            "SA4V3": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 251HX",
+          "sSpec": [
+            "SADSU"
+          ],
+          "sSpecSource": {
+            "SADSU": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 255HX",
+          "sSpec": [
+            "Q5X3",
+            "SRVFG"
+          ],
+          "sSpecSource": {
+            "Q5X3": "ark",
+            "SRVFG": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265",
+          "sSpec": [
+            "Q33N",
+            "SRQCX"
+          ],
+          "sSpecSource": {
+            "Q33N": "ark",
+            "SRQCX": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265F",
+          "sSpec": [
+            "Q33P",
+            "SRQCV"
+          ],
+          "sSpecSource": {
+            "Q33P": "ark",
+            "SRQCV": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265HX",
+          "sSpec": [
+            "Q5X2",
+            "SRVFH"
+          ],
+          "sSpecSource": {
+            "Q5X2": "ark",
+            "SRVFH": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265K",
+          "sSpec": [
+            "Q33K",
+            "SRQCW"
+          ],
+          "sSpecSource": {
+            "Q33K": "ark",
+            "SRQCW": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265KF",
+          "sSpec": [
+            "Q33L",
+            "SRQCU"
+          ],
+          "sSpecSource": {
+            "Q33L": "ark",
+            "SRQCU": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 265T",
+          "sSpec": [
+            "Q33M",
+            "SRQCS"
+          ],
+          "sSpecSource": {
+            "Q33M": "ark",
+            "SRQCS": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 270HX Plus",
+          "sSpec": [
+            "SADST"
+          ],
+          "sSpecSource": {
+            "SADST": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 270K Plus",
+          "sSpec": [
+            "Q9LJ",
+            "SA4V6"
+          ],
+          "sSpecSource": {
+            "Q9LJ": "ark",
+            "SA4V6": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 275HX",
+          "sSpec": [
+            "Q6S9",
+            "SRVFK"
+          ],
+          "sSpecSource": {
+            "Q6S9": "ark",
+            "SRVFK": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 285",
+          "sSpec": [
+            "Q32H",
+            "SRQD4"
+          ],
+          "sSpecSource": {
+            "Q32H": "ark",
+            "SRQD4": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 285HX",
+          "sSpec": [
+            "Q6SA",
+            "SRVFJ"
+          ],
+          "sSpecSource": {
+            "Q6SA": "ark",
+            "SRVFJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 285K",
+          "sSpec": [
+            "Q2HA",
+            "SRQD5"
+          ],
+          "sSpecSource": {
+            "Q2HA": "ark",
+            "SRQD5": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 285T",
+          "sSpec": [
+            "Q33H",
+            "SRQD3"
+          ],
+          "sSpecSource": {
+            "Q33H": "ark",
+            "SRQD3": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 290HX Plus",
+          "sSpec": [
+            "SADSS"
+          ],
+          "sSpecSource": {
+            "SADSS": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14173,7 +14542,125 @@
         "B0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Arc G3",
+          "sSpec": [
+            "Q9EN",
+            "SA4QZ"
+          ],
+          "sSpecSource": {
+            "Q9EN": "ark",
+            "SA4QZ": "ark"
+          }
+        },
+        {
+          "name": "Intel Arc G3 Extreme",
+          "sSpec": [
+            "Q9ES",
+            "SA4R3"
+          ],
+          "sSpecSource": {
+            "Q9ES": "ark",
+            "SA4R3": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 336H",
+          "sSpec": [
+            "Q9EY",
+            "SA4RD"
+          ],
+          "sSpecSource": {
+            "Q9EY": "ark",
+            "SA4RD": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 338H",
+          "sSpec": [
+            "Q9EW",
+            "SA4RE"
+          ],
+          "sSpecSource": {
+            "Q9EW": "ark",
+            "SA4RE": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 356H",
+          "sSpec": [
+            "SA4RG"
+          ],
+          "sSpecSource": {
+            "SA4RG": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 366H",
+          "sSpec": [
+            "Q9EL",
+            "SA4R9"
+          ],
+          "sSpecSource": {
+            "Q9EL": "ark",
+            "SA4R9": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 9 386H",
+          "sSpec": [
+            "Q9EH",
+            "SA4R5"
+          ],
+          "sSpecSource": {
+            "Q9EH": "ark",
+            "SA4R5": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra X7 358H",
+          "sSpec": [
+            "Q9ET",
+            "SA4RA"
+          ],
+          "sSpecSource": {
+            "Q9ET": "ark",
+            "SA4RA": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra X7 368H",
+          "sSpec": [
+            "Q9EJ",
+            "SA4R7"
+          ],
+          "sSpecSource": {
+            "Q9EJ": "ark",
+            "SA4R7": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra X9 378H",
+          "sSpec": [
+            "SADSV"
+          ],
+          "sSpecSource": {
+            "SADSV": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra X9 388H",
+          "sSpec": [
+            "Q9EK",
+            "SA4QW"
+          ],
+          "sSpecSource": {
+            "Q9EK": "ark",
+            "SA4QW": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14191,7 +14678,72 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 322",
+          "sSpec": [
+            "Q9EP",
+            "SA4R6"
+          ],
+          "sSpecSource": {
+            "Q9EP": "ark",
+            "SA4R6": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 325",
+          "sSpec": [
+            "Q9EM",
+            "SA4QX"
+          ],
+          "sSpecSource": {
+            "Q9EM": "ark",
+            "SA4QX": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 332",
+          "sSpec": [
+            "Q9ER",
+            "SA4QY"
+          ],
+          "sSpecSource": {
+            "Q9ER": "ark",
+            "SA4QY": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 5 335",
+          "sSpec": [
+            "SA4R2"
+          ],
+          "sSpecSource": {
+            "SA4R2": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 355",
+          "sSpec": [
+            "Q9EX",
+            "SA4RF"
+          ],
+          "sSpecSource": {
+            "Q9EX": "ark",
+            "SA4RF": "ark"
+          }
+        },
+        {
+          "name": "Intel Core Ultra 7 365",
+          "sSpec": [
+            "Q9EV",
+            "SA4RC"
+          ],
+          "sSpecSource": {
+            "Q9EV": "ark",
+            "SA4RC": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14227,7 +14779,125 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Xeon Gold 6530",
+          "sSpec": [
+            "SRN5C"
+          ],
+          "sSpecSource": {
+            "SRN5C": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6554S",
+          "sSpec": [
+            "SRN4Y"
+          ],
+          "sSpecSource": {
+            "SRN4Y": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8558",
+          "sSpec": [
+            "SRN5A"
+          ],
+          "sSpecSource": {
+            "SRN5A": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8558P",
+          "sSpec": [
+            "SRN52"
+          ],
+          "sSpecSource": {
+            "SRN52": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8558U",
+          "sSpec": [
+            "SRN5B"
+          ],
+          "sSpecSource": {
+            "SRN5B": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8568Y+",
+          "sSpec": [
+            "SRN59"
+          ],
+          "sSpecSource": {
+            "SRN59": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8570",
+          "sSpec": [
+            "SRN58"
+          ],
+          "sSpecSource": {
+            "SRN58": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8571N",
+          "sSpec": [
+            "SRN53"
+          ],
+          "sSpecSource": {
+            "SRN53": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8580",
+          "sSpec": [
+            "SRN57"
+          ],
+          "sSpecSource": {
+            "SRN57": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8581V",
+          "sSpec": [
+            "SRN50"
+          ],
+          "sSpecSource": {
+            "SRN50": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8592+",
+          "sSpec": [
+            "SRN55"
+          ],
+          "sSpecSource": {
+            "SRN55": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8592V",
+          "sSpec": [
+            "SRN4Z"
+          ],
+          "sSpecSource": {
+            "SRN4Z": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8593Q",
+          "sSpec": [
+            "SRN54"
+          ],
+          "sSpecSource": {
+            "SRN54": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14245,7 +14915,71 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core 3 304",
+          "sSpec": [
+            "SAE3K"
+          ],
+          "sSpecSource": {
+            "SAE3K": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 3 305",
+          "sSpec": [
+            "SAE3L"
+          ],
+          "sSpecSource": {
+            "SAE3L": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 315",
+          "sSpec": [
+            "SAEFC"
+          ],
+          "sSpecSource": {
+            "SAEFC": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 320",
+          "sSpec": [
+            "SAE3H"
+          ],
+          "sSpecSource": {
+            "SAE3H": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 330",
+          "sSpec": [
+            "SAE3G"
+          ],
+          "sSpecSource": {
+            "SAE3G": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 7 350",
+          "sSpec": [
+            "SAE3F"
+          ],
+          "sSpecSource": {
+            "SAE3F": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 7 360",
+          "sSpec": [
+            "SAE3E"
+          ],
+          "sSpecSource": {
+            "SAE3E": "ark"
+          }
+        }
+      ],
       "source": "extra"
     },
     {
@@ -14263,7 +14997,129 @@
         "A0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core 5 213PE",
+          "sSpec": [
+            "Q9KX",
+            "SA4QG"
+          ],
+          "sSpecSource": {
+            "Q9KX": "ark",
+            "SA4QG": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 213PTE",
+          "sSpec": [
+            "Q9L4",
+            "SA4QM"
+          ],
+          "sSpecSource": {
+            "Q9L4": "ark",
+            "SA4QM": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 223PE",
+          "sSpec": [
+            "Q9KW",
+            "SA4QF"
+          ],
+          "sSpecSource": {
+            "Q9KW": "ark",
+            "SA4QF": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 223PQE",
+          "sSpec": [
+            "Q9KT",
+            "SA4QC"
+          ],
+          "sSpecSource": {
+            "Q9KT": "ark",
+            "SA4QC": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 5 223PTE",
+          "sSpec": [
+            "Q9L3",
+            "SA4QL"
+          ],
+          "sSpecSource": {
+            "Q9L3": "ark",
+            "SA4QL": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 7 253PE",
+          "sSpec": [
+            "Q9KV",
+            "SA4QE"
+          ],
+          "sSpecSource": {
+            "Q9KV": "ark",
+            "SA4QE": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 7 253PQE",
+          "sSpec": [
+            "Q9KS",
+            "SA4QA"
+          ],
+          "sSpecSource": {
+            "Q9KS": "ark",
+            "SA4QA": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 7 253PTE",
+          "sSpec": [
+            "Q9L2",
+            "SA4QK"
+          ],
+          "sSpecSource": {
+            "Q9L2": "ark",
+            "SA4QK": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 9 273PE",
+          "sSpec": [
+            "Q9KU",
+            "SA4QD"
+          ],
+          "sSpecSource": {
+            "Q9KU": "ark",
+            "SA4QD": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 9 273PQE",
+          "sSpec": [
+            "Q9KR",
+            "SA4Q9"
+          ],
+          "sSpecSource": {
+            "Q9KR": "ark",
+            "SA4Q9": "ark"
+          }
+        },
+        {
+          "name": "Intel Core 9 273PTE",
+          "sSpec": [
+            "Q9KZ",
+            "SA4QJ"
+          ],
+          "sSpecSource": {
+            "Q9KZ": "ark",
+            "SA4QJ": "ark"
+          }
+        }
+      ],
       "source": "extra"
     }
   ]

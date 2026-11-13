@@ -3624,7 +3624,23 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 225H"
+        },
+        {
+          "name": "Intel Core Ultra 5 235H"
+        },
+        {
+          "name": "Intel Core Ultra 7 255H"
+        },
+        {
+          "name": "Intel Core Ultra 7 265H"
+        },
+        {
+          "name": "Intel Core Ultra 9 285H"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3635,9 +3651,44 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| ARL-H          | A1       | 06-c5-02/82 | 00000121 | 00000122 | Core Ultra Processor (Series 2)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/ordering.html",
+          "quote": "Core Ultra 5 225H: Q5YM, SRQAM, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra 5 235H: Q5YR, SRQAP, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 7 255H: Q5YN, SRQAN, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 265H: Q5YQ, SRQAQ, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241747/intel-core-ultra-9-processor-285h-24m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core Ultra 9 285H: Q5YP, SRQAL, stepping A1 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-H), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-H), the steppings and the product line for this CPUID; the article has no row for it. Its models are the H parts whose ARK ordering tab gives A1: ARK writes one code name, Arrow Lake, for every die, so the notes' label (ARL-H) decides with the stepping. The U parts give A0, which no Arrow Lake CPUID has, and are not listed."
     },
     {
       "cpuids": [
@@ -3654,7 +3705,98 @@
         "B0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 225"
+        },
+        {
+          "name": "Intel Core Ultra 5 225F"
+        },
+        {
+          "name": "Intel Core Ultra 5 225T"
+        },
+        {
+          "name": "Intel Core Ultra 5 235A"
+        },
+        {
+          "name": "Intel Core Ultra 5 235HX"
+        },
+        {
+          "name": "Intel Core Ultra 5 235T"
+        },
+        {
+          "name": "Intel Core Ultra 5 235TA"
+        },
+        {
+          "name": "Intel Core Ultra 5 245"
+        },
+        {
+          "name": "Intel Core Ultra 5 245HX"
+        },
+        {
+          "name": "Intel Core Ultra 5 245K"
+        },
+        {
+          "name": "Intel Core Ultra 5 245KF"
+        },
+        {
+          "name": "Intel Core Ultra 5 245T"
+        },
+        {
+          "name": "Intel Core Ultra 5 250K Plus"
+        },
+        {
+          "name": "Intel Core Ultra 5 250KF Plus"
+        },
+        {
+          "name": "Intel Core Ultra 7 251HX"
+        },
+        {
+          "name": "Intel Core Ultra 7 255HX"
+        },
+        {
+          "name": "Intel Core Ultra 7 265"
+        },
+        {
+          "name": "Intel Core Ultra 7 265F"
+        },
+        {
+          "name": "Intel Core Ultra 7 265HX"
+        },
+        {
+          "name": "Intel Core Ultra 7 265K"
+        },
+        {
+          "name": "Intel Core Ultra 7 265KF"
+        },
+        {
+          "name": "Intel Core Ultra 7 265T"
+        },
+        {
+          "name": "Intel Core Ultra 7 270HX Plus"
+        },
+        {
+          "name": "Intel Core Ultra 7 270K Plus"
+        },
+        {
+          "name": "Intel Core Ultra 9 275HX"
+        },
+        {
+          "name": "Intel Core Ultra 9 285"
+        },
+        {
+          "name": "Intel Core Ultra 9 285HX"
+        },
+        {
+          "name": "Intel Core Ultra 9 285K"
+        },
+        {
+          "name": "Intel Core Ultra 9 285T"
+        },
+        {
+          "name": "Intel Core Ultra 9 290HX Plus"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3665,9 +3807,219 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| ARL-S/HX (8P)  | B0       | 06-c6-02/82 | 00000121 | 00000122 | Core Ultra Processor (Series 2)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/ordering.html",
+          "quote": "Core Ultra 5 225: Q4ZM, SRQCZ, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/ordering.html",
+          "quote": "Core Ultra 5 225F: Q4ZN, SRQD2, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/ordering.html",
+          "quote": "Core Ultra 5 225T: SRVFA, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/243758/intel-core-ultra-5-processor-235a-24m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra 5 235A: SRWPN, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242296/intel-core-ultra-5-processor-235hx-24m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 5 235HX: Q5X7, SRVFL, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra 5 235T: SRQES, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/243757/intel-core-ultra-5-processor-235ta-24m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra 5 235TA: SRWPP, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 5 245: SRVFE, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242295/intel-core-ultra-5-processor-245hx-24m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 5 245HX: Q5X4, SRVFM, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/ordering.html",
+          "quote": "Core Ultra 5 245K: Q33Q, SRQCT, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/ordering.html",
+          "quote": "Core Ultra 5 245KF: Q332, SRQCY, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 5 245T: SRVFF, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245694/intel-core-ultra-5-processor-250k-plus-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 5 250K Plus: Q9LK, SA4UZ, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245689/intel-core-ultra-5-processor-250kf-plus-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 5 250KF Plus: Q9LM, SA4V3, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245959/intel-core-ultra-7-processor-251hx-30m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra 7 251HX: SADSU, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/ordering.html",
+          "quote": "Core Ultra 7 255HX: Q5X3, SRVFG, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 265: Q33N, SRQCX, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 265F: Q33P, SRQCV, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 265HX: Q5X2, SRVFH, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core Ultra 7 265K: Q33K, SRQCW, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core Ultra 7 265KF: Q33L, SRQCU, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 265T: Q33M, SRQCS, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245961/intel-core-ultra-7-processor-270hx-plus-30m-cache-up-to-5-30-ghz/ordering.html",
+          "quote": "Core Ultra 7 270HX Plus: SADST, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245692/intel-core-ultra-7-processor-270k-plus-36m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core Ultra 7 270K Plus: Q9LJ, SA4V6, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core Ultra 9 275HX: Q6S9, SRVFK, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/ordering.html",
+          "quote": "Core Ultra 9 285: Q32H, SRQD4, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core Ultra 9 285HX: Q6SA, SRVFJ, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/ordering.html",
+          "quote": "Core Ultra 9 285K: Q2HA, SRQD5, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core Ultra 9 285T: Q33H, SRQD3, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245960/intel-core-ultra-9-processor-290hx-plus-36m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core Ultra 9 290HX Plus: SADSS, stepping B0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-S/HX (8P)), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-S/HX (8P)), the steppings and the product line for this CPUID; the article has no row for it. Its models are the desktop and HX parts whose ARK ordering tab gives B0: ARK writes one code name, Arrow Lake, for every die, so the notes' label (ARL-S/HX) decides with the stepping. The Plus parts of 2026 give B0 too; the collection's C0664 (2026) has no stepping in any source, so they stay here. The Core Ultra 5 235's one production code, SRQAS, is B0 and A0 on its own ARK page, and it is not listed."
     },
     {
       "cpuids": [
@@ -3685,7 +4037,41 @@
         "B0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Arc G3"
+        },
+        {
+          "name": "Intel Arc G3 Extreme"
+        },
+        {
+          "name": "Intel Core Ultra 5 336H"
+        },
+        {
+          "name": "Intel Core Ultra 5 338H"
+        },
+        {
+          "name": "Intel Core Ultra 7 356H"
+        },
+        {
+          "name": "Intel Core Ultra 7 366H"
+        },
+        {
+          "name": "Intel Core Ultra 9 386H"
+        },
+        {
+          "name": "Intel Core Ultra X7 358H"
+        },
+        {
+          "name": "Intel Core Ultra X7 368H"
+        },
+        {
+          "name": "Intel Core Ultra X9 378H"
+        },
+        {
+          "name": "Intel Core Ultra X9 388H"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3706,9 +4092,86 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| PTL-H 484/12Xe | A0/B0    | 06-cc-02/90 |          | 0000011b | Intel Core Ultra Processor (Series 3)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245626/intel-arc-g3-processor-12m-cache-up-to-4-60-ghz/ordering.html",
+          "quote": "Arc G3: Q9EN, SA4QZ, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245625/intel-arc-g3-extreme-processor-12m-cache-up-to-4-70-ghz/ordering.html",
+          "quote": "Arc G3 Extreme: Q9ES, SA4R3, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245533/intel-core-ultra-5-processor-336h-18m-cache-up-to-4-60-ghz/ordering.html",
+          "quote": "Core Ultra 5 336H: Q9EY, SA4RD, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245531/intel-core-ultra-5-processor-338h-18m-cache-up-to-4-70-ghz/ordering.html",
+          "quote": "Core Ultra 5 338H: Q9EW, SA4RE, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245532/intel-core-ultra-7-processor-356h-18m-cache-up-to-4-70-ghz/ordering.html",
+          "quote": "Core Ultra 7 356H: SA4RG, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245530/intel-core-ultra-7-processor-366h-18m-cache-up-to-4-80-ghz/ordering.html",
+          "quote": "Core Ultra 7 366H: Q9EL, SA4R9, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245529/intel-core-ultra-9-processor-386h-18m-cache-up-to-4-90-ghz/ordering.html",
+          "quote": "Core Ultra 9 386H: Q9EH, SA4R5, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/ordering.html",
+          "quote": "Core Ultra X7 358H: Q9ET, SA4RA, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245523/intel-core-ultra-x7-processor-368h-18m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra X7 368H: Q9EJ, SA4R7, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246128/intel-core-ultra-x9-processor-378h-18m-cache-up-to-5-00-ghz/ordering.html",
+          "quote": "Core Ultra X9 378H: SADSV, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245526/intel-core-ultra-x9-processor-388h-18m-cache-up-to-5-10-ghz/ordering.html",
+          "quote": "Core Ultra X9 388H: Q9EK, SA4QW, stepping B0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: PTL-H 484/12Xe, PTL-H484/PTL-H12Xe), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: PTL-H 484/12Xe, PTL-H484/PTL-H12Xe), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
     },
     {
       "cpuids": [
@@ -3725,7 +4188,26 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core Ultra 5 322"
+        },
+        {
+          "name": "Intel Core Ultra 5 325"
+        },
+        {
+          "name": "Intel Core Ultra 5 332"
+        },
+        {
+          "name": "Intel Core Ultra 5 335"
+        },
+        {
+          "name": "Intel Core Ultra 7 355"
+        },
+        {
+          "name": "Intel Core Ultra 7 365"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3746,9 +4228,51 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| PTL 404        | A1       | 06-cc-03/90 |          | 0000011b | Intel Core Ultra Processor (Series 3)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245716/intel-core-ultra-5-processor-322-12m-cache-up-to-4-40-ghz/ordering.html",
+          "quote": "Core Ultra 5 322: Q9EP, SA4R6, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/ordering.html",
+          "quote": "Core Ultra 5 325: Q9EM, SA4QX, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245718/intel-core-ultra-5-processor-332-12m-cache-up-to-4-40-ghz/ordering.html",
+          "quote": "Core Ultra 5 332: Q9ER, SA4QY, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245727/intel-core-ultra-5-processor-335-12m-cache-up-to-4-60-ghz/ordering.html",
+          "quote": "Core Ultra 5 335: SA4R2, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245722/intel-core-ultra-7-processor-355-12m-cache-up-to-4-70-ghz/ordering.html",
+          "quote": "Core Ultra 7 355: Q9EX, SA4RF, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245713/intel-core-ultra-7-processor-365-12m-cache-up-to-4-80-ghz/ordering.html",
+          "quote": "Core Ultra 7 365: Q9EV, SA4RC, stepping A1 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: PTL 404, PTL-404/H204), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: PTL 404, PTL-404/H204), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
     },
     {
       "cpuids": [
@@ -3778,7 +4302,7 @@
           "quote": "| EMR-SP         | A0       | 06-cf-01/87 | 21000283 | 21000291 | Xeon Scalable Gen5"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. No model on ARK gives A0: of the 5th Gen Xeon Scalable models ARK's ordering tabs give A1 (C06F2), R1 and U1, so none is listed."
     },
     {
       "cpuids": [
@@ -3795,7 +4319,47 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Xeon Gold 6530"
+        },
+        {
+          "name": "Intel Xeon Gold 6554S"
+        },
+        {
+          "name": "Intel Xeon Platinum 8558"
+        },
+        {
+          "name": "Intel Xeon Platinum 8558P"
+        },
+        {
+          "name": "Intel Xeon Platinum 8558U"
+        },
+        {
+          "name": "Intel Xeon Platinum 8568Y+"
+        },
+        {
+          "name": "Intel Xeon Platinum 8570"
+        },
+        {
+          "name": "Intel Xeon Platinum 8571N"
+        },
+        {
+          "name": "Intel Xeon Platinum 8580"
+        },
+        {
+          "name": "Intel Xeon Platinum 8581V"
+        },
+        {
+          "name": "Intel Xeon Platinum 8592+"
+        },
+        {
+          "name": "Intel Xeon Platinum 8592V"
+        },
+        {
+          "name": "Intel Xeon Platinum 8593Q"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3806,9 +4370,100 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| EMR-SP         | A1       | 06-cf-02/87 | 210002e0 | 210002f4 | Xeon Scalable Gen5"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237249/intel-xeon-gold-6530-processor-160m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Gold 6530: SRN5C, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237263/intel-xeon-gold-6554s-processor-180m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon Gold 6554S: SRN4Y, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237255/intel-xeon-platinum-8558-processor-260m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Platinum 8558: SRN5A, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237259/intel-xeon-platinum-8558p-processor-260m-cache-2-70-ghz/ordering.html",
+          "quote": "Xeon Platinum 8558P: SRN52, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237267/intel-xeon-platinum-8558u-processor-260m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Platinum 8558U: SRN5B, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237248/intel-xeon-platinum-8568y-processor-300m-cache-2-30-ghz/ordering.html",
+          "quote": "Xeon Platinum 8568Y+: SRN59, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237264/intel-xeon-platinum-8570-processor-300m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Platinum 8570: SRN58, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237247/intel-xeon-platinum-8571n-processor-300m-cache-2-40-ghz/ordering.html",
+          "quote": "Xeon Platinum 8571N: SRN53, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237250/intel-xeon-platinum-8580-processor-300m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Platinum 8580: SRN57, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237268/intel-xeon-platinum-8581v-processor-300m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Platinum 8581V: SRN50, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/ordering.html",
+          "quote": "Xeon Platinum 8592+: SRN55, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237554/intel-xeon-platinum-8592v-processor-320m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Platinum 8592V: SRN4Z, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237252/intel-xeon-platinum-8593q-processor-320m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon Platinum 8593Q: SRN54, stepping A1 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
     },
     {
       "cpuids": [
@@ -3825,7 +4480,29 @@
         "A1"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core 3 304"
+        },
+        {
+          "name": "Intel Core 3 305"
+        },
+        {
+          "name": "Intel Core 5 315"
+        },
+        {
+          "name": "Intel Core 5 320"
+        },
+        {
+          "name": "Intel Core 5 330"
+        },
+        {
+          "name": "Intel Core 7 350"
+        },
+        {
+          "name": "Intel Core 7 360"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3836,9 +4513,58 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| WCL            | A1       | 06-d5-01/c0 |          | 0000000c | Intel Core Processors (Series 3)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246020/intel-core-3-processor-304-6m-cache-up-to-4-30-ghz/ordering.html",
+          "quote": "Core 3 304: SAE3K, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246019/intel-core-3-processor-305-6m-cache-up-to-4-30-ghz/ordering.html",
+          "quote": "Core 3 305: SAE3L, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246127/intel-core-5-processor-315-6m-cache-up-to-4-40-ghz/ordering.html",
+          "quote": "Core 5 315: SAEFC, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246018/intel-core-5-processor-320-6m-cache-up-to-4-60-ghz/ordering.html",
+          "quote": "Core 5 320: SAE3H, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246016/intel-core-5-processor-330-6m-cache-up-to-4-60-ghz/ordering.html",
+          "quote": "Core 5 330: SAE3G, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246017/intel-core-7-processor-350-6m-cache-up-to-4-80-ghz/ordering.html",
+          "quote": "Core 7 350: SAE3F, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246015/intel-core-7-processor-360-6m-cache-up-to-4-80-ghz/ordering.html",
+          "quote": "Core 7 360: SAE3E, stepping A1 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: WCL), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: WCL), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
     },
     {
       "cpuids": [
@@ -3855,7 +4581,41 @@
         "A0"
       ],
       "segments": [],
-      "processors": [],
+      "processors": [
+        {
+          "name": "Intel Core 5 213PE"
+        },
+        {
+          "name": "Intel Core 5 213PTE"
+        },
+        {
+          "name": "Intel Core 5 223PE"
+        },
+        {
+          "name": "Intel Core 5 223PQE"
+        },
+        {
+          "name": "Intel Core 5 223PTE"
+        },
+        {
+          "name": "Intel Core 7 253PE"
+        },
+        {
+          "name": "Intel Core 7 253PQE"
+        },
+        {
+          "name": "Intel Core 7 253PTE"
+        },
+        {
+          "name": "Intel Core 9 273PE"
+        },
+        {
+          "name": "Intel Core 9 273PQE"
+        },
+        {
+          "name": "Intel Core 9 273PTE"
+        }
+      ],
       "evidence": [
         {
           "gives": [
@@ -3866,9 +4626,86 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| BTL-S12P       | A0       | 06-d7-00/36 |          | 00000137 | Intel Core Series 2 Processors with P-cores"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245715/intel-core-5-processor-213pe-24m-cache-up-to-5-20-ghz/ordering.html",
+          "quote": "Core 5 213PE: Q9KX, SA4QG, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245726/intel-core-5-processor-213pte-24m-cache-up-to-5-20-ghz/ordering.html",
+          "quote": "Core 5 213PTE: Q9L4, SA4QM, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245729/intel-core-5-processor-223pe-24m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core 5 223PE: Q9KW, SA4QF, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245714/intel-core-5-processor-223pqe-24m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core 5 223PQE: Q9KT, SA4QC, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245721/intel-core-5-processor-223pte-24m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core 5 223PTE: Q9L3, SA4QL, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245725/intel-core-7-processor-253pe-33m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core 7 253PE: Q9KV, SA4QE, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245730/intel-core-7-processor-253pqe-33m-cache-up-to-5-70-ghz/ordering.html",
+          "quote": "Core 7 253PQE: Q9KS, SA4QA, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245723/intel-core-7-processor-253pte-33m-cache-up-to-5-40-ghz/ordering.html",
+          "quote": "Core 7 253PTE: Q9L2, SA4QK, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245717/intel-core-9-processor-273pe-36m-cache-up-to-5-70-ghz/ordering.html",
+          "quote": "Core 9 273PE: Q9KU, SA4QD, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245724/intel-core-9-processor-273pqe-36m-cache-up-to-5-90-ghz/ordering.html",
+          "quote": "Core 9 273PQE: Q9KR, SA4Q9, stepping A0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245719/intel-core-9-processor-273pte-36m-cache-up-to-5-50-ghz/ordering.html",
+          "quote": "Core 9 273PTE: Q9KZ, SA4QJ, stepping A0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BTL-S12P), the steppings and the product line for this CPUID; the article has no row for it. Its models are not listed yet."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: BTL-S12P), the steppings and the product line for this CPUID; the article has no row for it. Its models are the P-core-only parts whose ARK ordering tab gives A0 (12, 10 or 8 P-cores). ARK's other Bartlett Lake parts give B0 (B0674's note), C0 or H0 (the 4-core Core 3 201E/201TE), which this CPUID does not have."
     }
   ]
 }
