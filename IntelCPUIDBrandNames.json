@@ -12586,6 +12586,262 @@
     },
     {
       "cpuids": [
+        "30673"
+      ],
+      "codeNames": [
+        "Valleyview (Bay Trail)"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [
+        "B2",
+        "B3"
+      ],
+      "segments": [],
+      "processors": [
+        {
+          "name": "Intel Atom E3815",
+          "sSpec": [
+            "SR1RA"
+          ],
+          "sSpecSource": {
+            "SR1RA": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom E3825",
+          "sSpec": [
+            "SR1RB"
+          ],
+          "sSpecSource": {
+            "SR1RB": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom E3826",
+          "sSpec": [
+            "SR1RC"
+          ],
+          "sSpecSource": {
+            "SR1RC": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom E3827",
+          "sSpec": [
+            "SR1RD"
+          ],
+          "sSpecSource": {
+            "SR1RD": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom E3845",
+          "sSpec": [
+            "SR1RE"
+          ],
+          "sSpecSource": {
+            "SR1RE": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3740",
+          "sSpec": [
+            "SR1M5",
+            "SR1RW"
+          ],
+          "sSpecSource": {
+            "SR1M5": "ark",
+            "SR1RW": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom Z3740D",
+          "sSpec": [
+            "SR1M9",
+            "SR1S0"
+          ],
+          "sSpecSource": {
+            "SR1M9": "ark",
+            "SR1S0": "ark"
+          }
+        },
+        {
+          "name": "Intel Atom Z3770",
+          "sSpec": [
+            "SR1M3",
+            "SR1RU"
+          ],
+          "sSpecSource": {
+            "SR1M3": "ark",
+            "SR1RU": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Atom Z3770D",
+          "sSpec": [
+            "SR1M7",
+            "SR1RY"
+          ],
+          "sSpecSource": {
+            "SR1M7": "ark",
+            "SR1RY": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J1750",
+          "sSpec": [
+            "SR1LP",
+            "SR1H6"
+          ],
+          "sSpecSource": {
+            "SR1LP": "ark",
+            "SR1H6": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron J1800",
+          "sSpec": [
+            "SR1SD"
+          ],
+          "sSpecSource": {
+            "SR1SD": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron J1850",
+          "sSpec": [
+            "SR1LN",
+            "SR1H5"
+          ],
+          "sSpecSource": {
+            "SR1LN": "ark",
+            "SR1H5": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron J1900",
+          "sSpec": [
+            "SR1SC"
+          ],
+          "sSpecSource": {
+            "SR1SC": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2805",
+          "sSpec": [
+            "SR1LY",
+            "SR1HS"
+          ],
+          "sSpecSource": {
+            "SR1LY": "ark",
+            "SR1HS": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron N2806",
+          "sSpec": [
+            "SR1SH"
+          ],
+          "sSpecSource": {
+            "SR1SH": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2810",
+          "sSpec": [
+            "SR1LX",
+            "SR1HR"
+          ],
+          "sSpecSource": {
+            "SR1LX": "ark",
+            "SR1HR": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron N2815",
+          "sSpec": [
+            "SR1SJ"
+          ],
+          "sSpecSource": {
+            "SR1SJ": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2820",
+          "sSpec": [
+            "SR1SG"
+          ],
+          "sSpecSource": {
+            "SR1SG": "ark"
+          }
+        },
+        {
+          "name": "Intel Celeron N2910",
+          "sSpec": [
+            "SR1LW",
+            "SR1HQ"
+          ],
+          "sSpecSource": {
+            "SR1LW": "ark",
+            "SR1HQ": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Celeron N2920",
+          "sSpec": [
+            "SR1SF"
+          ],
+          "sSpecSource": {
+            "SR1SF": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium J2850",
+          "sSpec": [
+            "SR1LM",
+            "SR1H4"
+          ],
+          "sSpecSource": {
+            "SR1LM": "ark",
+            "SR1H4": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Pentium J2900",
+          "sSpec": [
+            "SR1SB"
+          ],
+          "sSpecSource": {
+            "SR1SB": "ark"
+          }
+        },
+        {
+          "name": "Intel Pentium N3510",
+          "sSpec": [
+            "SR1LV",
+            "SR1HP"
+          ],
+          "sSpecSource": {
+            "SR1LV": "ark",
+            "SR1HP": "wikipedia"
+          }
+        },
+        {
+          "name": "Intel Pentium N3520",
+          "sSpec": [
+            "SR1SE"
+          ],
+          "sSpecSource": {
+            "SR1SE": "ark"
+          }
+        }
+      ],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
         "30678"
       ],
       "codeNames": [
@@ -12829,75 +13085,55 @@
           "name": "Intel Atom E3815",
           "sSpec": [
             "SR3V1",
-            "SR1XA",
-            "SR2UK",
-            "SR3V2"
+            "SR1XA"
           ],
           "sSpecSource": {
             "SR3V1": "ark",
-            "SR1XA": "ark",
-            "SR2UK": "wikipedia",
-            "SR3V2": "wikipedia"
+            "SR1XA": "ark"
           }
         },
         {
           "name": "Intel Atom E3825",
           "sSpec": [
             "SR3UZ",
-            "SR1X9",
-            "SR2UJ",
-            "SR3V0"
+            "SR1X9"
           ],
           "sSpecSource": {
             "SR3UZ": "ark",
-            "SR1X9": "ark",
-            "SR2UJ": "wikipedia",
-            "SR3V0": "wikipedia"
+            "SR1X9": "ark"
           }
         },
         {
           "name": "Intel Atom E3826",
           "sSpec": [
             "SR3UX",
-            "SR1X8",
-            "SR2UG",
-            "SR3UW"
+            "SR1X8"
           ],
           "sSpecSource": {
             "SR3UX": "ark",
-            "SR1X8": "ark",
-            "SR2UG": "wikipedia",
-            "SR3UW": "wikipedia"
+            "SR1X8": "ark"
           }
         },
         {
           "name": "Intel Atom E3827",
           "sSpec": [
             "SR3UV",
-            "SR1X7",
-            "SR2UH",
-            "SR3UY"
+            "SR1X7"
           ],
           "sSpecSource": {
             "SR3UV": "ark",
-            "SR1X7": "ark",
-            "SR2UH": "wikipedia",
-            "SR3UY": "wikipedia"
+            "SR1X7": "ark"
           }
         },
         {
           "name": "Intel Atom E3845",
           "sSpec": [
             "SR3UT",
-            "SR1X6",
-            "SR2UF",
-            "SR3UU"
+            "SR1X6"
           ],
           "sSpecSource": {
             "SR3UT": "ark",
-            "SR1X6": "ark",
-            "SR2UF": "wikipedia",
-            "SR3UU": "wikipedia"
+            "SR1X6": "ark"
           }
         },
         {

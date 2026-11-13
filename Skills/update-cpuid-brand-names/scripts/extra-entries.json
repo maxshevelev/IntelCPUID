@@ -1996,6 +1996,302 @@
     },
     {
       "cpuids": [
+        "30673"
+      ],
+      "codeNames": [
+        "Valleyview (Bay Trail)"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [
+        "B2",
+        "B3"
+      ],
+      "segments": [],
+      "processors": [
+        {
+          "name": "Intel Atom E3815"
+        },
+        {
+          "name": "Intel Atom E3825"
+        },
+        {
+          "name": "Intel Atom E3826"
+        },
+        {
+          "name": "Intel Atom E3827"
+        },
+        {
+          "name": "Intel Atom E3845"
+        },
+        {
+          "name": "Intel Atom Z3740"
+        },
+        {
+          "name": "Intel Atom Z3740D"
+        },
+        {
+          "name": "Intel Atom Z3770"
+        },
+        {
+          "name": "Intel Atom Z3770D"
+        },
+        {
+          "name": "Intel Celeron J1750"
+        },
+        {
+          "name": "Intel Celeron J1800"
+        },
+        {
+          "name": "Intel Celeron J1850"
+        },
+        {
+          "name": "Intel Celeron J1900"
+        },
+        {
+          "name": "Intel Celeron N2805"
+        },
+        {
+          "name": "Intel Celeron N2806"
+        },
+        {
+          "name": "Intel Celeron N2810"
+        },
+        {
+          "name": "Intel Celeron N2815"
+        },
+        {
+          "name": "Intel Celeron N2820"
+        },
+        {
+          "name": "Intel Celeron N2910"
+        },
+        {
+          "name": "Intel Celeron N2920"
+        },
+        {
+          "name": "Intel Pentium J2850"
+        },
+        {
+          "name": "Intel Pentium J2900"
+        },
+        {
+          "name": "Intel Pentium N3510"
+        },
+        {
+          "name": "Intel Pentium N3520"
+        }
+      ],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "steppings"
+          ],
+          "url": "https://web.archive.org/web/20190517192928id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/pentium-n3520-j2850-celeron-n2920-n2820-n2815-n2806-j1850-j1750-spec-update.pdf",
+          "quote": "Intel Celeron and Pentium Processor N- and J-Series Specification Update, 600827-021 (formerly 329671; a web.archive.org copy of Intel's own URL), Table 1: \"Table 1. Component Identification Using Programming Interface ... 0000b 0000000b 0011b 000b 0b 0110b 0111b B1: 0010b B2/B3: 0011b\""
+        },
+        {
+          "gives": [
+            "cpuids",
+            "steppings"
+          ],
+          "url": "https://web.archive.org/web/20190517192928id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/pentium-n3520-j2850-celeron-n2920-n2820-n2815-n2806-j1850-j1750-spec-update.pdf",
+          "quote": "Intel Celeron and Pentium Processor N- and J-Series Specification Update, 600827-021 (formerly 329671; a web.archive.org copy of Intel's own URL), Table 2: \"SR1LM 931090 B2 J2850 00030673 2.41 1333 Micro- FCBGA13 2 x1024\""
+        },
+        {
+          "gives": [
+            "cpuids",
+            "steppings"
+          ],
+          "url": "https://web.archive.org/web/20190517192928id_/https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/pentium-n3520-j2850-celeron-n2920-n2820-n2815-n2806-j1850-j1750-spec-update.pdf",
+          "quote": "Intel Celeron and Pentium Processor N- and J-Series Specification Update, 600827-021 (formerly 329671; a web.archive.org copy of Intel's own URL), Table 2: \"SR1SE 932485 B3 N3520 00030673 2.17/2.42 (B) 500 Micro- FCBGA13 2 x1024\""
+        },
+        {
+          "gives": [
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_ATOM_SILVERMONT\t\tIFM(6, 0x37) /* Bay Trail, Valleyview */"
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpu30673_plat01_ver00000329_2019-09-16_PRD_81219E54.bin, cpu30673_plat02_…, cpu30673_plat0C_…"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78476/intel-atom-processor-e3815-512k-cache-1-46-ghz/ordering.html",
+          "quote": "Atom E3815: SR1RA, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78474/intel-atom-processor-e3825-1m-cache-1-33-ghz/ordering.html",
+          "quote": "Atom E3825: SR1RB, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78477/intel-atom-processor-e3826-1m-cache-1-46-ghz/ordering.html",
+          "quote": "Atom E3826: SR1RC, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78478/intel-atom-processor-e3827-1m-cache-1-75-ghz/ordering.html",
+          "quote": "Atom E3827: SR1RD, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78475/intel-atom-processor-e3845-2m-cache-1-91-ghz/ordering.html",
+          "quote": "Atom E3845: SR1RE, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76759/intel-atom-processor-z3740-2m-cache-up-to-1-86-ghz/ordering.html",
+          "quote": "Atom Z3740: SR1M5, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78416/intel-atom-processor-z3740d-2m-cache-up-to-1-83-ghz/ordering.html",
+          "quote": "Atom Z3740D: SR1M9, SR1S0, stepping B2/B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76760/intel-atom-processor-z3770-2m-cache-up-to-2-39-ghz/ordering.html",
+          "quote": "Atom Z3770: SR1M3, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78415/intel-atom-processor-z3770d-2m-cache-up-to-2-41-ghz/ordering.html",
+          "quote": "Atom Z3770D: SR1M7, SR1RY, stepping B2/B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76531/intel-celeron-processor-j1750-1m-cache-2-41-ghz/ordering.html",
+          "quote": "Celeron J1750: SR1LP, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78866/intel-celeron-processor-j1800-1m-cache-up-to-2-58-ghz/ordering.html",
+          "quote": "Celeron J1800: SR1SD, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76530/intel-celeron-processor-j1850-2m-cache-2-00-ghz/ordering.html",
+          "quote": "Celeron J1850: SR1LN, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78867/intel-celeron-processor-j1900-2m-cache-up-to-2-42-ghz/ordering.html",
+          "quote": "Celeron J1900: SR1SC, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76754/intel-celeron-processor-n2805-1m-cache-1-46-ghz/ordering.html",
+          "quote": "Celeron N2805: SR1LY, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79050/intel-celeron-processor-n2806-1m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Celeron N2806: SR1SH, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76753/intel-celeron-processor-n2810-1m-cache-2-00-ghz/ordering.html",
+          "quote": "Celeron N2810: SR1LX, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79051/intel-celeron-processor-n2815-1m-cache-up-to-2-13-ghz/ordering.html",
+          "quote": "Celeron N2815: SR1SJ, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79052/intel-celeron-processor-n2820-1m-cache-up-to-2-39-ghz/ordering.html",
+          "quote": "Celeron N2820: SR1SG, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76752/intel-celeron-processor-n2910-2m-cache-1-60-ghz/ordering.html",
+          "quote": "Celeron N2910: SR1LW, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79053/intel-celeron-processor-n2920-2m-cache-up-to-2-00-ghz/ordering.html",
+          "quote": "Celeron N2920: SR1SF, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76529/intel-pentium-processor-j2850-2m-cache-2-41-ghz/ordering.html",
+          "quote": "Pentium J2850: SR1LM, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/78868/intel-pentium-processor-j2900-2m-cache-up-to-2-67-ghz/ordering.html",
+          "quote": "Pentium J2900: SR1SB, stepping B3 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/76751/intel-pentium-processor-n3510-2m-cache-2-00-ghz/ordering.html",
+          "quote": "Pentium N3510: SR1LV, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/79049/intel-pentium-processor-n3520-2m-cache-up-to-2-42-ghz/ordering.html",
+          "quote": "Pentium N3520: SR1SE, stepping B3 (ARK ordering tab)"
+        }
+      ],
+      "note": "Bay Trail's B2 and B3, which Intel's microcode notes do not list: Intel's specification update for the Celeron and Pentium N- and J-series gives every B2 and B3 row the signature 00030673, and its Table 1 the stepping field \"B2/B3: 0011b\". Model 0x37 is Bay Trail (the kernel), so the code name is 30678's and 30679's. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
+    },
+    {
+      "cpuids": [
         "30678"
       ],
       "codeNames": [
@@ -2244,7 +2540,7 @@
           "quote": "Pentium N3540: SR1YW, stepping C0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Bay Trail whose ordering tab gives C0. ARK gives the early parts B2 or B3, steppings the notes name for no CPUID, and they are not listed."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: VLV), the steppings and the product line for this CPUID; the article has no row for it. Its models are those ARK files under Bay Trail whose ordering tab gives C0. ARK gives the early parts B2 or B3: they are under 30673."
     },
     {
       "cpuids": [
