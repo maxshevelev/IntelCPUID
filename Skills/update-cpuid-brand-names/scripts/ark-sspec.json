@@ -149,6 +149,159 @@
       ]
     },
     {
+      "model": "Intel Celeron 1000M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72060/intel-celeron-processor-1000m-2m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR102",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1005M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75193/intel-celeron-processor-1005m-2m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR103",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1007U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72061/intel-celeron-processor-1007u-2m-cache-1-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR109",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1017U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75192/intel-celeron-processor-1017u-2m-cache-1-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10A",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1019Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75102/intel-celeron-processor-1019y-2m-cache-1-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR13W",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1020E",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74344/intel-celeron-processor-1020e-2m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0VR",
+          "stepping": "P0"
+        },
+        {
+          "sSpec": "SR10D",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1020M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71994/intel-celeron-processor-1020m-2m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0ZY",
+          "stepping": "E1"
+        },
+        {
+          "sSpec": "SR13U",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1037U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71995/intel-celeron-processor-1037u-2m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR108",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 1047UE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74345/intel-celeron-processor-1047ue-2m-cache-1-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10E",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron 927UE",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Celeron G1610",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71072/intel-celeron-processor-g1610-2m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10K",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron G1610T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71074/intel-celeron-processor-g1610t-2m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10M",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron G1620",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71073/intel-celeron-processor-g1620-2m-cache-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10L",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron G1620T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76345/intel-celeron-processor-g1620t-2m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR169",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Celeron G1630",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76344/intel-celeron-processor-g1630-2m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR16A",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
       "model": "Intel Celeron G3920T",
       "url": null,
       "specs": [],
@@ -1637,6 +1790,420 @@
       ]
     },
     {
+      "model": "Intel Core i3-2100",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53422/intel-core-i32100-processor-3m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR05C",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2100T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53423/intel-core-i32100t-processor-3m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR05Z",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2102",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53424/intel-core-i32102-processor-3m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR05D",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2105",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/55448/intel-core-i32105-processor-3m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0BA",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2120",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53426/intel-core-i32120-processor-3m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR05Y",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2120T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53427/intel-core-i32120t-processor-3m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR060",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2125",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/59080/intel-core-i32125-processor-3m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0AY",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2130",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53428/intel-core-i32130-processor-3m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR05W",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2310E",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54643/intel-core-i32310e-processor-3m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR077",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2310M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52220/intel-core-i32310m-processor-3m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04R",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR04S",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2312M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53432/intel-core-i32312m-processor-3m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR09S",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2328M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/70927/intel-core-i32328m-processor-3m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0TC",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2330E",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53433/intel-core-i32330e-processor-3m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02V",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2330M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53434/intel-core-i32330m-processor-3m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04J",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR04L",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2340UE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54646/intel-core-i32340ue-processor-3m-cache-1-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR074",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2348M",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Core i3-2350M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53438/intel-core-i32350m-processor-3m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0DN",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2357M",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Core i3-2365M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/70272/intel-core-i32365m-processor-3m-cache-1-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0U3",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2367M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/59798/intel-core-i32367m-processor-3m-cache-1-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0CV",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2370M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53442/intel-core-i32370m-processor-3m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0DP",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2375M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74259/intel-core-i32375m-processor-3m-cache-1-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0U4",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-2377M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54834/intel-core-i32377m-processor-3m-cache-1-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0CW",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3110M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65700/intel-core-i33110m-processor-3m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N1",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0N2",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0T4",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3120M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71465/intel-core-i33120m-processor-3m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0TX",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3120ME",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65698/intel-core-i33120me-processor-3m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0WL",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0WM",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3130M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72058/intel-core-i33130m-processor-3m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XC",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0XD",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3210",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71053/intel-core-i33210-processor-3m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YY",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3217U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65697/intel-core-i33217u-processor-3m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N9",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3217UE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65696/intel-core-i33217ue-processor-3m-cache-1-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0WN",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3220",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65693/intel-core-i33220-processor-3m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RG",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3220T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65694/intel-core-i33220t-processor-3m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RE",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3225",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65692/intel-core-i33225-processor-3m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RF",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3227U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72057/intel-core-i33227u-processor-3m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XF",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3229Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72012/intel-core-i33229y-processor-3m-cache-1-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR12P",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3240",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65690/intel-core-i33240-processor-3m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RH",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3240T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/66168/intel-core-i33240t-processor-3m-cache-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RK",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3245",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74746/intel-core-i33245-processor-3m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YL",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3250",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74744/intel-core-i33250-processor-3m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YX",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i3-3250T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74745/intel-core-i33250t-processor-3m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YW",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
       "model": "Intel Core i3-6100",
       "url": "https://www.intel.com/content/www/us/en/products/sku/90729/intel-core-i36100-processor-3m-cache-3-70-ghz/ordering.html",
       "specs": [
@@ -2360,6 +2927,602 @@
       ]
     },
     {
+      "model": "Intel Core i5-2300",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52206/intel-core-i52300-processor-6m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00D",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2310",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53445/intel-core-i52310-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02K",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2320",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53446/intel-core-i52320-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02L",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2380P",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64844/intel-core-i52380p-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0G2",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2390T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53448/intel-core-i52390t-processor-3m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR065",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2400",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52207/intel-core-i52400-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00Q",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2400S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52208/intel-core-i52400s-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00S",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2405S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/55446/intel-core-i52405s-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0BB",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2410M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52224/intel-core-i52410m-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04B",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR04G",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2430M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53450/intel-core-i52430m-processor-3m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04W",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2435M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/60636/intel-core-i52435m-processor-3m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR06Y",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2450M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53452/intel-core-i52450m-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04Z",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR06Z",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR0CH",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2450P",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64843/intel-core-i52450p-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0G1",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2467M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/56858/intel-core-i52467m-processor-3m-cache-up-to-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0D6",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2500",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52209/intel-core-i52500-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00T",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2500K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52210/intel-core-i52500k-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR008",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2500S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52211/intel-core-i52500s-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR009",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2500T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52212/intel-core-i52500t-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00A",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2510E",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53456/intel-core-i52510e-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02U",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2515E",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54647/intel-core-i52515e-processor-3m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR075",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2520M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52229/intel-core-i52520m-processor-3m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR048",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2537M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54619/intel-core-i52537m-processor-3m-cache-up-to-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR03W",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2540M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/50072/intel-core-i52540m-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR044",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR046",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2550K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65647/intel-core-i52550k-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0QH",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-2557M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54620/intel-core-i52557m-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0CS",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3210M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65708/intel-core-i53210m-processor-3m-cache-up-to-3-10-ghz-bga/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N0",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0MZ",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3230M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72056/intel-core-i53230m-processor-3m-cache-up-to-3-20-ghz-bga/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0WX",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0WY",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3317U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65707/intel-core-i53317u-processor-3m-cache-up-to-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N8",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3320M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64896/intel-core-i53320m-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MX",
+          "stepping": null
+        },
+        {
+          "sSpec": "SR0MY",
+          "stepping": "L1"
+        }
+      ],
+      "note": "ARK ordering tab: SR0MX's rows give L1 and L2: no stepping kept."
+    },
+    {
+      "model": "Intel Core i5-3330",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65509/intel-core-i53330-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RQ",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3330S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65510/intel-core-i53330s-processor-6m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RR",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3337U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72055/intel-core-i53337u-processor-3m-cache-up-to-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XL",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3339Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72013/intel-core-i53339y-processor-3m-cache-up-to-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR12S",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3340",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76342/intel-core-i53340-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YZ",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3340M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71257/intel-core-i53340m-processor-3m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XA",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0XB",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3340S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76343/intel-core-i53340s-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YH",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3350P",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/69114/intel-core-i53350p-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0WS",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3360M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64895/intel-core-i53360m-processor-3m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MV",
+          "stepping": null
+        },
+        {
+          "sSpec": "SR0MW",
+          "stepping": "L1"
+        }
+      ],
+      "note": "ARK ordering tab: SR0MV's rows give L1 and L2: no stepping kept."
+    },
+    {
+      "model": "Intel Core i5-3380M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71256/intel-core-i53380m-processor-3m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0X7",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0X9",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3427U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64903/intel-core-i53427u-processor-3m-cache-up-to-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N7",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3437U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71259/intel-core-i53437u-processor-3m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XE",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3439Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72014/intel-core-i53439y-processor-3m-cache-up-to-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR12Q",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3450",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65511/intel-core-i53450-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PF",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3450S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65512/intel-core-i53450s-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P2",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3470",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/68316/intel-core-i53470-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0T8",
+          "stepping": "N0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3470S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/68315/intel-core-i53470s-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0TA",
+          "stepping": "N0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3470T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65703/intel-core-i53470t-processor-3m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0RJ",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3475S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65515/intel-core-i53475s-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PP",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3550",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65516/intel-core-i53550-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P0",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3550S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65518/intel-core-i53550s-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P3",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3570",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65702/intel-core-i53570-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0T7",
+          "stepping": "N0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3570K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65520/intel-core-i53570k-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PM",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3570S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65701/intel-core-i53570s-processor-6m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0T9",
+          "stepping": "N0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3570T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65521/intel-core-i53570t-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P1",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i5-3610ME",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65704/intel-core-i53610me-processor-3m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0QJ",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0QK",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
       "model": "Intel Core i5-6300HQ",
       "url": "https://www.intel.com/content/www/us/en/products/sku/88959/intel-core-i56300hq-processor-6m-cache-up-to-3-20-ghz/ordering.html",
       "specs": [
@@ -2979,6 +4142,659 @@
         {
           "sSpec": "SRMB9",
           "stepping": "B0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2600",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52213/intel-core-i72600-processor-8m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00B",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2600K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52214/intel-core-i72600k-processor-8m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00C",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2600S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52215/intel-core-i72600s-processor-8m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00E",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2610UE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54645/intel-core-i72610ue-processor-4m-cache-up-to-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR079",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2617M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54616/intel-core-i72617m-processor-4m-cache-up-to-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR03T",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2620M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52231/intel-core-i72620m-processor-4m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR03F",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR041",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2629M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54610/intel-core-i72629m-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04D",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2630QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52219/intel-core-i72630qm-processor-6m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02Y",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2635QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53463/intel-core-i72635qm-processor-6m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR030",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2637M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54618/intel-core-i72637m-processor-4m-cache-up-to-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0D3",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2640M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53464/intel-core-i72640m-processor-4m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR03R",
+          "stepping": "J1"
+        },
+        {
+          "sSpec": "SR043",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2649M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54611/intel-core-i72649m-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR04N",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2655LE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54642/intel-core-i72655le-processor-4m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR078",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2657M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54615/intel-core-i72657m-processor-4m-cache-up-to-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR03S",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2670QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53469/intel-core-i72670qm-processor-6m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02N",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2675QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53470/intel-core-i72675qm-processor-6m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02S",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2677M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54617/intel-core-i72677m-processor-4m-cache-up-to-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0D2",
+          "stepping": "J1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2700K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/61275/intel-core-i72700k-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0DG",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2710QE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53472/intel-core-i72710qe-processor-6m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02T",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2715QE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/54644/intel-core-i72715qe-processor-6m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR076",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2720QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/50067/intel-core-i72720qm-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00W",
+          "stepping": "D2"
+        },
+        {
+          "sSpec": "SR014",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2760QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53474/intel-core-i72760qm-processor-6m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02R",
+          "stepping": "D2"
+        },
+        {
+          "sSpec": "SR02W",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2820QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52227/intel-core-i72820qm-processor-8m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00U",
+          "stepping": "D2"
+        },
+        {
+          "sSpec": "SR012",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2860QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53476/intel-core-i72860qm-processor-8m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02Q",
+          "stepping": "D2"
+        },
+        {
+          "sSpec": "SR02X",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2920XM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52237/intel-core-i72920xm-processor-extreme-edition-8m-cache-up-to-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02E",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-2960XM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53478/intel-core-i72960xm-processor-extreme-edition-8m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR02F",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3517U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65714/intel-core-i73517u-processor-4m-cache-up-to-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N6",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3517UE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65713/intel-core-i73517ue-processor-4m-cache-up-to-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0T6",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3520M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64893/intel-core-i73520m-processor-4m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MT",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0MU",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3537U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72054/intel-core-i73537u-processor-4m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XG",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3540M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71255/intel-core-i73540m-processor-4m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0X6",
+          "stepping": "L1"
+        },
+        {
+          "sSpec": "SR0X8",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3555LE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65712/intel-core-i73555le-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0T5",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3610QE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65711/intel-core-i73610qe-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0NP",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3610QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64899/intel-core-i73610qm-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MN",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3612QE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65710/intel-core-i73612qe-processor-6m-cache-up-to-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0ND",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3612QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64901/intel-core-i73612qm-processor-6m-cache-up-to-3-10-ghz-bga/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MR",
+          "stepping": "E1"
+        },
+        {
+          "sSpec": "SR0MQ",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3615QE",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65709/intel-core-i73615qe-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0NC",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3615QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64900/intel-core-i73615qm-processor-6m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MP",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3630QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71459/intel-core-i73630qm-processor-6m-cache-up-to-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0UX",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3632QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71458/intel-core-i73632qm-processor-6m-cache-up-to-3-20-ghz-rpga/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0V0",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3635QM",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Core i7-3667U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64898/intel-core-i73667u-processor-4m-cache-up-to-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0N5",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3687U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71258/intel-core-i73687u-processor-4m-cache-up-to-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0XH",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3689Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72015/intel-core-i73689y-processor-4m-cache-up-to-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR12R",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3720QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64891/intel-core-i73720qm-processor-6m-cache-up-to-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0ML",
+          "stepping": "E1"
+        },
+        {
+          "sSpec": "SR0MM",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3740QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/70847/intel-core-i73740qm-processor-6m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0UV",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3770",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65719/intel-core-i73770-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PK",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3770K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65523/intel-core-i73770k-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PL",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3770S",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65524/intel-core-i73770s-processor-8m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PN",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3770T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65525/intel-core-i73770t-processor-8m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PQ",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3820",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/63698/intel-core-i73820-processor-10m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LD",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3820QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64889/intel-core-i73820qm-processor-8m-cache-up-to-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MJ",
+          "stepping": "E1"
+        },
+        {
+          "sSpec": "SR0MK",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3840QM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/70846/intel-core-i73840qm-processor-8m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0UT",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3920XM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64887/intel-core-i73920xm-processor-extreme-edition-8m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0MH",
+          "stepping": "E1"
+        },
+        {
+          "sSpec": "SR0T2",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3930K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/63697/intel-core-i73930k-processor-12m-cache-up-to-3-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0KY",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3940XM",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71096/intel-core-i73940xm-processor-extreme-edition-8m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0US",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3960X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/63696/intel-core-i73960x-processor-extreme-edition-15m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0KF",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-3970X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/70845/intel-core-i73970x-processor-extreme-edition-15m-cache-up-to-4-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0WR",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-4820K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/77781/intel-core-i74820k-processor-10m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AU",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-4930K",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/77780/intel-core-i74930k-processor-12m-cache-up-to-3-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AT",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Core i7-4960X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/77779/intel-core-i74960x-processor-extreme-edition-15m-cache-up-to-4-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AS",
+          "stepping": "S1"
         }
       ]
     },
@@ -3846,6 +5662,194 @@
         {
           "sSpec": "SR2EH",
           "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 1403",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Pentium 1405",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/66660/intel-pentium-processor-1405-5m-cache-1-2-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0M7",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 1407",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Pentium 2020M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71142/intel-pentium-processor-2020m-2m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0U1",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 2030M",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72059/intel-pentium-processor-2030m-2m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0ZZ",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 2117U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71469/intel-pentium-processor-2117u-2m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0VQ",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 2127U",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75191/intel-pentium-processor-2127u-2m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR105",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium 2129Y",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/72016/intel-pentium-processor-2129y-2m-cache-1-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR12M",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium A1018",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/78429/intel-pentium-processor-a1018-1m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "QFAW",
+          "stepping": "P0"
+        },
+        {
+          "sSpec": "SR1C5",
+          "stepping": "P0"
+        },
+        {
+          "sSpec": "SR1V6",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2010",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71071/intel-pentium-processor-g2010-3m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10J",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2020",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71070/intel-pentium-processor-g2020-3m-cache-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10H",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2020T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71069/intel-pentium-processor-g2020t-3m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR10G",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2030",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74749/intel-pentium-processor-g2030-3m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR163",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2030T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74748/intel-pentium-processor-g2030t-3m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR164",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2100T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65738/intel-pentium-processor-g2100t-3m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0UJ",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2120",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65527/intel-pentium-processor-g2120-3m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0UF",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2120T",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71097/intel-pentium-processor-g2120t-3m-cache-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YV",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2130",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/71052/intel-pentium-processor-g2130-3m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YU",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Pentium G2140",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/74747/intel-pentium-processor-g2140-3m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0YT",
+          "stepping": "P0"
         }
       ]
     },
@@ -5766,6 +7770,1426 @@
         {
           "sSpec": "SRMXA",
           "stepping": "B0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1220",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52269/intel-xeon-processor-e31220-8m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00F",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1220 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65734/intel-xeon-processor-e31220-v2-8m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PH",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1220L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/53401/intel-xeon-processor-e31220l-3m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR070",
+          "stepping": "Q0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1220L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65735/intel-xeon-processor-e31220l-v2-3m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0R6",
+          "stepping": "L1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1225",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52270/intel-xeon-processor-e31225-6m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00G",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1225 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65733/intel-xeon-processor-e31225-v2-8m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PJ",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1230",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52271/intel-xeon-processor-e31230-8m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00H",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1230 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65732/intel-xeon-processor-e31230-v2-8m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P4",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1235",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52272/intel-xeon-processor-e31235-8m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00J",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1240",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52273/intel-xeon-processor-e31240-8m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00K",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1240 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65730/intel-xeon-processor-e31240-v2-8m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P5",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1245",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52274/intel-xeon-processor-e31245-8m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00L",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1245 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65729/intel-xeon-processor-e31245-v2-8m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P9",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1260L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52275/intel-xeon-processor-e31260l-8m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00M",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1265L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65728/intel-xeon-processor-e31265l-v2-8m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PB",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1270",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52276/intel-xeon-processor-e31270-8m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00N",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1270 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65727/intel-xeon-processor-e31270-v2-8m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P6",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1275",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52277/intel-xeon-processor-e31275-8m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00P",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1275 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65726/intel-xeon-processor-e31275-v2-8m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PA",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1280",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/52278/intel-xeon-processor-e31280-8m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR00R",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1280 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65725/intel-xeon-processor-e31280-v2-8m-cache-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0P7",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1290",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/55452/intel-xeon-processor-e31290-8m-cache-3-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR055",
+          "stepping": "D2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E3-1290 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/65722/intel-xeon-processor-e31290-v2-8m-cache-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0PC",
+          "stepping": "E1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1410",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Xeon E5-1428L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/66662/intel-xeon-processor-e51428l-15m-cache-1-8-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0M4",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1428L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75778/intel-xeon-processor-e51428l-v2-15m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B9",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1603",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64600/intel-xeon-processor-e51603-10m-cache-2-80-ghz-0-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0L9",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1607",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64619/intel-xeon-processor-e51607-10m-cache-3-00-ghz-0-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0L8",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1620",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64621/intel-xeon-processor-e51620-10m-cache-3-60-ghz-0-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LC",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1620 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75779/intel-xeon-processor-e51620-v2-10m-cache-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AR",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1650",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64601/intel-xeon-processor-e51650-12m-cache-3-20-ghz-0-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0HC",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KZ",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1650 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75780/intel-xeon-processor-e51650-v2-12m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AQ",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1660",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64620/intel-xeon-processor-e51660-15m-cache-3-30-ghz-0-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H2",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KN",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1660 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75781/intel-xeon-processor-e51660-v2-15m-cache-3-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AP",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-1680 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/77912/intel-xeon-processor-e51680-v2-25m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1MJ",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2403",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64615/intel-xeon-processor-e52403-10m-cache-1-80-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LS",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2403 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75975/intel-xeon-processor-e52403-v2-10m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AL",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2407",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64614/intel-xeon-processor-e52407-10m-cache-2-20-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LR",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2407 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75782/intel-xeon-processor-e52407-v2-10m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AK",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2418L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/67026/intel-xeon-processor-e52418l-10m-2-0-ghz-6-4-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0M5",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2418L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75783/intel-xeon-processor-e52418l-v2-15m-cache-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AV",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2420",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64617/intel-xeon-processor-e52420-15m-cache-1-90-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LN",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2420 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75784/intel-xeon-processor-e52420-v2-15m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AJ",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2428L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/67025/intel-xeon-processor-e52428l-15m-1-8-ghz-7-2-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0M3",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2428L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75974/intel-xeon-processor-e52428l-v2-20m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A4",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2430",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64616/intel-xeon-processor-e52430-15m-cache-2-20-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LM",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2430 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75785/intel-xeon-processor-e52430-v2-15m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AH",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2430L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64613/intel-xeon-processor-e52430l-15m-cache-2-00-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LL",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2430L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75786/intel-xeon-processor-e52430l-v2-15m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B2",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2440",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64612/intel-xeon-processor-e52440-15m-cache-2-40-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LK",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2440 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75263/intel-xeon-processor-e52440-v2-20m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19T",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2448L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/67024/intel-xeon-processor-e52448l-20m-1-8-ghz-8-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0M2",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2448L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75973/intel-xeon-processor-e52448l-v2-25m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A3",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2450",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64611/intel-xeon-processor-e52450-20m-cache-2-10-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LJ",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2450 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75264/intel-xeon-processor-e52450-v2-20m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A9",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2450L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64610/intel-xeon-processor-e52450l-20m-cache-1-80-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LH",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2450L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75265/intel-xeon-processor-e52450l-v2-25m-cache-1-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19U",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2470",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64623/intel-xeon-processor-e52470-20m-cache-2-30-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LG",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2470 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75266/intel-xeon-processor-e52470-v2-25m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19S",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2603",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64592/intel-xeon-processor-e52603-10m-cache-1-80-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LB",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2603 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76157/intel-xeon-processor-e52603-v2-10m-cache-1-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AY",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2609",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64588/intel-xeon-processor-e52609-10m-cache-2-40-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LA",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2609 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75787/intel-xeon-processor-e52609-v2-10m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AX",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2618L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75788/intel-xeon-processor-e52618l-v2-15m-cache-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B8",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2620",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64594/intel-xeon-processor-e52620-15m-cache-2-00-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H7",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KW",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2620 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75789/intel-xeon-processor-e52620-v2-15m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AN",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2628L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76158/intel-xeon-processor-e52628l-v2-20m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AF",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2630",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64593/intel-xeon-processor-e52630-15m-cache-2-30-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H6",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KV",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2630 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75790/intel-xeon-processor-e52630-v2-15m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AM",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2630L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64586/intel-xeon-processor-e52630l-15m-cache-2-00-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H1",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KM",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2630L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75791/intel-xeon-processor-e52630l-v2-15m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AZ",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2637",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64598/intel-xeon-processor-e52637-5m-cache-3-00-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LE",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2637 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75792/intel-xeon-processor-e52637-v2-15m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B7",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2640",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64591/intel-xeon-processor-e52640-15m-cache-2-50-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H5",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KR",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2640 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75267/intel-xeon-processor-e52640-v2-20m-cache-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19Z",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2643",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64587/intel-xeon-processor-e52643-10m-cache-3-30-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0L7",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2643 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75268/intel-xeon-processor-e52643-v2-25m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19X",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2648L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/61426/intel-xeon-processor-e52648l-20m-1-80-ghz-8-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LX",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2648L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76159/intel-xeon-processor-e52648l-v2-25m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A2",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2650",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64590/intel-xeon-processor-e52650-20m-cache-2-00-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H4",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KQ",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2650 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75269/intel-xeon-processor-e52650-v2-20m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A8",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2650L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64585/intel-xeon-processor-e52650l-20m-cache-1-80-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H0",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KL",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2650L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75270/intel-xeon-processor-e52650l-v2-25m-cache-1-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19Y",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2658",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/61428/intel-xeon-processor-e52658-20m-2-10-ghz-8-0-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LZ",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2658 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76160/intel-xeon-processor-e52658-v2-25m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A0",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2660",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64584/intel-xeon-processor-e52660-20m-cache-2-20-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0GZ",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KK",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2660 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75272/intel-xeon-processor-e52660-v2-25m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AB",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2665",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64597/intel-xeon-processor-e52665-20m-cache-2-40-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0HB",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0L1",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2667",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64589/intel-xeon-processor-e52667-15m-cache-2-90-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H3",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KP",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2667 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75273/intel-xeon-processor-e52667-v2-25m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19W",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2670",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64595/intel-xeon-processor-e52670-20m-cache-2-60-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0H8",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KX",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2670 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75275/intel-xeon-processor-e52670-v2-25m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A7",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2680",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64583/intel-xeon-processor-e52680-20m-cache-2-70-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0GY",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KH",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2680 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75277/intel-xeon-processor-e52680-v2-25m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A6",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2687W",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64582/intel-xeon-processor-e52687w-20m-cache-3-10-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0GX",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0KG",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2687W v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76161/intel-xeon-processor-e52687w-v2-25m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19V",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2690",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64596/intel-xeon-processor-e52690-20m-cache-2-90-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0HA",
+          "stepping": "C1"
+        },
+        {
+          "sSpec": "SR0L0",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2690 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75279/intel-xeon-processor-e52690-v2-25m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A5",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2695 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75281/intel-xeon-processor-e52695-v2-30m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1BA",
+          "stepping": "C1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-2697 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75283/intel-xeon-processor-e52697-v2-30m-cache-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19H",
+          "stepping": "C1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4603",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64609/intel-xeon-processor-e54603-10m-cache-2-00-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0LF",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4603 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75793/intel-xeon-processor-e54603-v2-10m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B6",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4607",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64604/intel-xeon-processor-e54607-12m-cache-2-20-ghz-6-40-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0KU",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4607 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75794/intel-xeon-processor-e54607-v2-15m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1B4",
+          "stepping": "S1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4610",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64602/intel-xeon-processor-e54610-15m-cache-2-40-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0KS",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4610 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75285/intel-xeon-processor-e54610-v2-16m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19L",
+          "stepping": "C1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4617",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64608/intel-xeon-processor-e54617-15m-cache-2-90-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0L5",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4620",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64607/intel-xeon-processor-e54620-16m-cache-2-20-ghz-7-20-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0L4",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4620 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75286/intel-xeon-processor-e54620-v2-20m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AA",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4624L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/76350/intel-xeon-processor-e54624l-v2-25m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1A1",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4627 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75287/intel-xeon-processor-e54627-v2-16m-cache-3-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AD",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4640",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64603/intel-xeon-processor-e54640-20m-cache-2-40-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0QT",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4640 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75288/intel-xeon-processor-e54640-v2-20m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19R",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4650",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64622/intel-xeon-processor-e54650-20m-cache-2-70-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0QR",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4650 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75289/intel-xeon-processor-e54650-v2-25m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1AG",
+          "stepping": "M1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4650L",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/64606/intel-xeon-processor-e54650l-20m-cache-2-60-ghz-8-00-gts-intel-qpi/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR0QS",
+          "stepping": "C2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E5-4657L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75290/intel-xeon-processor-e54657l-v2-30m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR19F",
+          "stepping": "C1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-2850 v2",
+      "url": null,
+      "specs": []
+    },
+    {
+      "model": "Intel Xeon E7-2870 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75240/intel-xeon-processor-e72870-v2-30m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GR",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-2880 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75241/intel-xeon-processor-e72880-v2-37-5m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GQ",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-2890 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75242/intel-xeon-processor-e72890-v2-37-5m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GV",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4809 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75245/intel-xeon-processor-e74809-v2-12m-cache-1-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1FD",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4820 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75246/intel-xeon-processor-e74820-v2-16m-cache-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1H0",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4830 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75247/intel-xeon-processor-e74830-v2-20m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GU",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4850 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75248/intel-xeon-processor-e74850-v2-24m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GP",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4860 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75249/intel-xeon-processor-e74860-v2-30m-cache-2-60-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GX",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4870 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75250/intel-xeon-processor-e74870-v2-30m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GN",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4880 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75773/intel-xeon-processor-e74880-v2-37-5m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GM",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-4890 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75251/intel-xeon-processor-e74890-v2-37-5m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GL",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8850 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75253/intel-xeon-processor-e78850-v2-24m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GK",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8857 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75254/intel-xeon-processor-e78857-v2-30m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GT",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8870 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75255/intel-xeon-processor-e78870-v2-30m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GJ",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8880 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75257/intel-xeon-processor-e78880-v2-37-5m-cache-2-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GH",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8880L v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75256/intel-xeon-processor-e78880l-v2-37-5m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GS",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8890 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75258/intel-xeon-processor-e78890-v2-37-5m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1ET",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8891 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75259/intel-xeon-processor-e78891-v2-37-5m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GW",
+          "stepping": "D1"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon E7-8893 v2",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/75260/intel-xeon-processor-e78893-v2-37-5m-cache-3-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SR1GZ",
+          "stepping": "D1"
         }
       ]
     },
