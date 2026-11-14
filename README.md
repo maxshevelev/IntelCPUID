@@ -11,6 +11,12 @@ new build.
 | [`IntelCPUIDBrandNames.json`](IntelCPUIDBrandNames.json) | CPUID → code names, cores, product families, steppings, segments, and the models sold with it, each with the S-SPEC codes it was sold under |
 | [`IntelMicrocodeSignatures.json`](IntelMicrocodeSignatures.json) | the microcode updates whose extended signature table names more than one CPUID, read from the files of [platomav/CPUMicrocodes](https://github.com/platomav/CPUMicrocodes) |
 
+The table can be searched in a browser — by CPUID, model, S-SPEC, code name or
+stepping — at <https://maxshevelev.github.io/IntelCPUID/>: [`index.html`](index.html),
+one static page served by GitHub Pages from this branch, which reads
+`IntelCPUIDBrandNames.json` beside it. Russian or English, by the browser's
+preference.
+
 Both carry `"formatVersion": 1`. ByteRipper refuses a file of a newer format, or
 one it cannot decode, and keeps the last pair it read whole; it has no copy of
 its own.

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intel CPUID lookup</title>
+<style>
+:root {
+  --bg: #f6f6f3; --panel: #ffffff; --text: #1b1b19; --muted: #6b6b66; --line: #dddcd5;
+  --accent: #1a5fb4; --accent-bg: #e4eefb; --mark: #ffe58a; --row: #f0efe9;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615; --panel: #1f1f1d; --text: #ececE6; --muted: #9a9a92; --line: #35352f;
+    --accent: #7db3f5; --accent-bg: #1d2c40; --mark: #6b5600; --row: #262623;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.45 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+header { max-width: 1100px; margin: 0 auto; padding: 20px 16px 0;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+h1 { font-size: 20px; font-weight: 600; margin: 0; }
+.lang button { background: none; border: 0; color: var(--muted); font: inherit; cursor: pointer; padding: 2px 4px; }
+.lang button[aria-pressed="true"] { color: var(--text); font-weight: 600; }
+main { max-width: 1100px; margin: 0 auto; padding: 12px 16px 40px; }
+.search { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 8px 0; }
+.box { position: relative; }
+#q { width: 100%; font: inherit; font-size: 17px; padding: 11px 40px 11px 14px; color: var(--text);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px; outline: none; }
+#q:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+#q::-webkit-search-cancel-button { display: none; }
+#clear { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
+  border: 0; background: none; color: var(--muted); font-size: 20px; cursor: pointer; display: none; }
+#hints { position: absolute; left: 0; right: 0; top: calc(100% + 4px); margin: 0; padding: 4px; list-style: none;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px; display: none;
+  box-shadow: 0 6px 20px rgba(0,0,0,.14); }
+#hints li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
+#hints li[aria-selected="true"], #hints li:hover { background: var(--accent-bg); }
+#hints .kind { color: var(--muted); font-size: 13px; white-space: nowrap; }
+.status { color: var(--muted); font-size: 13px; margin: 6px 2px; min-height: 19px; }
+.entry { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 8px 0; }
+.entry b { font-family: var(--mono); font-size: 16px; }
+.entry dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 6px 0 0; font-size: 14px; }
+.entry dt { color: var(--muted); } .entry dd { margin: 0; }
+.wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 7px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-weight: 600; font-size: 13px; color: var(--muted); white-space: nowrap; cursor: pointer; user-select: none;
+  position: sticky; top: 0; background: var(--panel); }
+th[aria-sort]::after { content: " ▲"; font-size: 10px; } th[aria-sort="descending"]::after { content: " ▼"; }
+tbody tr:hover { background: var(--row); }
+.mono { font-family: var(--mono); font-size: 14px; }
+td:nth-child(2) { white-space: nowrap; }
+.cpuid { color: var(--accent); cursor: pointer; text-decoration: none; }
+.cpuid:hover { text-decoration: underline; }
+.code { display: inline-block; border: 0; background: var(--accent-bg); color: var(--accent); border-radius: 5px;
+  padding: 1px 6px; margin: 1px 4px 1px 0; font-family: var(--mono); font-size: 13.5px; cursor: pointer; }
+.code.copied { outline: 2px solid var(--accent); }
+.none { color: var(--muted); }
+mark { background: var(--mark); color: inherit; border-radius: 2px; }
+#more { display: none; margin: 12px auto; padding: 8px 16px; font: inherit; color: var(--text);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+footer { color: var(--muted); font-size: 13px; margin-top: 18px; }
+footer a { color: var(--accent); }
+@media (max-width: 640px) { .opt { display: none; } th, td { padding: 7px 8px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1 data-t="title"></h1>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="ru">RU</button> · <button type="button" data-lang="en">EN</button>
+  </div>
+</header>
+<main>
+  <div class="search">
+    <div class="box">
+      <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+             role="combobox" aria-expanded="false" aria-controls="hints" aria-autocomplete="list">
+      <button id="clear" type="button">×</button>
+      <ul id="hints" role="listbox"></ul>
+    </div>
+  </div>
+  <div class="status" id="status" aria-live="polite"></div>
+  <div id="entries"></div>
+  <div class="wrap">
+    <table>
+      <thead><tr>
+        <th data-k="cpuid" data-t="cCpuid"></th>
+        <th data-k="name" data-t="cModel"></th>
+        <th data-k="codes" data-t="cSspec"></th>
+        <th data-k="steps" data-t="cStep" class="opt"></th>
+        <th data-k="code" data-t="cCode" class="opt"></th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <button id="more" type="button"></button>
+  <footer><span data-t="foot"></span> <a href="https://github.com/maxshevelev/IntelCPUID">github.com/maxshevelev/IntelCPUID</a><span id="stamp"></span></footer>
+</main>
+<script>
+"use strict";
+const T = {
+  en: {
+    title: "Intel CPUID lookup", ph: "CPUID, model or S-SPEC — 306A9, i7-2600K, SR00C",
+    cCpuid: "CPUID", cModel: "Model", cSspec: "S-SPEC", cStep: "Stepping", cCode: "Code name",
+    kCpuid: "CPUID", kModel: "model", kSspec: "S-SPEC", kCode: "code name",
+    all: (n, e) => `${n} processors under ${e} CPUIDs. Type to search.`,
+    found: (n) => n ? `${n} found` : "Nothing found. Check the spelling, or try part of the number.",
+    more: (n) => `Show ${n} more`, clear: "Clear", copied: "copied", noCode: "—",
+    loading: "Loading…", failed: "Couldn't load the table. Reload the page.",
+    foot: "Data and sources:", updated: (d) => ` · updated ${d}`,
+    eStep: "Steppings", eFam: "Family", eSeg: "Segment", eCores: "Cores", eModels: "Models",
+    series: "series", anyDigit: "X stands for any digit",
+  },
+  ru: {
+    title: "Справочник Intel CPUID", ph: "CPUID, модель или S-SPEC — 306A9, i7-2600K, SR00C",
+    cCpuid: "CPUID", cModel: "Модель", cSspec: "S-SPEC", cStep: "Степпинг", cCode: "Код. имя",
+    kCpuid: "CPUID", kModel: "модель", kSspec: "S-SPEC", kCode: "код. имя",
+    all: (n, e) => `${n} процессоров под ${e} CPUID. Начните вводить запрос.`,
+    found: (n) => n ? `Найдено: ${n}` : "Ничего не найдено. Проверьте написание или введите часть номера.",
+    more: (n) => `Показать ещё ${n}`, clear: "Очистить", copied: "скопировано", noCode: "—",
+    loading: "Загрузка…", failed: "Не удалось загрузить таблицу. Обновите страницу.",
+    foot: "Данные и источники:", updated: (d) => ` · обновлено ${d}`,
+    eStep: "Степпинги", eFam: "Семейство", eSeg: "Сегмент", eCores: "Ядра", eModels: "Моделей",
+    series: "серия", anyDigit: "X — любая цифра",
+  },
+};
+const PAGE = 150, MAX_HINTS = 8;
+const $ = (id) => document.getElementById(id);
+const norm = (s) => s.toLowerCase().replace(/[^a-z0-9а-я+]/g, "");
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let lang = "en", rows = [], entries = [], hints = [], shown = PAGE, sort = null, active = -1, retrieved = "";
+
+function pickLang() {
+  let saved = null;
+  try { saved = localStorage.getItem("lang"); } catch (e) {}
+  if (saved === "ru" || saved === "en") return saved;
+  const prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+  for (const p of prefs) {
+    const two = p.slice(0, 2).toLowerCase();
+    if (two === "ru" || two === "uk" || two === "be" || two === "kk") return "ru";
+    if (two === "en") return "en";
+  }
+  return "en";
+}
+function setLang(l, save) {
+  lang = l;
+  if (save) { try { localStorage.setItem("lang", l); } catch (e) {} }
+  document.documentElement.lang = l;
+  document.title = T[l].title;
+  document.querySelectorAll("[data-t]").forEach((el) => { el.textContent = T[l][el.dataset.t]; });
+  document.querySelectorAll("[data-lang]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === l)));
+  $("q").placeholder = T[l].ph; $("q").setAttribute("aria-label", T[l].ph);
+  $("clear").setAttribute("aria-label", T[l].clear);
+  $("stamp").textContent = retrieved ? T[l].updated(retrieved) : "";
+  render();
+}
+
+function build(data) {
+  retrieved = (data.source && data.source.retrieved) || "";
+  entries = data.entries;
+  const seen = { cpuid: new Set(), model: new Set(), sspec: new Set(), code: new Set() };
+  const add = (kind, text, extra) => {
+    if (seen[kind].has(text)) return;
+    seen[kind].add(text);
+    hints.push({ kind, text, n: norm(text), extra: extra || "" });
+  };
+  entries.forEach((e, i) => {
+    const cpuid = e.cpuids.join(", "), code = e.codeNames.join(", "), steps = e.steppings.join(", ");
+    e.cpuids.forEach((c) => add("cpuid", c, e.codeNames[0] || ""));
+    e.codeNames.forEach((c) => add("code", c, e.cpuids.join(", ")));
+    for (const p of e.processors) {
+      const name = p.name.replace(/^Intel /, "");
+      rows.push({
+        i, cpuid, cpuids: e.cpuids, name, codes: p.sSpec || [], steps, code, series: !!p.series,
+        hay: [norm(cpuid), norm(p.name), (p.sSpec || []).map(norm).join("|"), norm(code), norm(steps)].join("|"),
+        wild: e.cpuids.filter((c) => c.includes("X")).map((c) => new RegExp("^" + c.toLowerCase().replace(/x/g, "[0-9a-f]") + "$")),
+      });
+      if (!p.series) add("model", name, e.cpuids[0]);
+      (p.sSpec || []).forEach((s) => add("sspec", s, name));
+    }
+  });
+}
+
+function tokens(q) { return q.trim().split(/\s+/).map(norm).filter(Boolean); }
+function match(r, toks) {
+  return toks.every((t) => r.hay.includes(t) || r.wild.some((w) => w.test(t)));
+}
+function mark(text, toks) {
+  if (!toks.length) return esc(text);
+  // Highlight on the text as written: a token may span characters the search ignores (i7-2600 for "i72600").
+  const map = []; let flat = "";
+  for (let k = 0; k < text.length; k++) { const c = norm(text[k]); if (c) { flat += c; map.push(k); } }
+  const on = new Array(text.length).fill(false);
+  for (const t of toks) {
+    let at = flat.indexOf(t);
+    while (at !== -1) { for (let k = map[at]; k <= map[at + t.length - 1]; k++) on[k] = true; at = flat.indexOf(t, at + 1); }
+  }
+  let out = "", open = false;
+  for (let k = 0; k < text.length; k++) {
+    if (on[k] && !open) { out += "<mark>"; open = true; }
+    if (!on[k] && open) { out += "</mark>"; open = false; }
+    out += esc(text[k]);
+  }
+  return out + (open ? "</mark>" : "");
+}
+
+function render() {
+  if (!rows.length) return;
+  const t = T[lang], q = $("q").value, toks = tokens(q);
+  let list = toks.length ? rows.filter((r) => match(r, toks)) : rows.slice();
+  if (sort) {
+    const dir = sort.dir, k = sort.key;
+    const val = (r) => (k === "codes" ? r.codes.join(" ") : r[k]);
+    list.sort((a, b) => dir * val(a).localeCompare(val(b), undefined, { numeric: true }));
+  }
+  $("status").textContent = toks.length ? t.found(list.length) : t.all(rows.length, entries.reduce((n, e) => n + e.cpuids.length, 0));
+  $("clear").style.display = q ? "block" : "none";
+
+  // The entries whose CPUID the query names exactly: their header above the table.
+  const nq = norm(q), named = toks.length === 1 ? entries.filter((e) => e.cpuids.some((c) => norm(c) === nq)) : [];
+  $("entries").innerHTML = named.map((e) => {
+    const line = (label, v) => (v && (typeof v === "number" || v.length) ? `<dt>${label}</dt><dd>${esc(Array.isArray(v) ? v.join(", ") : String(v))}</dd>` : "");
+    const wild = e.cpuids.some((c) => c.includes("X")) ? ` <span class="none">(${t.anyDigit})</span>` : "";
+    return `<div class="entry"><b>${esc(e.cpuids.join(", "))}</b> · ${esc(e.codeNames.join(", "))}${wild}<dl>` +
+      line(t.eStep, e.steppings) + line(t.eFam, e.productFamilies) + line(t.eSeg, e.segments) +
+      line(t.eCores, e.cores) + line(t.eModels, e.processors.length) + "</dl></div>";
+  }).join("");
+
+  $("rows").innerHTML = list.slice(0, shown).map((r) =>
+    `<tr><td class="mono">${r.cpuids.map((c) => `<a class="cpuid" href="?q=${c}" data-q="${c}">${mark(c, toks)}</a>`).join(", ")}</td>` +
+    `<td>${mark(r.name, toks)}${r.series ? ` <span class="none">(${t.series})</span>` : ""}</td>` +
+    `<td>${r.codes.length ? r.codes.map((c) => `<button type="button" class="code" data-copy="${c}" title="${c}">${mark(c, toks)}</button>`).join("") : `<span class="none">${t.noCode}</span>`}</td>` +
+    `<td class="opt">${mark(r.steps, toks)}</td><td class="opt">${mark(r.code, toks)}</td></tr>`).join("");
+  const rest = list.length - shown;
+  $("more").style.display = rest > 0 ? "block" : "none";
+  $("more").textContent = t.more(Math.min(rest, PAGE));
+  document.querySelectorAll("th[data-k]").forEach((th) => {
+    if (sort && sort.key === th.dataset.k) th.setAttribute("aria-sort", sort.dir > 0 ? "ascending" : "descending");
+    else th.removeAttribute("aria-sort");
+  });
+}
+
+function suggest() {
+  const q = norm($("q").value), box = $("hints");
+  active = -1;
+  if (!q || !hints.length) { box.style.display = "none"; $("q").setAttribute("aria-expanded", "false"); return; }
+  const rank = (h) => (h.n === q ? 0 : h.n.startsWith(q) ? 1 : 2) * 10 + ({ cpuid: 0, sspec: 1, model: 2, code: 3 }[h.kind]);
+  const found = hints.filter((h) => h.n.includes(q) && h.n !== q)
+    .sort((a, b) => rank(a) - rank(b) || a.text.length - b.text.length || a.text.localeCompare(b.text, undefined, { numeric: true }))
+    .slice(0, MAX_HINTS);
+  const kind = { cpuid: T[lang].kCpuid, model: T[lang].kModel, sspec: T[lang].kSspec, code: T[lang].kCode };
+  box.innerHTML = found.map((h, k) =>
+    `<li role="option" id="h${k}" data-v="${esc(h.text)}"><span class="${h.kind === "model" || h.kind === "code" ? "" : "mono"}">${mark(h.text, [q])}</span>` +
+    `<span class="kind">${kind[h.kind]}${h.extra ? " · " + esc(h.extra) : ""}</span></li>`).join("");
+  box.style.display = found.length ? "block" : "none";
+  $("q").setAttribute("aria-expanded", String(!!found.length));
+}
+function closeHints() { $("hints").style.display = "none"; $("q").setAttribute("aria-expanded", "false"); active = -1; }
+function setQuery(v, push) {
+  $("q").value = v; shown = PAGE; closeHints(); render();
+  const url = v ? "?q=" + encodeURIComponent(v) : location.pathname;
+  history[push ? "pushState" : "replaceState"](null, "", url);
+}
+
+$("q").addEventListener("input", () => { shown = PAGE; render(); suggest();
+  history.replaceState(null, "", $("q").value ? "?q=" + encodeURIComponent($("q").value) : location.pathname); });
+$("q").addEventListener("keydown", (ev) => {
+  const items = [...$("hints").children], open = $("hints").style.display === "block";
+  if (ev.key === "ArrowDown" || ev.key === "ArrowUp") {
+    if (!open) { suggest(); return; }
+    ev.preventDefault();
+    active = (active + (ev.key === "ArrowDown" ? 1 : -1) + items.length + 1) % (items.length + 1);
+    items.forEach((li, k) => li.setAttribute("aria-selected", String(k === active)));
+    if (active < items.length) $("q").setAttribute("aria-activedescendant", "h" + active); else { $("q").removeAttribute("aria-activedescendant"); active = -1; }
+  } else if (ev.key === "Enter") {
+    if (open && active >= 0 && items[active]) { ev.preventDefault(); setQuery(items[active].dataset.v, true); }
+    else closeHints();
+  } else if (ev.key === "Escape") { if (open) { ev.preventDefault(); closeHints(); } }
+});
+$("q").addEventListener("focus", suggest);
+$("hints").addEventListener("mousedown", (ev) => { const li = ev.target.closest("li"); if (li) { ev.preventDefault(); setQuery(li.dataset.v, true); } });
+document.addEventListener("click", (ev) => { if (!ev.target.closest(".box")) closeHints(); });
+$("clear").addEventListener("click", () => { setQuery("", true); $("q").focus(); });
+$("more").addEventListener("click", () => { shown += PAGE; render(); });
+$("rows").addEventListener("click", (ev) => {
+  const a = ev.target.closest("a.cpuid");
+  if (a && !ev.metaKey && !ev.ctrlKey) { ev.preventDefault(); setQuery(a.dataset.q, true); window.scrollTo(0, 0); return; }
+  const b = ev.target.closest("button.code");
+  if (b && navigator.clipboard) {
+    navigator.clipboard.writeText(b.dataset.copy).then(() => {
+      b.classList.add("copied"); b.title = T[lang].copied;
+      setTimeout(() => { b.classList.remove("copied"); b.title = b.dataset.copy; }, 900);
+    }, () => {});
+  }
+});
+document.querySelector("thead").addEventListener("click", (ev) => {
+  const th = ev.target.closest("th[data-k]"); if (!th) return;
+  sort = sort && sort.key === th.dataset.k ? (sort.dir > 0 ? { key: sort.key, dir: -1 } : null) : { key: th.dataset.k, dir: 1 };
+  render();
+});
+document.querySelectorAll("[data-lang]").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang, true)));
+window.addEventListener("popstate", () => { $("q").value = new URLSearchParams(location.search).get("q") || ""; shown = PAGE; closeHints(); render(); });
+
+setLang(pickLang(), false);
+$("q").value = new URLSearchParams(location.search).get("q") || "";
+$("status").textContent = T[lang].loading;
+fetch("IntelCPUIDBrandNames.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((data) => { build(data); setLang(lang, false); })
+  .catch(() => { $("status").textContent = T[lang].failed; });
+</script>
+</body>
+</html>
