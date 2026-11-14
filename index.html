@@ -54,6 +54,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 12px 16px 40px; }
 .entry li { margin: 4px 0; overflow-wrap: anywhere; }
 .entry li a { color: var(--accent); }
 .entry .quote { color: var(--muted); font-family: var(--mono); font-size: 12.5px; }
+.entry dd a { color: var(--accent); }
+.entry details.inline { display: inline; margin: 0; }
+.entry details.inline summary { display: inline; color: var(--accent); }
+.entry details.inline[open] summary { display: block; }
+.entry .none { font-size: 13px; }
+p.why { margin: 8px 2px 0; font-size: 14px; color: var(--muted); }
 .wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 7px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -129,6 +135,20 @@ const T = {
     sharedWith: (rev, date, list) => `update ${rev} of ${date} also serves ${list}`,
     noModels: "No models are listed for this CPUID. What is known about it is above.",
     noEntry: "The table has no entry for this CPUID.", noEntryTitle: "not in the table",
+    eOrigin: "Origin", eCodes: "S-SPEC from", eWhy: "Why together",
+    fromArticle: (a) => `a row of the article ${a}`,
+    fromExtra: "not in the article: each fact from the page in Sources",
+    stepsFrom: (a) => `steppings checked against ${a}`, notesLink: "Intel's microcode release notes",
+    codesArticle: "the article", codesArk: "Intel ARK", codesWiki: "Wikipedia", codesIntel: "Intel documents",
+    codesDb: "S-SPEC databases", codesMark: "package markings",
+    whyRow: (list) => `The article gives ${list} in one row, for the same processors: each processor reports one of them, and the article does not say which. Where the steppings differ, the stepping of a processor's S-SPEC tells.`,
+    whyShared: "They share one microcode update, below.",
+    whyWild: "The X stands for any one digit: the article gives the model without the stepping, so any stepping of it.",
+    whyMany: (n) => `This CPUID is in ${n} entries:`,
+    whyManyArticle: "the article gives it in more than one row",
+    whyManyExtra: "another group on the same CPUID, from other sources (its note says why)",
+    whyUpdate: "One update, the same bytes, serves every CPUID its extended signature table names: a BIOS that carries it covers them all.",
+    cellWhy: "Several CPUIDs: the article gives these processors under all of them in one row; each processor reports one of them.",
     series: "series", anyDigit: "X stands for any digit",
   },
   ru: {
@@ -146,6 +166,20 @@ const T = {
     sharedWith: (rev, date, list) => `обновление ${rev} от ${date} обслуживает также ${list}`,
     noModels: "Для этого CPUID модели не перечислены. Всё, что о нём известно, показано выше.",
     noEntry: "В таблице нет записи для этого CPUID.", noEntryTitle: "нет в таблице",
+    eOrigin: "Происхождение", eCodes: "S-SPEC из", eWhy: "Почему вместе",
+    fromArticle: (a) => `строка статьи ${a}`,
+    fromExtra: "нет в статье: каждый факт — со страницы в источниках",
+    stepsFrom: (a) => `степпинги сверены с ${a}`, notesLink: "release notes микрокода Intel",
+    codesArticle: "статьи", codesArk: "Intel ARK", codesWiki: "Wikipedia", codesIntel: "документов Intel",
+    codesDb: "баз S-SPEC", codesMark: "маркировки корпусов",
+    whyRow: (list) => `Статья даёт ${list} одной строкой, для одних и тех же процессоров: каждый процессор сообщает один из них, а какой — статья не говорит. Если степпинги различаются, ответ даёт степпинг S-SPEC процессора.`,
+    whyShared: "У них одно общее обновление микрокода, см. ниже.",
+    whyWild: "X — любая цифра: статья даёт модель без степпинга, то есть любой её степпинг.",
+    whyMany: (n) => `Этот CPUID есть в ${n} записях:`,
+    whyManyArticle: "статья даёт его в нескольких строках",
+    whyManyExtra: "другая группа на том же CPUID, из других источников (почему — в её примечании)",
+    whyUpdate: "Одно обновление, одни и те же байты, обслуживает каждый CPUID из своей расширенной таблицы сигнатур: BIOS с ним подходит им всем.",
+    cellWhy: "Несколько CPUID: статья даёт эти процессоры под всеми ними одной строкой; каждый процессор сообщает один из них.",
     series: "серия", anyDigit: "X — любая цифра",
   },
 };
@@ -154,7 +188,7 @@ const $ = (id) => document.getElementById(id);
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9а-я+]/g, "");
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-let lang = "en", extra = {}, shared = {}, rows = [], entries = [], hints = [], shown = PAGE, sort = null, active = -1, retrieved = "";
+let lang = "en", meta = {}, extra = {}, shared = {}, rows = [], entries = [], hints = [], shown = PAGE, sort = null, active = -1, retrieved = "";
 
 function pickLang() {
   let saved = null;
@@ -183,6 +217,7 @@ function setLang(l, save) {
 
 function build(data) {
   retrieved = (data.source && data.source.retrieved) || "";
+  meta = data;
   entries = data.entries;
   const seen = { cpuid: new Set(), model: new Set(), sspec: new Set(), code: new Set() };
   const add = (kind, text, extra) => {
@@ -253,19 +288,59 @@ function render() {
       const others = u.signatures.map((x) => x.cpuid).filter((c, k, all) => !cpuids.includes(c) && all.indexOf(c) === k)
         .map((c) => `<a class="cpuid mono" href="?q=${c}" data-q="${c}">${c}</a>`).join(", ");
       return t.sharedWith(`<span class="mono">0x${esc(u.revision)}</span>`, esc(u.date), others);
-    }).join("<br>") + "</dd>";
+    }).join("<br>") + `<br><span class="none">${esc(t.whyUpdate)}</span></dd>`;
   };
-  const open = list.length ? "" : " open";
-  let head = named.map((e) => {
-    const wild = e.cpuids.some((c) => c.includes("X")) ? ` <span class="none">(${t.anyDigit})</span>` : "";
+  const REPO = "https://github.com/maxshevelev/IntelCPUID/blob/main/";
+  const link = (url, text) => `<a href="${esc(url)}" rel="noopener">${esc(text)}</a>`;
+  const codeSources = (e) => {
+    const n = {};
+    for (const p of e.processors) for (const c of p.sSpec || []) {
+      const k = (p.sSpecSource || {})[c] || "article"; n[k] = (n[k] || 0) + 1;
+    }
+    const src = meta.sSpecSources || {}, wiki = (src.wikipedia && src.wikipedia.pages) || [];
+    const names = {
+      article: [t.codesArticle, meta.source && meta.source.url],
+      ark: [t.codesArk, REPO + "Skills/update-cpuid-brand-names/scripts/ark-sspec.json"],
+      wikipedia: [t.codesWiki, null],
+      intel: [t.codesIntel, REPO + "Skills/update-cpuid-brand-names/scripts/found-sspec.json"],
+      database: [t.codesDb, REPO + "Skills/update-cpuid-brand-names/scripts/found-sspec.json"],
+      marking: [t.codesMark, REPO + "Skills/update-cpuid-brand-names/scripts/found-sspec.json"],
+    };
+    const parts = Object.keys(names).filter((k) => n[k]).map((k) => {
+      const [label, url] = names[k];
+      if (k === "wikipedia") return `${n[k]} — <details class="inline"><summary>${label}</summary>` +
+        wiki.map((w) => link(w.url, w.title)).join("<br>") + "</details>";
+      return `${n[k]} — ${url ? link(url, label) : esc(label)}`;
+    });
+    return parts.length ? `<dt>${t.eCodes}</dt><dd>${parts.join("<br>")}</dd>` : "";
+  };
+  let head = "";
+  if (named.length > 1) {
+    const art = named.filter((e) => e.source !== "extra").length;
+    head += `<p class="why">${t.whyMany(named.length)} ` +
+      [art > 1 ? t.whyManyArticle : "", named.length - art >= 1 && art >= 1 ? t.whyManyExtra : ""].filter(Boolean).join("; ") + ".</p>";
+  }
+  head += named.map((e) => {
+    const wild = e.cpuids.some((c) => c.includes("X"));
     const x = extra[e.cpuids.join(",") + "|" + e.codeNames.join(",")];
     const facts = x ? x.evidence.filter((v) => !(v.gives.length === 1 && v.gives[0] === "processors")) : [];
-    return `<div class="entry"><b>${esc(e.cpuids.join(", "))}</b> · ${esc(e.codeNames.join(", "))}${wild}<dl>` +
+    const steps = meta.sSpecSources && meta.sSpecSources.steppings;
+    const origin = e.source === "extra" ? esc(t.fromExtra)
+      : t.fromArticle(link(meta.source.url, "«" + meta.source.title + "»")) +
+        (steps ? "; " + t.stepsFrom(link(steps.url, t.notesLink)) : "");
+    const ups = [...new Set(e.cpuids.flatMap((c) => shared[c] || []))];
+    const why = [];
+    if (e.cpuids.length > 1) why.push(esc(t.whyRow(e.cpuids.join(", "))) +
+      (ups.some((u) => e.cpuids.every((c) => u.signatures.some((s) => s.cpuid === c))) ? " " + esc(t.whyShared) : ""));
+    if (wild) why.push(esc(t.whyWild));
+    return `<div class="entry"><b>${esc(e.cpuids.join(", "))}</b> · ${esc(e.codeNames.join(", "))}<dl>` +
+      (why.length ? `<dt>${t.eWhy}</dt><dd>${why.join("<br>")}</dd>` : "") +
       line(t.eStep, e.steppings) + line(t.eFam, e.productFamilies) + line(t.eSeg, e.segments) +
-      line(t.eCores, e.cores) + line(t.eModels, e.processors.length || "0") + sharedLine(e.cpuids) + "</dl>" +
-      (x && x.note ? `<details${open}><summary>${t.eNote}</summary><p lang="en">${esc(x.note)}</p></details>` : "") +
-      (facts.length ? `<details${open}><summary>${t.eSources(facts.length)}</summary><ul>` + facts.map((v) =>
-        `<li><a href="${esc(v.url)}" rel="noopener">${esc(v.url.replace(/^https?:\/\//, "").split("/")[0])}</a> ` +
+      line(t.eCores, e.cores) + line(t.eModels, e.processors.length || "0") +
+      `<dt>${t.eOrigin}</dt><dd>${origin}</dd>` + codeSources(e) + sharedLine(e.cpuids) + "</dl>" +
+      (x && x.note ? `<details open><summary>${t.eNote}</summary><p lang="en">${esc(x.note)}</p></details>` : "") +
+      (facts.length ? `<details open><summary>${t.eSources(facts.length)}</summary><ul>` + facts.map((v) =>
+        `<li>${link(v.url, v.url.replace(/^https?:\/\//, "").split("/")[0])} ` +
         `<span class="quote">${esc(v.quote)}</span></li>`).join("") + "</ul></details>" : "") + "</div>";
   }).join("");
   // A CPUID the table has no entry for, but a microcode update names it.
@@ -276,7 +351,7 @@ function render() {
   document.querySelector(".wrap").style.display = toks.length && !list.length ? "none" : "";
 
   $("rows").innerHTML = list.slice(0, shown).map((r) =>
-    `<tr><td class="mono">${r.cpuids.map((c) => `<a class="cpuid" href="?q=${c}" data-q="${c}">${mark(c, toks)}</a>`).join(", ")}</td>` +
+    `<tr><td class="mono"${r.cpuids.length > 1 ? ` title="${esc(t.cellWhy)}"` : ""}>${r.cpuids.map((c) => `<a class="cpuid" href="?q=${c}" data-q="${c}">${mark(c, toks)}</a>`).join(", ")}</td>` +
     `<td>${mark(r.name, toks)}${r.series ? ` <span class="none">(${t.series})</span>` : ""}</td>` +
     `<td>${r.codes.length ? r.codes.map((c) => `<button type="button" class="code" data-copy="${c}" title="${c}">${mark(c, toks)}</button>`).join("") : `<span class="none">${t.noCode}</span>`}</td>` +
     `<td class="opt">${mark(r.steps, toks)}</td><td class="opt">${mark(r.code, toks)}</td></tr>`).join("");
