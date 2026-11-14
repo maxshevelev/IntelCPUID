@@ -39,6 +39,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 12px 16px 40px; }
 #hints li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
 #hints li[aria-selected="true"], #hints li:hover { background: var(--accent-bg); }
 #hints .kind { color: var(--muted); font-size: 13px; white-space: nowrap; }
+#hints .drop { border: 0; background: none; color: var(--muted); font: inherit; cursor: pointer; padding: 0 4px; margin-left: 8px; }
+#hints .drop:hover { color: var(--text); }
+#hints li.forget { justify-content: center; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); border-radius: 0 0 6px 6px; margin-top: 4px; }
 .status { color: var(--muted); font-size: 13px; margin: 6px 2px; min-height: 19px; }
 .entry { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 8px 0; }
 .entry b { font-family: var(--mono); font-size: 16px; }
@@ -115,6 +118,7 @@ const T = {
     title: "Intel CPUID lookup", ph: "CPUID, model or S-SPEC — 306A9, i7-2600K, SR00C",
     cCpuid: "CPUID", cModel: "Model", cSspec: "S-SPEC", cStep: "Stepping", cCode: "Code name",
     kCpuid: "CPUID", kModel: "model", kSspec: "S-SPEC", kCode: "code name",
+    kRecent: "recent", forget: "Clear search history", drop: "Remove from history",
     all: (n, e) => `${n} processors under ${e} CPUIDs. Type to search.`,
     found: (n) => n ? `${n} found` : "Nothing found. Check the spelling, or try part of the number.",
     more: (n) => `Show ${n} more`, clear: "Clear", copied: "copied", noCode: "—",
@@ -131,6 +135,7 @@ const T = {
     title: "Справочник Intel CPUID", ph: "CPUID, модель или S-SPEC — 306A9, i7-2600K, SR00C",
     cCpuid: "CPUID", cModel: "Модель", cSspec: "S-SPEC", cStep: "Степпинг", cCode: "Код. имя",
     kCpuid: "CPUID", kModel: "модель", kSspec: "S-SPEC", kCode: "код. имя",
+    kRecent: "недавнее", forget: "Очистить историю поиска", drop: "Убрать из истории",
     all: (n, e) => `${n} процессоров под ${e} CPUID. Начните вводить запрос.`,
     found: (n) => n ? `Найдено: ${n}` : "Ничего не найдено. Проверьте написание или введите часть номера.",
     more: (n) => `Показать ещё ${n}`, clear: "Очистить", copied: "скопировано", noCode: "—",
@@ -144,7 +149,7 @@ const T = {
     series: "серия", anyDigit: "X — любая цифра",
   },
 };
-const PAGE = 150, MAX_HINTS = 8;
+const PAGE = 150, MAX_HINTS = 8, MAX_RECENT = 10, IDLE = 2000;
 const $ = (id) => document.getElementById(id);
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9а-я+]/g, "");
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -284,10 +289,36 @@ function render() {
   });
 }
 
+// The last searches, newest first, kept in this browser only.
+function recent() {
+  try { const v = JSON.parse(localStorage.getItem("recent") || "[]"); return Array.isArray(v) ? v.filter((x) => typeof x === "string") : []; }
+  catch (e) { return []; }
+}
+function keep(list) { try { localStorage.setItem("recent", JSON.stringify(list)); } catch (e) {} }
+function remember(v) {
+  v = v.trim().replace(/\s+/g, " ");
+  const n = norm(v);
+  if (!n) return;
+  // A query replaces itself and what was typed on the way to it ("SR0" before "SR00C").
+  keep([v, ...recent().filter((x) => !n.startsWith(norm(x)))].slice(0, MAX_RECENT));
+}
+let idle = 0;
+function rememberSoon() { clearTimeout(idle); idle = setTimeout(() => { if ($("rows").children.length || $("entries").children.length) remember($("q").value); }, IDLE); }
+
 function suggest() {
   const q = norm($("q").value), box = $("hints");
   active = -1;
-  if (!q || !hints.length) { box.style.display = "none"; $("q").setAttribute("aria-expanded", "false"); return; }
+  if (!q) {
+    const past = recent();
+    box.innerHTML = past.map((v, k) =>
+      `<li role="option" id="h${k}" data-v="${esc(v)}"><span>${esc(v)}</span><span class="kind">${T[lang].kRecent}` +
+      `<button type="button" class="drop" data-drop="${esc(v)}" aria-label="${T[lang].drop}" title="${T[lang].drop}">×</button></span></li>`).join("") +
+      (past.length ? `<li role="option" id="h${past.length}" class="forget" data-forget="1">${T[lang].forget}</li>` : "");
+    box.style.display = past.length ? "block" : "none";
+    $("q").setAttribute("aria-expanded", String(!!past.length));
+    return;
+  }
+  if (!hints.length) { box.style.display = "none"; $("q").setAttribute("aria-expanded", "false"); return; }
   const rank = (h) => (h.n === q ? 0 : h.n.startsWith(q) ? 1 : 2) * 10 + ({ cpuid: 0, sspec: 1, model: 2, code: 3 }[h.kind]);
   const found = hints.filter((h) => h.n.includes(q) && h.n !== q)
     .sort((a, b) => rank(a) - rank(b) || a.text.length - b.text.length || a.text.localeCompare(b.text, undefined, { numeric: true }))
@@ -301,12 +332,13 @@ function suggest() {
 }
 function closeHints() { $("hints").style.display = "none"; $("q").setAttribute("aria-expanded", "false"); active = -1; }
 function setQuery(v, push) {
-  $("q").value = v; shown = PAGE; closeHints(); render();
+  $("q").value = v; shown = PAGE; closeHints(); render(); clearTimeout(idle);
+  if (push) remember(v);
   const url = v ? "?q=" + encodeURIComponent(v) : location.pathname;
   history[push ? "pushState" : "replaceState"](null, "", url);
 }
 
-$("q").addEventListener("input", () => { shown = PAGE; render(); suggest();
+$("q").addEventListener("input", () => { shown = PAGE; render(); suggest(); rememberSoon();
   history.replaceState(null, "", $("q").value ? "?q=" + encodeURIComponent($("q").value) : location.pathname); });
 $("q").addEventListener("keydown", (ev) => {
   const items = [...$("hints").children], open = $("hints").style.display === "block";
@@ -317,12 +349,22 @@ $("q").addEventListener("keydown", (ev) => {
     items.forEach((li, k) => li.setAttribute("aria-selected", String(k === active)));
     if (active < items.length) $("q").setAttribute("aria-activedescendant", "h" + active); else { $("q").removeAttribute("aria-activedescendant"); active = -1; }
   } else if (ev.key === "Enter") {
-    if (open && active >= 0 && items[active]) { ev.preventDefault(); setQuery(items[active].dataset.v, true); }
-    else closeHints();
+    if (open && active >= 0 && items[active]) { ev.preventDefault(); pick(items[active]); }
+    else { closeHints(); clearTimeout(idle); remember($("q").value); }
   } else if (ev.key === "Escape") { if (open) { ev.preventDefault(); closeHints(); } }
 });
 $("q").addEventListener("focus", suggest);
-$("hints").addEventListener("mousedown", (ev) => { const li = ev.target.closest("li"); if (li) { ev.preventDefault(); setQuery(li.dataset.v, true); } });
+function pick(li) {
+  if (li.dataset.forget) { keep([]); closeHints(); return; }
+  setQuery(li.dataset.v, true);
+}
+$("hints").addEventListener("mousedown", (ev) => {
+  const drop = ev.target.closest(".drop"), li = ev.target.closest("li");
+  if (!li) return;
+  ev.preventDefault();
+  if (drop) { keep(recent().filter((x) => x !== drop.dataset.drop)); suggest(); return; }
+  pick(li);
+});
 document.addEventListener("click", (ev) => { if (!ev.target.closest(".box")) closeHints(); });
 $("clear").addEventListener("click", () => { setQuery("", true); $("q").focus(); });
 $("more").addEventListener("click", () => { shown += PAGE; render(); });
