@@ -17,6 +17,12 @@ one static page served by GitHub Pages from this branch, which reads
 `IntelCPUIDBrandNames.json` beside it. Russian or English, by the browser's
 preference.
 
+ByteRipper's Intel CPUID Lookup window searches the same table, and also
+reads `Skills/update-cpuid-brand-names/scripts/extra-entries.json` for the notes
+and sources of the entries the article lacks, as the page does — so that path
+is read by the app too; moving it leaves the app without notes, not without
+the table.
+
 Both carry `"formatVersion": 1`. ByteRipper refuses a file of a newer format, or
 one it cannot decode, and keeps the last pair it read whole; it has no copy of
 its own.
