@@ -219,7 +219,7 @@ function render() {
     const val = (r) => (k === "codes" ? r.codes.join(" ") : r[k]);
     list.sort((a, b) => dir * val(a).localeCompare(val(b), undefined, { numeric: true }));
   }
-  $("status").textContent = toks.length ? t.found(list.length) : t.all(rows.length, entries.reduce((n, e) => n + e.cpuids.length, 0));
+  $("status").textContent = toks.length ? t.found(list.length) : t.all(rows.filter((r) => !r.series).length, new Set(entries.flatMap((e) => e.cpuids)).size);
   $("clear").style.display = q ? "block" : "none";
 
   // The entries whose CPUID the query names exactly: their header above the table.
