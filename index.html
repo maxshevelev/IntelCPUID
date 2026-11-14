@@ -44,6 +44,13 @@ main { max-width: 1100px; margin: 0 auto; padding: 12px 16px 40px; }
 .entry b { font-family: var(--mono); font-size: 16px; }
 .entry dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 6px 0 0; font-size: 14px; }
 .entry dt { color: var(--muted); } .entry dd { margin: 0; }
+.entry p { margin: 8px 0 0; font-size: 14px; }
+.entry details { margin-top: 8px; font-size: 13.5px; }
+.entry summary { cursor: pointer; color: var(--muted); }
+.entry ul { margin: 6px 0 0; padding-left: 18px; }
+.entry li { margin: 4px 0; overflow-wrap: anywhere; }
+.entry li a { color: var(--accent); }
+.entry .quote { color: var(--muted); font-family: var(--mono); font-size: 12.5px; }
 .wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 7px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -114,6 +121,10 @@ const T = {
     loading: "Loading…", failed: "Couldn't load the table. Reload the page.",
     foot: "Data and sources:", updated: (d) => ` · updated ${d}`,
     eStep: "Steppings", eFam: "Family", eSeg: "Segment", eCores: "Cores", eModels: "Models",
+    eShared: "Shared microcode", eNote: "Notes", eSources: (n) => `Sources (${n})`,
+    sharedWith: (rev, date, list) => `update ${rev} of ${date} also serves ${list}`,
+    noModels: "No models are listed for this CPUID. What is known about it is above.",
+    noEntry: "The table has no entry for this CPUID.", noEntryTitle: "not in the table",
     series: "series", anyDigit: "X stands for any digit",
   },
   ru: {
@@ -126,6 +137,10 @@ const T = {
     loading: "Загрузка…", failed: "Не удалось загрузить таблицу. Обновите страницу.",
     foot: "Данные и источники:", updated: (d) => ` · обновлено ${d}`,
     eStep: "Степпинги", eFam: "Семейство", eSeg: "Сегмент", eCores: "Ядра", eModels: "Моделей",
+    eShared: "Общий микрокод", eNote: "Примечания (на английском)", eSources: (n) => `Источники (${n})`,
+    sharedWith: (rev, date, list) => `обновление ${rev} от ${date} обслуживает также ${list}`,
+    noModels: "Для этого CPUID модели не перечислены. Всё, что о нём известно, показано выше.",
+    noEntry: "В таблице нет записи для этого CPUID.", noEntryTitle: "нет в таблице",
     series: "серия", anyDigit: "X — любая цифра",
   },
 };
@@ -134,7 +149,7 @@ const $ = (id) => document.getElementById(id);
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9а-я+]/g, "");
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-let lang = "en", rows = [], entries = [], hints = [], shown = PAGE, sort = null, active = -1, retrieved = "";
+let lang = "en", extra = {}, shared = {}, rows = [], entries = [], hints = [], shown = PAGE, sort = null, active = -1, retrieved = "";
 
 function pickLang() {
   let saved = null;
@@ -222,15 +237,38 @@ function render() {
   $("status").textContent = toks.length ? t.found(list.length) : t.all(rows.filter((r) => !r.series).length, new Set(entries.flatMap((e) => e.cpuids)).size);
   $("clear").style.display = q ? "block" : "none";
 
-  // The entries whose CPUID the query names exactly: their header above the table.
+  // The entries whose CPUID the query names exactly: their header above the table,
+  // with everything known about them — in full when the table below has no rows.
   const nq = norm(q), named = toks.length === 1 ? entries.filter((e) => e.cpuids.some((c) => norm(c) === nq)) : [];
-  $("entries").innerHTML = named.map((e) => {
-    const line = (label, v) => (v && (typeof v === "number" || v.length) ? `<dt>${label}</dt><dd>${esc(Array.isArray(v) ? v.join(", ") : String(v))}</dd>` : "");
+  const line = (label, v) => (v && (typeof v === "number" || v.length) ? `<dt>${label}</dt><dd>${esc(Array.isArray(v) ? v.join(", ") : String(v))}</dd>` : "");
+  const sharedLine = (cpuids) => {
+    const ups = [...new Set(cpuids.flatMap((c) => shared[c] || []))];
+    if (!ups.length) return "";
+    return `<dt>${t.eShared}</dt><dd>` + ups.map((u) => {
+      const others = u.signatures.map((x) => x.cpuid).filter((c, k, all) => !cpuids.includes(c) && all.indexOf(c) === k)
+        .map((c) => `<a class="cpuid mono" href="?q=${c}" data-q="${c}">${c}</a>`).join(", ");
+      return t.sharedWith(`<span class="mono">0x${esc(u.revision)}</span>`, esc(u.date), others);
+    }).join("<br>") + "</dd>";
+  };
+  const open = list.length ? "" : " open";
+  let head = named.map((e) => {
     const wild = e.cpuids.some((c) => c.includes("X")) ? ` <span class="none">(${t.anyDigit})</span>` : "";
+    const x = extra[e.cpuids.join(",") + "|" + e.codeNames.join(",")];
+    const facts = x ? x.evidence.filter((v) => !(v.gives.length === 1 && v.gives[0] === "processors")) : [];
     return `<div class="entry"><b>${esc(e.cpuids.join(", "))}</b> · ${esc(e.codeNames.join(", "))}${wild}<dl>` +
       line(t.eStep, e.steppings) + line(t.eFam, e.productFamilies) + line(t.eSeg, e.segments) +
-      line(t.eCores, e.cores) + line(t.eModels, e.processors.length) + "</dl></div>";
+      line(t.eCores, e.cores) + line(t.eModels, e.processors.length || "0") + sharedLine(e.cpuids) + "</dl>" +
+      (x && x.note ? `<details${open}><summary>${t.eNote}</summary><p lang="en">${esc(x.note)}</p></details>` : "") +
+      (facts.length ? `<details${open}><summary>${t.eSources(facts.length)}</summary><ul>` + facts.map((v) =>
+        `<li><a href="${esc(v.url)}" rel="noopener">${esc(v.url.replace(/^https?:\/\//, "").split("/")[0])}</a> ` +
+        `<span class="quote">${esc(v.quote)}</span></li>`).join("") + "</ul></details>" : "") + "</div>";
   }).join("");
+  // A CPUID the table has no entry for, but a microcode update names it.
+  const lone = toks.length === 1 && !named.length ? Object.keys(shared).find((c) => norm(c) === nq) : null;
+  if (lone) head = `<div class="entry"><b>${lone}</b> · <span class="none">${t.noEntryTitle}</span><dl>${sharedLine([lone])}</dl><p>${t.noEntry}</p></div>`;
+  $("entries").innerHTML = head;
+  if (toks.length && !list.length && (named.length || lone)) $("status").textContent = named.length ? t.noModels : t.noEntry;
+  document.querySelector(".wrap").style.display = toks.length && !list.length ? "none" : "";
 
   $("rows").innerHTML = list.slice(0, shown).map((r) =>
     `<tr><td class="mono">${r.cpuids.map((c) => `<a class="cpuid" href="?q=${c}" data-q="${c}">${mark(c, toks)}</a>`).join(", ")}</td>` +
@@ -288,6 +326,10 @@ $("hints").addEventListener("mousedown", (ev) => { const li = ev.target.closest(
 document.addEventListener("click", (ev) => { if (!ev.target.closest(".box")) closeHints(); });
 $("clear").addEventListener("click", () => { setQuery("", true); $("q").focus(); });
 $("more").addEventListener("click", () => { shown += PAGE; render(); });
+$("entries").addEventListener("click", (ev) => {
+  const a = ev.target.closest("a.cpuid");
+  if (a && !ev.metaKey && !ev.ctrlKey) { ev.preventDefault(); setQuery(a.dataset.q, true); window.scrollTo(0, 0); }
+});
 $("rows").addEventListener("click", (ev) => {
   const a = ev.target.closest("a.cpuid");
   if (a && !ev.metaKey && !ev.ctrlKey) { ev.preventDefault(); setQuery(a.dataset.q, true); window.scrollTo(0, 0); return; }
@@ -310,8 +352,18 @@ window.addEventListener("popstate", () => { $("q").value = new URLSearchParams(l
 setLang(pickLang(), false);
 $("q").value = new URLSearchParams(location.search).get("q") || "";
 $("status").textContent = T[lang].loading;
-fetch("IntelCPUIDBrandNames.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((data) => { build(data); setLang(lang, false); })
+const load = (url) => fetch(url, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+// The notes and sources of the entries the article lacks, and the updates that serve several CPUIDs:
+// the page works without either.
+const notes = load("Skills/update-cpuid-brand-names/scripts/extra-entries.json").then((d) => {
+  for (const e of d.entries) extra[e.cpuids.join(",") + "|" + e.codeNames.join(",")] = e;
+}).catch(() => {});
+const updates = load("IntelMicrocodeSignatures.json").then((d) => {
+  for (const u of d.updates) for (const x of u.signatures) (shared[x.cpuid] = shared[x.cpuid] || []).push(u);
+}).catch(() => {});
+load("IntelCPUIDBrandNames.json")
+  .then((data) => { build(data); setLang(lang, false); return Promise.all([notes, updates]); })
+  .then(() => render())
   .catch(() => { $("status").textContent = T[lang].failed; });
 </script>
 </body>
