@@ -63,7 +63,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ARK_FILE = os.path.join(HERE, "ark-sspec.json")
 FOUND_FILE = os.path.join(HERE, "found-sspec.json")
 
-INTEL_NOTES_COMMIT = "bdc92abe5c499c3fd7988b76a128d05c9120a520"
+INTEL_NOTES_COMMIT = "d71fe4e2f0f70a49ebbac7f2c7e915f181361974"
 INTEL_NOTES_URL = ("https://raw.githubusercontent.com/intel/"
                    "Intel-Linux-Processor-Microcode-Data-Files/"
                    f"{INTEL_NOTES_COMMIT}/releasenote.md")
@@ -73,11 +73,11 @@ INTEL_NOTES_URL = ("https://raw.githubusercontent.com/intel/"
 WIKIPEDIA_PAGES = {
     "List of Intel Atom processors": 1371423471,
     "List of Intel Celeron processors": 1379493616,
-    "List of Intel Core desktop processors": 1379967425,
+    "List of Intel Core desktop processors": 1384733155,
     "List of Intel Pentium processors": 1359301244,
     "List of Intel Xeon processors (Broadwell-based)": 1362915879,
     "List of Intel Xeon processors (Cascade Lake–based)": 1362298362,
-    "List of Intel Xeon processors (Coffee Lake-based)": 1339738082,
+    "List of Intel Xeon processors (Coffee Lake-based)": 1384774530,
     "List of Intel Xeon processors (Comet Lake-based)": 1334627889,
     "List of Intel Xeon processors (Haswell-based)": 1344872412,
     "List of Intel Xeon processors (Ice Lake-based)": 1362298361,

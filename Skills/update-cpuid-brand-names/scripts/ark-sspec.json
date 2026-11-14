@@ -9821,6 +9821,16 @@
       ]
     },
     {
+      "model": "Intel Xeon 6960E+",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/246077/intel-xeon-6960e-processor-432m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SAE3Z",
+          "stepping": "B0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6960P",
       "url": "https://www.intel.com/content/www/us/en/products/sku/240775/intel-xeon-6960p-processor-432m-cache-2-70-ghz/ordering.html",
       "specs": [
@@ -9841,6 +9851,16 @@
         {
           "sSpec": "SA2YM",
           "stepping": "B2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 6970E+",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/246083/intel-xeon-6970e-processor-480m-cache-2-30-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SAE4W",
+          "stepping": "B0"
         }
       ]
     },
@@ -9875,6 +9895,16 @@
       "note": "ordering.html redirects to specifications.html; the page lists no Spec Code rows"
     },
     {
+      "model": "Intel Xeon 6980E+",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/246075/intel-xeon-6980e-processor-528m-cache-2-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SAE3W",
+          "stepping": "B0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6980P",
       "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/ordering.html",
       "specs": [
@@ -9885,6 +9915,16 @@
         {
           "sSpec": "Q5SM",
           "stepping": "B2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 6990E+",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/246074/intel-xeon-6990e-processor-576m-cache-2-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SAE3X",
+          "stepping": "B0"
         }
       ]
     },

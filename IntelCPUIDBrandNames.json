@@ -25,8 +25,8 @@
         },
         {
           "title": "List of Intel Core desktop processors",
-          "revid": 1379967425,
-          "url": "https://en.wikipedia.org/w/index.php?oldid=1379967425"
+          "revid": 1384733155,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1384733155"
         },
         {
           "title": "List of Intel Pentium processors",
@@ -45,8 +45,8 @@
         },
         {
           "title": "List of Intel Xeon processors (Coffee Lake-based)",
-          "revid": 1339738082,
-          "url": "https://en.wikipedia.org/w/index.php?oldid=1339738082"
+          "revid": 1384774530,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1384774530"
         },
         {
           "title": "List of Intel Xeon processors (Comet Lake-based)",
@@ -88,7 +88,7 @@
     },
     "steppings": {
       "about": "stepping per CPUID, from Intel's microcode release notes",
-      "url": "https://raw.githubusercontent.com/intel/Intel-Linux-Processor-Microcode-Data-Files/bdc92abe5c499c3fd7988b76a128d05c9120a520/releasenote.md"
+      "url": "https://raw.githubusercontent.com/intel/Intel-Linux-Processor-Microcode-Data-Files/d71fe4e2f0f70a49ebbac7f2c7e915f181361974/releasenote.md"
     }
   },
   "entries": [
@@ -20790,6 +20790,20 @@
     },
     {
       "cpuids": [
+        "C0660"
+      ],
+      "codeNames": [
+        "Arrow Lake"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
         "C0662"
       ],
       "codeNames": [
@@ -21117,6 +21131,57 @@
           }
         }
       ],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "C0664"
+      ],
+      "codeNames": [
+        "Arrow Lake HX"
+      ],
+      "cores": [
+        "Lion Cove",
+        "Skymont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "C06C0"
+      ],
+      "codeNames": [
+        "Panther Lake"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "C06C1"
+      ],
+      "codeNames": [
+        "Panther Lake"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
       "source": "extra"
     },
     {
@@ -21495,6 +21560,20 @@
     },
     {
       "cpuids": [
+        "D0650"
+      ],
+      "codeNames": [
+        "Wildcat Lake"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
         "D0651"
       ],
       "codeNames": [
@@ -21713,6 +21792,98 @@
           }
         }
       ],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "D06D0"
+      ],
+      "codeNames": [
+        "Clearwater Forest"
+      ],
+      "cores": [
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "D06D1"
+      ],
+      "codeNames": [
+        "Clearwater Forest"
+      ],
+      "cores": [
+        "Darkmont"
+      ],
+      "productFamilies": [
+        "Intel Xeon 6900E+ Series Processors"
+      ],
+      "steppings": [
+        "B0"
+      ],
+      "segments": [
+        "Server"
+      ],
+      "processors": [
+        {
+          "name": "Intel Xeon 6960E+",
+          "sSpec": [
+            "SAE3Z"
+          ],
+          "sSpecSource": {
+            "SAE3Z": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 6970E+",
+          "sSpec": [
+            "SAE4W"
+          ],
+          "sSpecSource": {
+            "SAE4W": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 6980E+",
+          "sSpec": [
+            "SAE3W"
+          ],
+          "sSpecSource": {
+            "SAE3W": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 6990E+",
+          "sSpec": [
+            "SAE3X"
+          ],
+          "sSpecSource": {
+            "SAE3X": "ark"
+          }
+        }
+      ],
+      "source": "extra"
+    },
+    {
+      "cpuids": [
+        "E0652"
+      ],
+      "codeNames": [
+        "Panther Lake R"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
       "source": "extra"
     }
   ]

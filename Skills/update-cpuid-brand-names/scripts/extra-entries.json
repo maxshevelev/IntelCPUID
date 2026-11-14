@@ -10919,6 +10919,40 @@
     },
     {
       "cpuids": [
+        "C0660"
+      ],
+      "codeNames": [
+        "Arrow Lake"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_ARROWLAKE\t\t\tIFM(6, 0xC6)"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_C6H rows: stepping 2, C0662 (Arrow Lake H/HX/S/S Plus) — none for C0660."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuC0660_plat02_ver00000018_2024-05-16_PRD_B788D556.bin — revision 0x18, platform 0x02, no extended signature table."
+        }
+      ],
+      "note": "Arrow Lake's stepping ID 0 (the kernel names model 0xC6 Arrow Lake). No source names a stepping or a model sold as C0660: Intel's list of processors by CPUID has only C0662 for 06_C6H, and its one public microcode is dated 2024-05-16, months before Arrow Lake's launch. No models."
+    },
+    {
+      "cpuids": [
         "C0662"
       ],
       "codeNames": [
@@ -11034,6 +11068,11 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| ARL-S/HX (8P)  | B0       | 06-c6-02/82 | 00000121 | 00000122 | Core Ultra Processor (Series 2)"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_C6H | 2 | CPUID.0x7.EDX[15] =1 | Arrow Lake H/HX/S/S Plus (Lion Cove, Skymont) | Intel® Core™ Ultra 5,7,9 processor families Intel® Core™ Ultra 200 Plus Series Intel® Core™ Ultra 200 Series | Desktop Mobile | C0662 | 0x122"
         },
         {
           "gives": [
@@ -11246,7 +11285,135 @@
           "quote": "Core Ultra 9 290HX Plus: SADSS, stepping B0 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-S/HX (8P)), the steppings and the product line for this CPUID; the article has no row for it. Its models are the desktop and HX parts whose ARK ordering tab gives B0: ARK writes one code name, Arrow Lake, for every die, so the notes' label (ARL-S/HX) decides with the stepping. The Plus parts of 2026 give B0 too; the collection's C0664 (2026) has no stepping in any source, so they stay here. The Core Ultra 5 235's one production code, SRQAS, is B0 and A0 on its own ARK page, and it is not listed."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: ARL-S/HX (8P)), the steppings and the product line for this CPUID; the article has no row for it. Its models are the desktop and HX parts whose ARK ordering tab gives B0: ARK writes one code name, Arrow Lake, for every die, so the notes' label (ARL-S/HX) decides with the stepping. The Plus parts of 2026 give B0 too, and Intel's list of processors by CPUID names this CPUID Arrow Lake H/HX/S/S Plus. The Core Ultra 5 235's one production code, SRQAS, is B0 and A0 on its own ARK page, and it is not listed."
+    },
+    {
+      "cpuids": [
+        "C0664"
+      ],
+      "codeNames": [
+        "Arrow Lake HX"
+      ],
+      "cores": [
+        "Lion Cove",
+        "Skymont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://www.intel.cn/content/www/cn/zh/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_C6H | 4 |  | Arrow Lake HX (Lion Cove, Skymont) | Intel® Core™ Ultra 5,7,9 processor families | Desktop | C0664 | 0x116 (the page as last modified 2025-05-19)"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_C6H | 2 | CPUID.0x7.EDX[15] =1 | Arrow Lake H/HX/S/S Plus (Lion Cove, Skymont) | Intel® Core™ Ultra 5,7,9 processor families Intel® Core™ Ultra 200 Plus Series Intel® Core™ Ultra 200 Series | Desktop Mobile | C0662 | 0x122 (the page as last modified 2026-07-31: no row for C0664)"
+        },
+        {
+          "gives": [
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_ARROWLAKE\t\t\tIFM(6, 0xC6)"
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuC0664_plat82_ver00000122_2026-02-18_PRD_2CF66F4A.bin — extended signatures C0652/82, C0662/82, C0664/82, C06A2/82"
+        }
+      ],
+      "note": "Intel's list of processors by CPUID gave C0664 a row of its own, Arrow Lake HX, stepping 4, until its 2026 revision, which has one row for 06_C6H — C0662, Arrow Lake H/HX/S/S Plus. One microcode update serves C0652, C0662, C0664 and C06A2. No source names C0664's stepping, and ARK gives every HX part B0, which the microcode notes name for C0662: so the HX parts are listed there, and none here."
+    },
+    {
+      "cpuids": [
+        "C06C0"
+      ],
+      "codeNames": [
+        "Panther Lake"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/coreboot/coreboot/main/src/include/cpu/intel/cpu_ids.h",
+          "quote": "#define CPUID_PANTHERLAKE\t\t0xc06c0"
+        },
+        {
+          "gives": [
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_PANTHERLAKE_L\t\tIFM(6, 0xCC) /* Cougar Cove / Darkmont */"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_CCH row: steppings 2,3 — C06C2 C06C3; none for C06C0."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuC06C0_plat90_ver00000012_2025-03-25_PRD_05349E31.bin — revision 0x12, platform 0x90, no extended signature table."
+        }
+      ],
+      "note": "coreboot names C06C0 Panther Lake; the kernel names model 0xCC Panther Lake. No source names a stepping or a model sold as C06C0: Intel's list of processors by CPUID has C06C2 and C06C3 for 06_CCH, and its one public microcode is dated 2025-03-25, before Panther Lake's launch. No models."
+    },
+    {
+      "cpuids": [
+        "C06C1"
+      ],
+      "codeNames": [
+        "Panther Lake"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_PANTHERLAKE_L\t\tIFM(6, 0xCC) /* Cougar Cove / Darkmont */"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_CCH row: steppings 2,3 — C06C2 C06C3; none for C06C1."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuC06C1_plat94_ver0000011C_2026-04-20_PRD_3754C7C7.bin — extended signatures C06C1/94, C06C2/94, C06C3/94, E0652/94"
+        }
+      ],
+      "note": "Panther Lake's stepping ID 1 (the kernel names model 0xCC Panther Lake); one microcode update serves it with C06C2, C06C3 and E0652. No source names its stepping, Intel's list of processors by CPUID has only C06C2 and C06C3 for 06_CCH, and the steppings ARK gives Panther Lake parts (A0, B0, A1) are those two's by Intel's microcode notes. No models."
     },
     {
       "cpuids": [
@@ -11694,6 +11861,47 @@
     },
     {
       "cpuids": [
+        "D0650"
+      ],
+      "codeNames": [
+        "Wildcat Lake"
+      ],
+      "cores": [],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/coreboot/coreboot/main/src/include/cpu/intel/cpu_ids.h",
+          "quote": "#define CPUID_WILDCATLAKE\t\t0xd0650"
+        },
+        {
+          "gives": [
+            "codeNames"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_WILDCATLAKE_L\t\tIFM(6, 0xD5)"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_D5H row: stepping 1 — D0651; none for D0650."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuD0650_platC0_ver0000000D_2026-06-21_PRD_5079731F.bin — extended signatures D0650/C0, D0651/C0"
+        }
+      ],
+      "note": "coreboot names D0650 Wildcat Lake; the kernel names model 0xD5 Wildcat Lake, and one microcode update serves it with D0651. No source names its stepping: Intel's list of processors by CPUID and its microcode notes have only D0651 (A1), which is what ARK gives every Wildcat Lake part. No models."
+    },
+    {
+      "cpuids": [
         "D0651"
       ],
       "codeNames": [
@@ -11933,6 +12141,172 @@
         }
       ],
       "note": "From Intel's microcode release notes, which name the code name (abbreviated: BTL-S12P), the steppings and the product line for this CPUID; the article has no row for it. Its models are the P-core-only parts whose ARK ordering tab gives A0 (12, 10 or 8 P-cores). ARK's other Bartlett Lake parts give B0 (B0674's note), C0 or H0 (the 4-core Core 3 201E/201TE), which this CPUID does not have."
+    },
+    {
+      "cpuids": [
+        "D06D0"
+      ],
+      "codeNames": [
+        "Clearwater Forest"
+      ],
+      "cores": [
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_ATOM_DARKMONT_X\t\tIFM(6, 0xDD) /* Clearwater Forest */"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_DDH row: stepping 1 — D06D1; none for D06D0."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuD06D0_plat01_ver10000401_2026-02-12_PRD_5008AF2F.bin — revision 0x10000401, platform 0x01, no extended signature table."
+        }
+      ],
+      "note": "Clearwater Forest's stepping ID 0 (the kernel names model 0xDD Clearwater Forest). No source names a stepping or a model sold as D06D0: Intel's list of processors by CPUID and its microcode notes have only D06D1 (B0), which is what ARK gives every Xeon 6+ part. No models."
+    },
+    {
+      "cpuids": [
+        "D06D1"
+      ],
+      "codeNames": [
+        "Clearwater Forest"
+      ],
+      "cores": [
+        "Darkmont"
+      ],
+      "productFamilies": [
+        "Intel Xeon 6900E+ Series Processors"
+      ],
+      "steppings": [
+        "B0"
+      ],
+      "segments": [
+        "Server"
+      ],
+      "processors": [
+        {
+          "name": "Intel Xeon 6960E+"
+        },
+        {
+          "name": "Intel Xeon 6970E+"
+        },
+        {
+          "name": "Intel Xeon 6980E+"
+        },
+        {
+          "name": "Intel Xeon 6990E+"
+        }
+      ],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "steppings",
+            "productFamilies"
+          ],
+          "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
+          "quote": "| CWF            | B0       | 06-dd-01/01 |          | 01000151 | Intel Xeon 6900E+ Series Processors"
+        },
+        {
+          "gives": [
+            "codeNames",
+            "cores",
+            "segments"
+          ],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "06_DDH | 1 | CPUID.0x7.EDX[15] =0 CPUID.0x1A.EAX[31:24] = 40 | Clearwater Forest (Darkmont) | Intel® Xeon® 6900E+ Series Processors | Server | D06D1 | 0x01000142"
+        },
+        {
+          "gives": [
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_ATOM_DARKMONT_X\t\tIFM(6, 0xDD) /* Clearwater Forest */"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246077/intel-xeon-6960e-processor-432m-cache-2-40-ghz/ordering.html",
+          "quote": "Xeon 6960E+: SAE3Z, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246083/intel-xeon-6970e-processor-480m-cache-2-30-ghz/ordering.html",
+          "quote": "Xeon 6970E+: SAE4W, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246075/intel-xeon-6980e-processor-528m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon 6980E+: SAE3W, stepping B0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/246074/intel-xeon-6990e-processor-576m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon 6990E+: SAE3X, stepping B0 (ARK ordering tab)"
+        }
+      ],
+      "note": "Intel's microcode notes name 06-dd-01 CWF, stepping B0, the Xeon 6900E+ series; its list of processors by CPUID names it Clearwater Forest (Darkmont), Server. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
+    },
+    {
+      "cpuids": [
+        "E0652"
+      ],
+      "codeNames": [
+        "Panther Lake R"
+      ],
+      "cores": [
+        "Cougar Cove",
+        "Darkmont"
+      ],
+      "productFamilies": [],
+      "steppings": [],
+      "segments": [],
+      "processors": [],
+      "evidence": [
+        {
+          "gives": [
+            "cpuids",
+            "codeNames",
+            "cores"
+          ],
+          "url": "https://raw.githubusercontent.com/torvalds/linux/master/arch/x86/include/asm/intel-family.h",
+          "quote": "#define INTEL_PANTHERLAKE_R\t\tIFM(6, 0xE5) /* Cougar Cove / Darkmont */"
+        },
+        {
+          "gives": [],
+          "url": "https://web.archive.org/web/20261013192844id_/https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "quote": "No row for 06_E5H."
+        },
+        {
+          "gives": [],
+          "url": "https://github.com/platomav/CPUMicrocodes/tree/53e47114a0612cba145f9f4bbe882d1a74ab95b1/Intel",
+          "quote": "cpuE0652_plat94_ver0000011C_2026-04-20_PRD_3752C836.bin — extended signatures C06C1/94, C06C2/94, C06C3/94, E0652/94"
+        }
+      ],
+      "note": "The kernel names model 0xE5 INTEL_PANTHERLAKE_R; one microcode update serves it with Panther Lake's C06C1, C06C2 and C06C3. Intel's list of processors by CPUID has no 06_E5H row and its microcode notes no 06-e5. ARK lists Core Ultra Series 3 parts ending in R (358HR, 366HRE, 365RE, 336HRE, 335RE) without a code name, on A0 and B0; no source ties them, or those steppings, to this CPUID, so none is listed."
     }
   ]
 }
