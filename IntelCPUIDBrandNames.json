@@ -18644,7 +18644,8 @@
       "steppings": [
         "E5",
         "S3",
-        "B3"
+        "B3",
+        "U1"
       ],
       "segments": [
         "Server",
@@ -19380,6 +19381,69 @@
           "sSpecSource": {
             "SRM7J": "ark"
           }
+        },
+        {
+          "name": "Intel Xeon Bronze 3508U",
+          "sSpec": [
+            "SRN62"
+          ],
+          "sSpecSource": {
+            "SRN62": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5403N",
+          "sSpec": [
+            "SRN64"
+          ],
+          "sSpecSource": {
+            "SRN64": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5423N",
+          "sSpec": [
+            "SRMQQ"
+          ],
+          "sSpecSource": {
+            "SRMQQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5433N",
+          "sSpec": [
+            "SRMQP"
+          ],
+          "sSpecSource": {
+            "SRMQP": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Silver 4509Y",
+          "sSpec": [
+            "SRN61"
+          ],
+          "sSpecSource": {
+            "SRN61": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Silver 4510",
+          "sSpec": [
+            "SRN60"
+          ],
+          "sSpecSource": {
+            "SRN60": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Silver 4510T",
+          "sSpec": [
+            "SRN63"
+          ],
+          "sSpecSource": {
+            "SRN63": "ark"
+          }
         }
       ],
       "source": "extra"
@@ -20097,6 +20161,69 @@
           "sSpecSource": {
             "QA2P": "ark",
             "SAE3R": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 634",
+          "sSpec": [
+            "SA2DL"
+          ],
+          "sSpecSource": {
+            "SA2DL": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 636",
+          "sSpec": [
+            "SA2DM"
+          ],
+          "sSpecSource": {
+            "SA2DM": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 638",
+          "sSpec": [
+            "SA2DN"
+          ],
+          "sSpecSource": {
+            "SA2DN": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 654",
+          "sSpec": [
+            "SA2DP"
+          ],
+          "sSpecSource": {
+            "SA2DP": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 656",
+          "sSpec": [
+            "SA2DQ"
+          ],
+          "sSpecSource": {
+            "SA2DQ": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 696X",
+          "sSpec": [
+            "SRWQ7"
+          ],
+          "sSpecSource": {
+            "SRWQ7": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon 698X",
+          "sSpec": [
+            "SRWQ6"
+          ],
+          "sSpecSource": {
+            "SRWQ6": "ark"
           }
         }
       ],
@@ -21434,7 +21561,8 @@
         "Xeon Scalable Gen5"
       ],
       "steppings": [
-        "A1"
+        "A1",
+        "R1"
       ],
       "segments": [],
       "processors": [
@@ -21553,6 +21681,171 @@
           ],
           "sSpecSource": {
             "SRN54": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5512U",
+          "sSpec": [
+            "SRN6T",
+            "Q41R"
+          ],
+          "sSpecSource": {
+            "SRN6T": "ark",
+            "Q41R": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5515+",
+          "sSpec": [
+            "SRN6H",
+            "Q420"
+          ],
+          "sSpecSource": {
+            "SRN6H": "ark",
+            "Q420": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 5520+",
+          "sSpec": [
+            "SRN6L",
+            "Q41X"
+          ],
+          "sSpecSource": {
+            "SRN6L": "ark",
+            "Q41X": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6526Y",
+          "sSpec": [
+            "SRN6N",
+            "Q41V"
+          ],
+          "sSpecSource": {
+            "SRN6N": "ark",
+            "Q41V": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6534",
+          "sSpec": [
+            "SRN6A",
+            "Q422"
+          ],
+          "sSpecSource": {
+            "SRN6A": "ark",
+            "Q422": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6538N",
+          "sSpec": [
+            "SRN6V",
+            "Q42X"
+          ],
+          "sSpecSource": {
+            "SRN6V": "ark",
+            "Q42X": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6538Y+",
+          "sSpec": [
+            "SRN6M",
+            "Q41W"
+          ],
+          "sSpecSource": {
+            "SRN6M": "ark",
+            "Q41W": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6542Y",
+          "sSpec": [
+            "SRN6P",
+            "Q41U"
+          ],
+          "sSpecSource": {
+            "SRN6P": "ark",
+            "Q41U": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6544Y",
+          "sSpec": [
+            "SRN6R",
+            "Q41S"
+          ],
+          "sSpecSource": {
+            "SRN6R": "ark",
+            "Q41S": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6548N",
+          "sSpec": [
+            "SRN6U",
+            "Q42W"
+          ],
+          "sSpecSource": {
+            "SRN6U": "ark",
+            "Q42W": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6548Y+",
+          "sSpec": [
+            "SRN6Q",
+            "Q41T"
+          ],
+          "sSpecSource": {
+            "SRN6Q": "ark",
+            "Q41T": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Gold 6558Q",
+          "sSpec": [
+            "SRN6S",
+            "Q41Q"
+          ],
+          "sSpecSource": {
+            "SRN6S": "ark",
+            "Q41Q": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Platinum 8562Y+",
+          "sSpec": [
+            "SRN6G",
+            "Q421"
+          ],
+          "sSpecSource": {
+            "SRN6G": "ark",
+            "Q421": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Silver 4514Y",
+          "sSpec": [
+            "SRN6J",
+            "Q41Z"
+          ],
+          "sSpecSource": {
+            "SRN6J": "ark",
+            "Q41Z": "ark"
+          }
+        },
+        {
+          "name": "Intel Xeon Silver 4516Y+",
+          "sSpec": [
+            "SRN6K",
+            "Q41Y"
+          ],
+          "sSpecSource": {
+            "SRN6K": "ark",
+            "Q41Y": "ark"
           }
         }
       ],

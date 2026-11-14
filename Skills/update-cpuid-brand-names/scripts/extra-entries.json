@@ -9011,7 +9011,8 @@
       "steppings": [
         "E5",
         "S3",
-        "B3"
+        "B3",
+        "U1"
       ],
       "segments": [
         "Server",
@@ -9261,6 +9262,27 @@
         },
         {
           "name": "Intel Xeon Platinum 8490H"
+        },
+        {
+          "name": "Intel Xeon Bronze 3508U"
+        },
+        {
+          "name": "Intel Xeon Gold 5403N"
+        },
+        {
+          "name": "Intel Xeon Gold 5423N"
+        },
+        {
+          "name": "Intel Xeon Gold 5433N"
+        },
+        {
+          "name": "Intel Xeon Silver 4509Y"
+        },
+        {
+          "name": "Intel Xeon Silver 4510"
+        },
+        {
+          "name": "Intel Xeon Silver 4510T"
         }
       ],
       "evidence": [
@@ -9307,14 +9329,70 @@
         },
         {
           "gives": [
+            "steppings"
+          ],
+          "url": "https://edc.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/eagle-stream/emerald-rapids-specification-update/component-identification-via-programming-interface/",
+          "quote": "5th Gen Intel Xeon Processor Scalable Family Specification Update, 793902-023US (07/15/2026), Component Identification via Capability Registers: \"LCC 4 | U-1 | Server, 1S | 806F8 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |\""
+        },
+        {
+          "gives": [
             "cpuids",
             "steppings"
           ],
           "url": "https://edc.intel.com/output/DownloadPdfDocument?id=10629",
           "quote": "Component Identification via Capability Registers: XCC E-5/E-4 Server, 1S 806F8/806F7; MCC S-3/S-2 Server, 1S 806F8/806F7; HBM B-3 Server, 1S 806F8"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236639/intel-xeon-bronze-3508u-processor-22-5m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Bronze 3508U: SRN62, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237980/intel-xeon-gold-5403n-processor-22-5m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Gold 5403N: SRN64, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/234916/intel-xeon-gold-5423n-processor-37-5m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Gold 5423N: SRMQQ, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/234915/intel-xeon-gold-5433n-processor-37-5m-cache-2-30-ghz/ordering.html",
+          "quote": "Xeon Gold 5433N: SRMQP, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236636/intel-xeon-silver-4509y-processor-22-5m-cache-2-60-ghz/ordering.html",
+          "quote": "Xeon Silver 4509Y: SRN61, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236637/intel-xeon-silver-4510-processor-30m-cache-2-40-ghz/ordering.html",
+          "quote": "Xeon Silver 4510: SRN60, stepping U1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236638/intel-xeon-silver-4510t-processor-30m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Silver 4510T: SRN63, stepping U1 (ARK ordering tab)"
         }
       ],
-      "note": "The models are those whose ARK ordering tab gives an E5, S3 or B3 code. Left out: Xeon Gold 5403N, Xeon Gold 5423N, Xeon Gold 5433N, Xeon Gold 6403N, Xeon Gold 6423N, Xeon Gold 6433N, Xeon Gold 6433NE, Xeon Gold 6443N — ARK gives them L0 or U1 and the code name \"Sapphire Rapids Edge Enhanced\" (read for the 6403N and 5423N); neither Intel's microcode notes, its list of processors by CPUID nor the 4th Gen Xeon Scalable Specification Update (772415-016, which ties XCC E-5/E-4, MCC S-3/S-2 and HBM B-3 to 806F8/806F7) names those steppings. Their codes are kept in ark-sspec.json."
+      "note": "The models are those whose ARK ordering tab gives an E5, S3 or B3 code. Left out: Xeon Gold 5403N, Xeon Gold 5423N, Xeon Gold 5433N, Xeon Gold 6403N, Xeon Gold 6423N, Xeon Gold 6433N, Xeon Gold 6433NE, Xeon Gold 6443N — ARK gives them L0 or U1 and the code name \"Sapphire Rapids Edge Enhanced\" (read for the 6403N and 5423N); neither Intel's microcode notes, its list of processors by CPUID nor the 4th Gen Xeon Scalable Specification Update (772415-016, which ties XCC E-5/E-4, MCC S-3/S-2 and HBM B-3 to 806F8/806F7) names those steppings. Their codes are kept in ark-sspec.json. Intel's specification update for the 5th Gen Xeon Scalable family (793902) gives its LCC die, stepping U-1, the CPUID 806F8 and refers to the 4th Gen document for it: so the parts ARK gives U1 — 4th Gen, and the 5th Gen Bronze 3508U and Silver 4509Y, 4510 and 4510T — are listed here."
     },
     {
       "cpuids": [
@@ -10186,6 +10264,27 @@
         },
         {
           "name": "Intel Xeon 6503P"
+        },
+        {
+          "name": "Intel Xeon 634"
+        },
+        {
+          "name": "Intel Xeon 636"
+        },
+        {
+          "name": "Intel Xeon 638"
+        },
+        {
+          "name": "Intel Xeon 654"
+        },
+        {
+          "name": "Intel Xeon 656"
+        },
+        {
+          "name": "Intel Xeon 696X"
+        },
+        {
+          "name": "Intel Xeon 698X"
         }
       ],
       "evidence": [
@@ -10215,9 +10314,58 @@
           ],
           "url": "https://www.intel.com/content/www/us/en/ark/products/series/240357/intel-xeon-6-processors.html",
           "quote": "Each model's ARK ordering tab gives its code at B2, H0 or L0 (ark-sspec.json)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/244341/intel-xeon-634-processor-48m-cache-2-70-ghz/ordering.html",
+          "quote": "Xeon 634: SA2DL, stepping L0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/244333/intel-xeon-636-processor-48m-cache-3-50-ghz/ordering.html",
+          "quote": "Xeon 636: SA2DM, stepping L0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/244334/intel-xeon-638-processor-72m-cache-3-20-ghz/ordering.html",
+          "quote": "Xeon 638: SA2DN, stepping L0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/244336/intel-xeon-654-processor-72m-cache-3-10-ghz/ordering.html",
+          "quote": "Xeon 654: SA2DP, stepping L0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/244335/intel-xeon-656-processor-72m-cache-2-90-ghz/ordering.html",
+          "quote": "Xeon 656: SA2DQ, stepping L0 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/243860/intel-xeon-696x-processor-336m-cache-2-40-ghz/ordering.html",
+          "quote": "Xeon 696X: SRWQ7, stepping B2 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/243857/intel-xeon-698x-processor-336m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon 698X: SRWQ6, stepping B2 (ARK ordering tab)"
         }
       ],
-      "note": "Intel's notes name the line's steppings B·, H· and L· and one CPUID for them, 06-ad-01; ARK gives B2, H0 and L0 by cache size. The Xeon 6 6300P are Raptor Lake on ARK, not here. The 6979P has no ordering tab. Intel's list also gives Xeon 600 workstation processors (platform 0x02) as A06D1; they are not listed yet."
+      "note": "Intel's notes name the line's steppings B·, H· and L· and one CPUID for them, 06-ad-01; ARK gives B2, H0 and L0 by cache size. The Xeon 6 6300P are Raptor Lake on ARK, not here. The 6979P has no ordering tab. Intel's list also gives Xeon 600 workstation processors (platform 0x02) as A06D1: the seven ARK gives B2 or L0 are listed. The 674X is P0 on ARK, a stepping no source names for this CPUID, and the 678X, 676X and 658X have one code that ARK gives P0 on its tray row and H0 on its boxed rows; they are not listed."
     },
     {
       "cpuids": [
@@ -11696,7 +11844,7 @@
           "quote": "| EMR-SP         | A0       | 06-cf-01/87 | 21000283 | 21000291 | Xeon Scalable Gen5"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. No model on ARK gives A0: of the 5th Gen Xeon Scalable models ARK's ordering tabs give A1 (C06F2), R1 and U1, so none is listed."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. No model on ARK gives A0: of the 5th Gen Xeon Scalable models ARK's ordering tabs give A1 and R1 (C06F2) and U1 (806F8), so none is listed."
     },
     {
       "cpuids": [
@@ -11710,7 +11858,8 @@
         "Xeon Scalable Gen5"
       ],
       "steppings": [
-        "A1"
+        "A1",
+        "R1"
       ],
       "segments": [],
       "processors": [
@@ -11752,6 +11901,51 @@
         },
         {
           "name": "Intel Xeon Platinum 8593Q"
+        },
+        {
+          "name": "Intel Xeon Gold 5512U"
+        },
+        {
+          "name": "Intel Xeon Gold 5515+"
+        },
+        {
+          "name": "Intel Xeon Gold 5520+"
+        },
+        {
+          "name": "Intel Xeon Gold 6526Y"
+        },
+        {
+          "name": "Intel Xeon Gold 6534"
+        },
+        {
+          "name": "Intel Xeon Gold 6538N"
+        },
+        {
+          "name": "Intel Xeon Gold 6538Y+"
+        },
+        {
+          "name": "Intel Xeon Gold 6542Y"
+        },
+        {
+          "name": "Intel Xeon Gold 6544Y"
+        },
+        {
+          "name": "Intel Xeon Gold 6548N"
+        },
+        {
+          "name": "Intel Xeon Gold 6548Y+"
+        },
+        {
+          "name": "Intel Xeon Gold 6558Q"
+        },
+        {
+          "name": "Intel Xeon Platinum 8562Y+"
+        },
+        {
+          "name": "Intel Xeon Silver 4514Y"
+        },
+        {
+          "name": "Intel Xeon Silver 4516Y+"
         }
       ],
       "evidence": [
@@ -11764,6 +11958,13 @@
           ],
           "url": "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md",
           "quote": "| EMR-SP         | A1       | 06-cf-02/87 | 210002e0 | 210002f4 | Xeon Scalable Gen5"
+        },
+        {
+          "gives": [
+            "steppings"
+          ],
+          "url": "https://edc.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/eagle-stream/emerald-rapids-specification-update/component-identification-via-programming-interface/",
+          "quote": "5th Gen Intel Xeon Processor Scalable Family Specification Update, 793902-023US (07/15/2026), Component Identification via Capability Registers: \"MCC | R-1 | Server, 1S | C06F2 | 1 | 1 | 1 | 0 | 0 | 0 | 1 |\""
         },
         {
           "gives": [
@@ -11855,9 +12056,114 @@
           ],
           "url": "https://www.intel.com/content/www/us/en/products/sku/237252/intel-xeon-platinum-8593q-processor-320m-cache-2-20-ghz/ordering.html",
           "quote": "Xeon Platinum 8593Q: SRN54, stepping A1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237565/intel-xeon-gold-5512u-processor-52-5m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Gold 5512U: SRN6T, Q41R, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237562/intel-xeon-gold-5515-processor-22-5m-cache-3-20-ghz/ordering.html",
+          "quote": "Xeon Gold 5515+: SRN6H, Q420, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237561/intel-xeon-gold-5520-processor-52-5m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon Gold 5520+: SRN6L, Q41X, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237560/intel-xeon-gold-6526y-processor-37-5m-cache-2-80-ghz/ordering.html",
+          "quote": "Xeon Gold 6526Y: SRN6N, Q41V, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237555/intel-xeon-gold-6534-processor-22-5m-cache-3-90-ghz/ordering.html",
+          "quote": "Xeon Gold 6534: SRN6A, Q422, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237568/intel-xeon-gold-6538n-processor-60m-cache-2-10-ghz/ordering.html",
+          "quote": "Xeon Gold 6538N: SRN6V, Q42X, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237563/intel-xeon-gold-6538y-processor-60m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon Gold 6538Y+: SRN6M, Q41W, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237559/intel-xeon-gold-6542y-processor-60m-cache-2-90-ghz/ordering.html",
+          "quote": "Xeon Gold 6542Y: SRN6P, Q41U, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237569/intel-xeon-gold-6544y-processor-45m-cache-3-60-ghz/ordering.html",
+          "quote": "Xeon Gold 6544Y: SRN6R, Q41S, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237567/intel-xeon-gold-6548n-processor-60m-cache-2-80-ghz/ordering.html",
+          "quote": "Xeon Gold 6548N: SRN6U, Q42W, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237564/intel-xeon-gold-6548y-processor-60m-cache-2-50-ghz/ordering.html",
+          "quote": "Xeon Gold 6548Y+: SRN6Q, Q41T, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237566/intel-xeon-gold-6558q-processor-60m-cache-3-20-ghz/ordering.html",
+          "quote": "Xeon Gold 6558Q: SRN6S, Q41Q, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237558/intel-xeon-platinum-8562y-processor-60m-cache-2-80-ghz/ordering.html",
+          "quote": "Xeon Platinum 8562Y+: SRN6G, Q421, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237557/intel-xeon-silver-4514y-processor-30m-cache-2-00-ghz/ordering.html",
+          "quote": "Xeon Silver 4514Y: SRN6J, Q41Z, stepping R1 (ARK ordering tab)"
+        },
+        {
+          "gives": [
+            "processors"
+          ],
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237556/intel-xeon-silver-4516y-processor-45m-cache-2-20-ghz/ordering.html",
+          "quote": "Xeon Silver 4516Y+: SRN6K, Q41Y, stepping R1 (ARK ordering tab)"
         }
       ],
-      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has."
+      "note": "From Intel's microcode release notes, which name the code name (abbreviated: EMR-SP), the steppings and the product line for this CPUID; the article has no row for it. Its models are those whose ARK ordering tab gives this stepping, which no other CPUID of the code name has. Intel's specification update for the 5th Gen Xeon Scalable family (793902) gives the MCC die, stepping R-1, the same CPUID as the XCC die's A-1: so the parts ARK gives R1 are listed too."
     },
     {
       "cpuids": [

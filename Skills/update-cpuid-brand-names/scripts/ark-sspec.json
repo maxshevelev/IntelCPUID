@@ -9148,6 +9148,36 @@
       ]
     },
     {
+      "model": "Intel Xeon 634",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244341/intel-xeon-634-processor-48m-cache-2-70-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2DL",
+          "stepping": "L0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 636",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244333/intel-xeon-636-processor-48m-cache-3-50-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2DM",
+          "stepping": "L0"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 638",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244334/intel-xeon-638-processor-72m-cache-3-20-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2DN",
+          "stepping": "L0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6503P",
       "url": "https://www.intel.com/content/www/us/en/products/sku/246088/intel-xeon-6503p-processor-48m-cache-2-80-ghz/ordering.html",
       "specs": [
@@ -9328,6 +9358,16 @@
       ]
     },
     {
+      "model": "Intel Xeon 654",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244336/intel-xeon-654-processor-72m-cache-3-10-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2DP",
+          "stepping": "L0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6543P-B",
       "url": "https://www.intel.com/content/www/us/en/products/sku/242903/intel-xeon-6543pb-processor-128m-cache-2-00-ghz/ordering.html",
       "specs": [
@@ -9378,6 +9418,16 @@
       ]
     },
     {
+      "model": "Intel Xeon 656",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244335/intel-xeon-656-processor-72m-cache-2-90-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2DQ",
+          "stepping": "L0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6563P-B",
       "url": "https://www.intel.com/content/www/us/en/products/sku/242906/intel-xeon-6563pb-processor-152m-cache-2-40-ghz/ordering.html",
       "specs": [
@@ -9386,6 +9436,17 @@
           "stepping": "B1"
         }
       ]
+    },
+    {
+      "model": "Intel Xeon 658X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244337/intel-xeon-658x-processor-144m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2D2",
+          "stepping": null
+        }
+      ],
+      "note": "ARK ordering tab: SA2D2's rows give H0 and P0: no stepping kept."
     },
     {
       "model": "Intel Xeon 6706P-B",
@@ -9633,6 +9694,16 @@
       ]
     },
     {
+      "model": "Intel Xeon 674X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244338/intel-xeon-674x-processor-144m-cache-3-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2CZ",
+          "stepping": "P0"
+        }
+      ]
+    },
+    {
       "model": "Intel Xeon 6756E",
       "url": "https://www.intel.com/content/www/us/en/products/sku/240361/intel-xeon-6756e-processor-96m-cache-1-80-ghz/ordering.html",
       "specs": [
@@ -9727,6 +9798,17 @@
       ]
     },
     {
+      "model": "Intel Xeon 676X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244099/intel-xeon-676x-processor-144m-cache-2-80-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2CY",
+          "stepping": null
+        }
+      ],
+      "note": "ARK ordering tab: SA2CY's rows give H0 and P0: no stepping kept."
+    },
+    {
       "model": "Intel Xeon 6774P",
       "url": "https://www.intel.com/content/www/us/en/products/sku/243692/intel-xeon-6774p-processor-336m-cache-2-50-ghz/ordering.html",
       "specs": [
@@ -9797,6 +9879,17 @@
       ]
     },
     {
+      "model": "Intel Xeon 678X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/244100/intel-xeon-678x-processor-192m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SA2CX",
+          "stepping": null
+        }
+      ],
+      "note": "ARK ordering tab: SA2CX's rows give H0 and P0: no stepping kept."
+    },
+    {
       "model": "Intel Xeon 6944P",
       "url": "https://www.intel.com/content/www/us/en/products/sku/242856/intel-xeon-6944p-processor-432m-cache-1-80-ghz/ordering.html",
       "specs": [
@@ -9850,6 +9943,16 @@
       "specs": [
         {
           "sSpec": "SA2YM",
+          "stepping": "B2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 696X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/243860/intel-xeon-696x-processor-336m-cache-2-40-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SRWQ7",
           "stepping": "B2"
         }
       ]
@@ -9914,6 +10017,16 @@
         },
         {
           "sSpec": "Q5SM",
+          "stepping": "B2"
+        }
+      ]
+    },
+    {
+      "model": "Intel Xeon 698X",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/243857/intel-xeon-698x-processor-336m-cache-2-00-ghz/ordering.html",
+      "specs": [
+        {
+          "sSpec": "SRWQ6",
           "stepping": "B2"
         }
       ]
